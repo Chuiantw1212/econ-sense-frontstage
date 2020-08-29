@@ -1,17 +1,34 @@
 <template>
     <div class="app">
-        <Header></Header>
-        <Nuxt class="mt-5" />
-        <Footer></Footer>
+        <Navigation></Navigation>
+        <Nuxt class="" />
+        <MyFooter></MyFooter>
     </div>
 </template>
 <script>
-import Header from './Header.vue'
-import Footer from './Footer.vue'
+import MyFooter from './MyFooter.vue'
+import Navigation from './Navigation.vue'
+var firebase = require('firebase');
 export default {
     components: {
-        Header,
-        Footer
+        Navigation,
+        MyFooter
+    },
+    mounted() {
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDjiWhVczvH_LtWHkd-eSVCLO6uJNbhQso",
+            authDomain: "my-blog-287510.firebaseapp.com",
+            databaseURL: "https://my-blog-287510.firebaseio.com",
+            projectId: "my-blog-287510",
+            storageBucket: "my-blog-287510.appspot.com",
+            messagingSenderId: "32885456963",
+            appId: "1:32885456963:web:7d9bab043ddd8a3e09d4f6",
+            measurementId: "G-DY0VR8Q0RD"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
     }
 }
 </script>
@@ -19,4 +36,12 @@ export default {
 .app {
     font-family: "Noto Sans TC", sans-serif;
 }
+.container {
+    min-height: 100vh;
+}
+/* a {
+    min-width: 48px;
+    min-height: 48px;
+    line-height: 48px;
+} */
 </style>
