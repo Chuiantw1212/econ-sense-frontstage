@@ -1,7 +1,6 @@
 <template>
     <div class="container py-5">
         <div class="row">
-            <!-- <div class="col"></div> -->
             <div class="col-6">
                 <Post></Post>
             </div>
@@ -21,7 +20,6 @@
                 <Post></Post>
             </div>
         </div>
-        <!-- /.row -->
         <Pagination></Pagination>
     </div>
 </template>
