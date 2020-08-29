@@ -2,22 +2,22 @@
     <div class="container py-5">
         <div class="row">
             <div class="col-12 col-lg-6">
-                <Post></Post>
+                <PostPreview></PostPreview>
             </div>
             <div class="col-12 col-lg-6">
-                <Post></Post>
+                <PostPreview></PostPreview>
             </div>
             <div class="col-12 col-lg-6">
-                <Post></Post>
+                <PostPreview></PostPreview>
             </div>
             <div class="col-12 col-lg-6">
-                <Post></Post>
+                <PostPreview></PostPreview>
             </div>
             <div class="col-12 col-lg-6">
-                <Post></Post>
+                <PostPreview></PostPreview>
             </div>
             <div class="col-12 col-lg-6">
-                <Post></Post>
+                <PostPreview></PostPreview>
             </div>
         </div>
         <Pagination></Pagination>
@@ -25,13 +25,13 @@
 </template>
 
 <script>
-import Post from '@/components/Post.vue'
+import PostPreview from '@/components/PostPreview.vue'
 import WidgetSearch from '@/components/widgets/Search.vue'
 import WidgetCategories from '@/components/widgets/Categories.vue'
 import Pagination from '@/components/Pagination.vue'
 export default {
     components: {
-        Post,
+        PostPreview,
         WidgetSearch,
         WidgetCategories,
         Pagination

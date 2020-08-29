@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">常識經濟學</a>
+            <a class="navbar-brand" href="/">常識經濟學</a>
             <button
                 class="navbar-toggler"
                 type="button"
