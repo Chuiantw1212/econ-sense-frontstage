@@ -1,22 +1,22 @@
 <template>
     <div class="container py-5">
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
                 <Post></Post>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
                 <Post></Post>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
                 <Post></Post>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
                 <Post></Post>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
                 <Post></Post>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
                 <Post></Post>
             </div>
         </div>
