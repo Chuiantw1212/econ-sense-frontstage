@@ -160,8 +160,8 @@
                 <ul>
                     <li>前端語言：HTML, CSS (SCSS), Javascript</li>
                     <li>前端框架：Vue.js (vuex, vue-router, i18n), Nuxt</li>
-                    <li>前端套件：ECharts, Bootstrap, axios, Hightlight.js, devExpress</li>
-                    <li>前端環境：Vue Cli, Webpack</li>
+                    <li>前端套件：Bootstrap, axios and many others</li>
+                    <li>前端環境：Webpack</li>
                 </ul>
             </Card>
             <Card class="col-md-6 mt-3 mt-md-0">
@@ -169,7 +169,7 @@
                 <ul>
                     <li>後端語言: Node.js</li>
                     <li>後端框架: Express.js (Typescript)</li>
-                    <li>後端套件: socket.io, Passport.js</li>
+                    <li>後端套件: socket.io and many others</li>
                     <li>資料庫：NoSQL</li>
                 </ul>
             </Card>
@@ -215,14 +215,14 @@
                         <p class="m-0">第三份工作以前的目標是甚麼?</p>推廣Javascript、把自己發揮到極限
                         <ul>
                             <li>但是人員進到公司自然有人帶(比如我)，且公司也有單純享用線上課程取代實體師資的傾向</li>
-                            <li>樂於分享，等同就是把自己對於公司的談資出讓，是個實質傷害</li>
-                            <li>Javascript, Vue到頂了，不管能不能讓主管看到，我都得走了</li>
+                            <li>樂於分享，等同把自己對於公司的談資出讓，是個實質傷害</li>
+                            <li>該給的都給了，不管能不能讓主管看到，我都得走了</li>
                         </ul>
                     </li>
                     <li>
-                        <p class="m-0">第三份工作以後的目標是甚麼?</p>財務規劃，協助他人減輕財務憂慮、專心志業
+                        <p class="m-0">第三份工作以後的目標是甚麼?</p>業內尋找金融或新創，延續知識與技術的分享；業外財務規劃，協助他人減輕財務憂慮、專心志業
                         <ul>
-                            <li>內部技術分享得繼續，總不能見死不救來彰顯自己吧www</li>
+                            <li>技術分享得繼續，總不能見死不救來彰顯自己吧www</li>
                             <li>自行打造部落格前後臺，嘗試接案</li>
                             <li>進修獨立理財規劃師加盟課程，將案件資料與"一般"理財知識紀錄下來，分享給需要的人</li>
                             <li>不用投資理財包裝貪婪，回歸資源合理分配的本質</li>
@@ -231,21 +231,14 @@
                 </ol>
             </div>
         </MyTheme>
-        <MyTheme title="推薦信與其他證明">
+        <MyTheme title="持有證照">
             <ol>
                 <li>
                     <a
-                        href="https://drive.google.com/open?id=1ytUwY-Ayqtg2nFDL-NMdkxqkj55gKOMY"
+                        href="https://storage.googleapis.com/my-blog-287510.appspot.com/pmp.pdf"
                         target="_blank"
                         rel="noopener"
-                    >專案經理</a>
-                </li>
-                <li>
-                    <a
-                        href="https://drive.google.com/open?id=1kLbgMLBR5y9Np9nIeX1xzX80uaHgzp9V"
-                        target="_blank"
-                        rel="noopener"
-                    >實習生</a>
+                    >專案管理師</a>
                 </li>
                 <li>
                     <a
@@ -253,6 +246,24 @@
                         target="_blank"
                         rel="noopener"
                     >金融研訓院理財規劃人員</a>
+                </li>
+            </ol>
+        </MyTheme>
+        <MyTheme title="過往推薦信">
+            <ol>
+                <li>
+                    <a
+                        href="https://drive.google.com/open?id=1ytUwY-Ayqtg2nFDL-NMdkxqkj55gKOMY"
+                        target="_blank"
+                        rel="noopener"
+                    >專案經理推薦信</a>
+                </li>
+                <li>
+                    <a
+                        href="https://drive.google.com/open?id=1kLbgMLBR5y9Np9nIeX1xzX80uaHgzp9V"
+                        target="_blank"
+                        rel="noopener"
+                    >實習生(徒弟?)推薦信</a>
                 </li>
             </ol>
         </MyTheme>
