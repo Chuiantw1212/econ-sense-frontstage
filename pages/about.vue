@@ -37,7 +37,7 @@
                 <h3>
                     <a href="https://deedoo.appspot.com/#/" target="_blank" rel="noopener">舊程式教學網站</a>
                 </h3>
-                <p>舊的個人網站，原本用來教學程式用，意識到臺灣科技人才擁擠，故暫緩活動</p>
+                <p>舊的個人網站，用來教學程式用</p>
             </Card>
             <Card class="col-md-6 col-lg-4 mt-3">
                 <img alt="josie" src="https://storage.googleapis.com/deedoo-material/josie.png" />
@@ -212,15 +212,21 @@
                         <p>當時履歷太弱，沒有強到可以跨越種族與語言的限制。</p>
                     </li>
                     <li>
-                        <p class="m-0">未來的目標是甚麼?</p>
-                        <p>
-                            推廣Javascript、把自己發揮到極限。上班追求效率，準時上下班；下班
-                            <a
-                                href="https://github.com/Chuiantw1212"
-                                target="_blank"
-                                rel="noopener"
-                            >持續精進自己</a>
-                        </p>
+                        <p class="m-0">第三份工作以前的目標是甚麼?</p>推廣Javascript、把自己發揮到極限
+                        <ul>
+                            <li>但是人員進到公司自然有人帶(比如我)，且公司也有單純享用線上課程取代實體師資的傾向</li>
+                            <li>樂於分享，等同就是把自己的談資出讓，之後只能指望公司沒把過去的貢獻視作理所當然</li>
+                            <li>被視作理所當然，只好換工作了，真的真的沒我甚麼事了，能給的都給出去了</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p class="m-0">第三份工作以後的目標是甚麼?</p>財務規劃，協助他人減輕財務憂慮、專心志業
+                        <ul>
+                            <!-- <li>內部技術分享得繼續，總不能見死不救來彰顯自己吧www</li> -->
+                            <li>自行打造部落格前後臺，嘗試接案</li>
+                            <li>進修獨立理財規劃師加盟課程，將案件資料與"一般"理財知識紀錄下來，分享給需要的人</li>
+                            <li>不用投資理財包裝貪婪，回歸資源合理分配的本質</li>
+                        </ul>
                     </li>
                 </ol>
             </div>
