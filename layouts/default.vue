@@ -8,7 +8,7 @@
 <script>
 import MyFooter from './MyFooter.vue'
 import Navigation from './Navigation.vue'
-var firebase = require('firebase');
+const firebase = require('firebase');
 export default {
     components: {
         Navigation,
@@ -39,9 +39,4 @@ export default {
 .container {
     min-height: 100vh;
 }
-/* a {
-    min-width: 48px;
-    min-height: 48px;
-    line-height: 48px;
-} */
 </style>

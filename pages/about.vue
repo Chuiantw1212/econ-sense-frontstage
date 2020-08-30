@@ -241,6 +241,13 @@
                         rel="noopener"
                     >實習生</a>
                 </li>
+                <li>
+                    <a
+                        href="https://storage.googleapis.com/my-blog-287510.appspot.com/%E7%90%86%E8%B2%A1%E8%A6%8F%E5%8A%83%E4%BA%BA%E5%93%A1.pdf"
+                        target="_blank"
+                        rel="noopener"
+                    >金融研訓院理財規劃人員</a>
+                </li>
             </ol>
         </MyTheme>
     </div>
