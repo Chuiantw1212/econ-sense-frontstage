@@ -1,6 +1,5 @@
 <template>
 	<div class="container py-5">
-		後臺系統建構中......
 		<div class="row">
 			<div v-for="(post,index) in posts" class="col-12 col-lg-6" :key="index">
 				<PostPreview v-model="posts[index]"></PostPreview>
