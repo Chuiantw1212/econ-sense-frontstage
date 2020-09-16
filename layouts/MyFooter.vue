@@ -1,7 +1,7 @@
 <template>
 	<div class="footer">
 		<div class="footer__logoWrapper">
-			<img @click="routeToHome()" class="logoWrapper__logo" src="@/assets/常2.png" />
+			<img @click="routeToHome()" class="logoWrapper__logo" alt="logo" src="@/assets/常2.png" />
 		</div>
 		<span class="footer__info">© 2020 常識經濟學 只教你需要的</span>
 	</div>

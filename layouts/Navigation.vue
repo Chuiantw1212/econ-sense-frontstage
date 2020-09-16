@@ -7,7 +7,7 @@
 			aria-label="breadscrumb"
 		>
 			<a class="navbar-brand js-scroll-trigger" :href="`/`">
-				<img class="navbar__brand" src="@/assets/常2.png" />
+				<img class="navbar__brand" src="@/assets/常2.png" alt="logo" />
 			</a>
 			<router-link class="myNavigation__aboutMe" :to="'/about'" tag="div">
 				<img

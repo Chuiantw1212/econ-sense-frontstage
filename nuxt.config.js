@@ -26,12 +26,18 @@ export default {
     ],
     script: [
       {
-        src: 'https://kit.fontawesome.com/e17c45442b.js'
+        src: 'https://kit.fontawesome.com/e17c45442b.js',
+        defer: true,
+        async: true
       }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { href: "https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap", rel: "stylesheet" }
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap",
+        media: 'screen'
+      }
     ]
   },
   /*
