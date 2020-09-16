@@ -7,7 +7,7 @@
 			aria-label="breadscrumb"
 		>
 			<a class="navbar-brand js-scroll-trigger" :href="`/`">
-				<img class="navbar__brand" src="@/assets/常2.png" alt="logo" />
+				<img class="navbar__brand" src="@/assets/常-透明.png" alt="logo" />
 			</a>
 			<router-link class="myNavigation__aboutMe" :to="'/about'" tag="div">
 				<img
@@ -60,7 +60,7 @@ export default {
 }
 .navbar {
 	.navbar__brand {
-		width: 44px;
+		width: 40px;
 	}
 	.navbar-brand {
 		margin: 0;
