@@ -11,7 +11,7 @@
 				<p class="card-text">{{value.preview}}</p>
 			</div>
 		</div>
-		<div class="card-footer">{{value.date}}</div>
+		<div class="card-footer">{{value.date|formatDate}}</div>
 	</div>
 </template>
 <script>

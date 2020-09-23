@@ -7,7 +7,7 @@
 				<h1 class>{{post.title}}</h1>
 
 				<!-- Date/Time -->
-				<p>發布時間: {{post.date}}</p>
+				<p>發布時間: {{post.date|formatDate}}</p>
 
 				<hr />
 
@@ -61,6 +61,11 @@ export default {
 		}
 	},
 	methods: {
+		getLocalDate(date) {
+			const dateInstance = new Date(date)
+			const localDate = dateInstance.toLocaleString()
+			return localDate
+		},
 		async readPostSync() {
 			const db = firebase.firestore()
 			const docRef = db.collection('posts').doc(this.docId)

@@ -50,7 +50,8 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    '@/plugins/bootstrap.js'
+    '@/plugins/bootstrap.js',
+    '@/plugins/filters.js'
   ],
   /*
   ** Auto import components
