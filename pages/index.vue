@@ -6,18 +6,35 @@
                     <strong>理財生活化</strong>
                 </h1>
             </div>
-            <!-- <div
-                v-for="(post, index) in posts"
-                class="col-12 col-lg-6"
-                :key="index"
-            >
-                <PostPreview v-model="posts[index]"></PostPreview>
-            </div> -->
+        </div>
+        <div>
+            <p>讓理財可理解、可執行、可分享</p>
         </div>
         <div class="row">
-            <div class="col">順向理財</div>
-            <div class="col">主動投資人生</div>
-            <div class="col">被動投資財富</div>
+            <div class="col">
+                <div class="card-body">
+                    <Card>
+                        <h2>順向理財</h2>
+                        <img src="@/assets/icon/flow-chart.svg" />
+                    </Card>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-body">
+                    <Card>
+                        <h2>主動投資人生</h2>
+                        <img src="@/assets/icon/machine-learning.svg" />
+                    </Card>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-body">
+                    <Card>
+                        <h2>被動投資金錢</h2>
+                        <img src="@/assets/icon/invest.svg" />
+                    </Card>
+                </div>
+            </div>
         </div>
         <!-- <Pagination></Pagination> -->
     </div>

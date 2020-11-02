@@ -11,10 +11,10 @@
     .card_body {
         background-color: white;
         border-radius: 6px;
-        border-left: 2px groove;
-        border-bottom: 2px groove darkseagreen;
+        // border-left: 2px groove;
+        // border-bottom: 2px groove darkseagreen;
         box-shadow: 10px 10px 25px -15px;
-        padding: 10px;
+        padding: 16px 8px;
         img {
             max-width: 100%;
             margin: 0.5rem auto;
@@ -28,6 +28,7 @@
         h5,
         h6 {
             margin: 0;
+            margin-bottom: 16px;
         }
         a {
             color: #212529;

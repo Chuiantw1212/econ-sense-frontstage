@@ -20,18 +20,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/">理財文章</a>
+                        <a class="nav-link" href="/">理財生活化</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/easy">順向理財</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/knowledge"
-                            >主動投資你的腦袋</a
-                        >
+                        <a class="nav-link" href="/knowledge">主動投資人生</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/wealth">被動投資你的財富</a>
+                        <a class="nav-link" href="/wealth">被動投資金錢</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">月更文章</a>
                     </li>
                 </ul>
             </div>
