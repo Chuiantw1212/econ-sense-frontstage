@@ -12,28 +12,28 @@
         </div>
         <div class="row">
             <div class="col-lg-4">
-                <div class="card-body">
+                <router-link class="card-body home__link" :to="'/flow'" :tag="'div'">
                     <Card>
                         <h2>順向理財</h2>
                         <img src="@/assets/icon/flow-chart.svg" />
                     </Card>
-                </div>
+                </router-link>
             </div>
             <div class="col-lg-4">
-                <div class="card-body">
+                <router-link class="card-body home__link" :to="'/knowledge'" :tag="'div'">
                     <Card>
                         <h2>主動投資人生</h2>
                         <img src="@/assets/icon/machine-learning.svg" />
                     </Card>
-                </div>
+                </router-link>
             </div>
             <div class="col-lg-4">
-                <div class="card-body">
+                <router-link class="card-body home__link" :to="'/wealth'" :tag="'div'">
                     <Card>
                         <h2>被動投資金錢</h2>
                         <img src="@/assets/icon/invest.svg" />
                     </Card>
-                </div>
+                </router-link>
             </div>
         </div>
         <div class="row mt-5">
@@ -140,5 +140,8 @@ export default {
 }
 </script>
 
-<style>
+<style style="scss">
+.home__link {
+    cursor: pointer;
+}
 </style>
