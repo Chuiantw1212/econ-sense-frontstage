@@ -43,7 +43,7 @@
                         <a class="nav-link" href="/wealth">被動投資金錢</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/">月更文章</a>
+                        <a class="nav-link" href="/posts">月更短文</a>
                     </li>
                     <li class="nav-item">
                         <router-link

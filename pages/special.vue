@@ -42,12 +42,25 @@
         </p>
         <p>
             Icons made by
-            <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
+            <a
+                href="https://www.flaticon.com/authors/freepik"
+                title="Freepik"
+                target="_blank"
                 >Freepik</a
             >
             from
-            <a href="https://www.flaticon.com/" title="Flaticon">
+            <a
+                href="https://www.flaticon.com/"
+                title="Flaticon"
+                target="_blank"
+            >
                 www.flaticon.com</a
+            >
+        </p>
+        <p>
+            Team support from
+            <a href="https://www.azsinopro.com.tw/" target="_blank"
+                >azsinopro</a
             >
         </p>
     </div>
