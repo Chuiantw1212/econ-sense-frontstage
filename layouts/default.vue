@@ -35,6 +35,7 @@ export default {
 <style>
 .app {
     font-family: "Noto Sans TC", sans-serif;
+    padding-top: 68px;
 }
 .container {
     min-height: 100vh;

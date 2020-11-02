@@ -1,15 +1,25 @@
 <template>
-    <div class="container py-5">
+    <div class="container py-5 text-center">
         <div class="row">
-            <div
+            <div class="col text-center">
+                <h1 class="bold">
+                    <strong>理財生活化</strong>
+                </h1>
+            </div>
+            <!-- <div
                 v-for="(post, index) in posts"
                 class="col-12 col-lg-6"
                 :key="index"
             >
                 <PostPreview v-model="posts[index]"></PostPreview>
-            </div>
+            </div> -->
         </div>
-        <Pagination></Pagination>
+        <div class="row">
+            <div class="col">順向理財</div>
+            <div class="col">主動投資人生</div>
+            <div class="col">被動投資財富</div>
+        </div>
+        <!-- <Pagination></Pagination> -->
     </div>
 </template>
 <script>
