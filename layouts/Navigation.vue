@@ -7,7 +7,7 @@
         ></NavLightbox>
         <nav
             id="myNavigation"
-            class="fixed-top navbar navbar-expand-md navbar-dark bg-dark justify-content-start"
+            class="fixed-top navbar navbar-expand-md navbar-dark bg-dark"
             aria-label="breadscrumb"
         >
             <a class="navbar-brand js-scroll-trigger" :href="`/`">
@@ -17,6 +17,17 @@
                     alt="logo"
                 />
             </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
@@ -34,19 +45,21 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/">月更文章</a>
                     </li>
+                    <li class="nav-item">
+                        <router-link
+                            class="nav-link myNavigation__aboutMe"
+                            :to="'/special'"
+                        >
+                            <span class="aboutMe__description">關於網站</span>
+                            <img
+                                alt="myAvatar"
+                                class="aboutMe__avatar"
+                                src="https://storage.googleapis.com/my-blog-287510.appspot.com/myAvatar.png"
+                            />
+                        </router-link>
+                    </li>
                 </ul>
             </div>
-            <router-link
-                class="myNavigation__aboutMe"
-                :to="'/special'"
-                tag="div"
-            >
-                <img
-                    alt="myAvatar"
-                    class="aboutMe__avatar"
-                    src="https://storage.googleapis.com/my-blog-287510.appspot.com/myAvatar.png"
-                />
-            </router-link>
         </nav>
     </div>
 </template>
@@ -79,13 +92,13 @@ export default {
 </script>
 <style lang="scss" scoped>
 .myNavigation__aboutMe {
-    border-radius: 50%;
     overflow: hidden;
-    width: 44px;
+    // width: 44px;
     cursor: pointer;
-    position: absolute;
-    right: 1rem;
+    display: flex;
+    justify-content: space-between;
     .aboutMe__avatar {
+        border-radius: 50%;
         width: 44px;
     }
 }
@@ -94,26 +107,39 @@ export default {
         width: 40px;
     }
     .navbar-brand {
-        margin: 0;
-        // line-height: 48px;
         font-size: 24px;
     }
 }
-.nav {
-    .nav-link {
-        padding: 0;
-    }
-}
-.nav-item {
-    position: relative;
-    margin-left: 0.5rem;
-    .nav-link {
-        color: lightgrey;
-        background-color: unset;
-        border: none;
-        &:hover {
-            color: white;
+
+@media screen and (min-width: 768px) {
+    #myNavigation {
+        .myNavigation__aboutMe {
+            position: absolute;
+            right: 1rem;
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+            .aboutMe__description {
+                display: none;
+            }
         }
     }
 }
+// .nav {
+//     .nav-link {
+//         padding: 0;
+//     }
+// }
+// .nav-item {
+//     position: relative;
+//     margin-left: 0.5rem;
+//     .nav-link {
+//         color: lightgrey;
+//         background-color: unset;
+//         border: none;
+//         &:hover {
+//             color: white;
+//         }
+//     }
+// }
 </style>

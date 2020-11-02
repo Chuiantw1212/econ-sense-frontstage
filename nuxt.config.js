@@ -1,4 +1,5 @@
 
+const webpack = require('webpack')
 export default {
   /*
   ** Nuxt rendering mode
@@ -24,27 +25,16 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
-    script: [
-      {
-        src: 'https://kit.fontawesome.com/e17c45442b.js',
-        defer: true,
-        async: true
-      }
-    ],
+    script: [],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/econ-sense.ico' },
       {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap",
         media: 'screen'
-      }
+      },
     ]
   },
-  /*
-  ** Global CSS
-  */
-  css: [
-  ],
   /*
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
@@ -52,6 +42,12 @@ export default {
   plugins: [
     '@/plugins/bootstrap.js',
     '@/plugins/filters.js'
+  ],
+  /*
+  ** Global CSS
+  */
+  css: [
+    'bootstrap/dist/css/bootstrap.css',
   ],
   /*
   ** Auto import components
@@ -73,5 +69,5 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
-  }
+  },
 }
