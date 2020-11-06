@@ -8,6 +8,7 @@
 <style lang="scss" scoped>
 .myCard-custom {
     color: #212529;
+    padding: 1.25rem;
     .card_body {
         background-color: white;
         border-radius: 6px;

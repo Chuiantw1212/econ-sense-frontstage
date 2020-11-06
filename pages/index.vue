@@ -12,77 +12,56 @@
         </div>
         <div class="row">
             <div class="col-lg-4">
-                <router-link class="card-body home__link" :to="'/flow'" :tag="'div'">
+                <router-link class="home__link" :to="'/flow'" :tag="'div'">
                     <Card>
                         <h2>順向理財</h2>
-                        <img src="@/assets/icon/flow-chart.svg" />
+                        <img
+                            src="@/assets/icon/flow-chart.svg"
+                            alt="money-flow"
+                        />
                     </Card>
                 </router-link>
             </div>
             <div class="col-lg-4">
-                <router-link class="card-body home__link" :to="'/knowledge'" :tag="'div'">
+                <router-link class="home__link" :to="'/knowledge'" :tag="'div'">
                     <Card>
                         <h2>主動投資人生</h2>
-                        <img src="@/assets/icon/machine-learning.svg" />
+                        <img
+                            src="@/assets/icon/machine-learning.svg"
+                            alt="invest-knowledge"
+                        />
                     </Card>
                 </router-link>
             </div>
             <div class="col-lg-4">
-                <router-link class="card-body home__link" :to="'/wealth'" :tag="'div'">
+                <router-link class="home__link" :to="'/wealth'" :tag="'div'">
                     <Card>
                         <h2>被動投資金錢</h2>
-                        <img src="@/assets/icon/invest.svg" />
+                        <img
+                            src="@/assets/icon/invest.svg"
+                            alt="invest-money"
+                        />
                     </Card>
                 </router-link>
             </div>
         </div>
-        <div class="row mt-5">
-            <div class="col">2019年以前我對理財一竅不通</div>
-        </div>
-        <div class="row">
-            <div class="col">2020年末，我算得出我幾年後會財富自由</div>
-        </div>
+        <div class="mt-5">2019年以前我對理財一竅不通</div>
+        <div>2020年末，我算得出我幾年後會財富自由</div>
         <br />
-        <div class="row">
-            <div class="col">我看過許多課程</div>
-        </div>
-        <div class="row">
-            <div class="col">高價卻無用</div>
-        </div>
-        <div class="row">
-            <div class="col">有的用行銷話語包裝投資</div>
-        </div>
-        <div class="row">
-            <div class="col">有的販賣有錢人才能用的方法</div>
-        </div>
-        <div class="row">
-            <div class="col">有的灌輸整天盯盤的技巧</div>
-        </div>
-        <div class="row">
-            <div class="col">看著有需要的人沒有得到幫助</div>
-        </div>
-        <div class="row">
-            <div class="col">真心難過</div>
-        </div>
+        <div>我看過許多課程</div>
+        <div>高價卻無用</div>
+        <div>有的用行銷話語包裝投資</div>
+        <div>有的販賣有錢人才能用的方法</div>
+        <div>有的灌輸整天盯盤的技巧</div>
+        <div>看著有需要的人沒有得到幫助</div>
+        <div>真心想做點甚麼</div>
         <br />
-        <div class="row">
-            <div class="col">2020年末我遇上一個好團隊</div>
-        </div>
-        <div class="row">
-            <div class="col">
-                讓我確定自己不孤單，也補足我對生涯財務規劃的知識藍圖
-            </div>
-        </div>
+        <div>2020年末我遇上一個好團隊</div>
+        <div>讓我確定自己不孤單，也補足我對生涯財務規劃的知識藍圖</div>
         <br />
-        <div class="row">
-            <div class="col">這是一個從無到有的故事</div>
-        </div>
-        <div class="row">
-            <div class="col">就當被騙最後一次</div>
-        </div>
-        <div class="row">
-            <div class="col">你願意把故事聽完嗎？</div>
-        </div>
+        <div>這是一個從無到有的故事</div>
+        <div>就當被騙最後一次</div>
+        <div>你願意把故事聽完嗎？</div>
     </div>
 </template>
 <script>
