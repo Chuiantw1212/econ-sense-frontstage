@@ -35,11 +35,12 @@
                             class="nav-link"
                             :to="'/flow'"
                             :active-class="'active'"
+                            @click="collapseNavbar($event)"
                         >
                             順向理財
                         </router-link>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
                             :to="'/knowledge'"
@@ -48,7 +49,7 @@
                             主動投資人生
                         </router-link>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
                             :to="'/wealth'"
@@ -57,7 +58,7 @@
                             被動投資金錢
                         </router-link>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
                             :to="'/posts'"
@@ -66,7 +67,7 @@
                             月更短文
                         </router-link>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link myNavigation__aboutMe"
                             :to="'/special'"
@@ -100,7 +101,32 @@ export default {
             type: Array,
         },
     },
+    mounted() {
+        this.toggleClickOutside(true)
+    },
+    beforeDestroy() {
+        this.toggleClickOutside(false)
+    },
     methods: {
+        collapseNavbar() {
+            console.log('test')
+            $('.navbar-collapse').collapse('hide');
+        },
+        toggleClickOutside(isOn) {
+            const nuxtElement = document.getElementById('__nuxt')
+            if (isOn) {
+                nuxtElement.addEventListener('click', this.handleClickoutSide)
+            } else {
+                nuxtElement.removeEventListener('click', this.handleClickoutSide)
+            }
+        },
+        handleClickoutSide(event) {
+            const clickedTarget = event.target
+            const navigation = document.getElementById('myNavigation')
+            if (!navigation.contains(clickedTarget)) {
+                $('.navbar-collapse').collapse('hide');
+            }
+        },
         switchItem(event, index) {
             const navItems = this.$refs["nav-item"];
             navItems.forEach(item => {

@@ -1,8 +1,10 @@
 <template>
     <div class="container text-center py-5">
-        <h1>你願意購買</h1>
-        <h1>這樣的商品嗎</h1>
+        <h1>從一個夢幻商品開始</h1>
+        <!-- <h1>這樣的商品嗎</h1> -->
         <br />
+        <div>你願意花多少錢購買以下的商品呢</div>
+        <div>有人說每年10~20萬</div>
         <div class="row">
             <div class="col-lg-4">
                 <Card>
@@ -28,27 +30,31 @@
         <div>其實這不是秘密，只是大部分的人都沒注意到</div>
         <div>
             這是我國的<a
-                href="https://www.mol.gov.tw/topic/6025/13123/34950/"
+                href="https://www.mol.gov.tw/topic/3078/9686/22657/"
                 target="_blank"
                 >勞退基金</a
             >
         </div>
         <br />
-        <div>勞動部官網可以看到近15年來的平均收益率超過4%</div>
-        <br />
-        <img
-            src="https://storage.googleapis.com/my-blog-287510.appspot.com/%E5%8B%9E%E9%80%80%E5%9F%BA%E9%87%91.jpg"
-        />
-        <br />
+        <div>
+            勞動部官網可以看到<a
+                href="https://www.mol.gov.tw/topic/6025/13123/34950/"
+                target="_blank"
+                >近15年來的平均收益率超過4%</a
+            >
+        </div>
         <div>又因為提繳不納入年度薪資所得課稅的關係</div>
         <div>所得級距越高，節稅效果越明顯</div>
-        <br />
-        <img
-            src="https://storage.googleapis.com/my-blog-287510.appspot.com/retire.jpg"
-        />
-        <br />
         <div>以國人薪資中位數490,000來計算</div>
-        <div>絕大多數的人都可以達到5%的節稅效果</div>
+        <div>
+            絕大多數的人都可以達到
+            <a
+                href="https://www.etax.nat.gov.tw/etwmain/front/ETW158W1"
+                target="_blank"
+            >
+                5%的節稅效果
+            </a>
+        </div>
         <br />
         <table class="table">
             <thead>
@@ -84,11 +90,26 @@
                     </td>
                     <td></td>
                     <td>
-                        <div>1,470</div>
-                        <div>(紮紮實實少繳的稅金)</div>
+                        <div class="text-danger">1,470</div>
+                        <div class="text-danger">(紮紮實實少繳的稅金)</div>
                     </td>
                 </tr>
             </tbody>
         </table>
+        <br />
+        <div></div>
+        <h1>每個月收入該如何分配</h1>
+        <img
+            class="flow__image"
+            src="https://storage.googleapis.com/my-blog-287510.appspot.com/%E4%BA%BA%E7%94%9F%E6%94%B6%E6%94%AF%E6%9B%B2%E7%B7%9A2.jpg"
+            alt="income-curve"
+        />
+
+        <div></div>
     </div>
 </template>
+<style lang="scss" scoped>
+.flow__image {
+    width: 100%;
+}
+</style>
