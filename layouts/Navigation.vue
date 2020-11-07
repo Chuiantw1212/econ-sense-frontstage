@@ -127,13 +127,6 @@ export default {
                 $('.navbar-collapse').collapse('hide');
             }
         },
-        switchItem(event, index) {
-            const navItems = this.$refs["nav-item"];
-            navItems.forEach(item => {
-                item.classList.remove("active");
-            });
-            navItems[index].classList.add("active");
-        },
     }
 };
 </script>

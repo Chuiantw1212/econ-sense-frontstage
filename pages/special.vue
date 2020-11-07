@@ -58,7 +58,7 @@
             >
         </p>
         <p>
-            Team support from
+            Team support and materials from
             <a href="https://www.azsinopro.com.tw/" target="_blank"
                 >azsinopro</a
             >
