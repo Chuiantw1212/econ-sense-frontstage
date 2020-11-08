@@ -95,7 +95,6 @@
             </tbody>
         </table>
         <br />
-        <!-- <div></div> -->
         <h2>月收入分配</h2>
         <br />
         <p>先來看一個人一輩子的收入曲線</p>
@@ -130,7 +129,6 @@
                     <td class="align-middle">投資帳戶</td>
                     <td class="align-middle">
                         <p class="m-0">年支出帳戶</p>
-                        <!-- <p class="m-0">可以不要信用卡</p> -->
                     </td>
                 </tr>
                 <tr>

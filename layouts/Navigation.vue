@@ -58,7 +58,17 @@
                             被動投資金錢
                         </router-link>
                     </li>
+                    <li class="nav-item navigation__brItem">｜</li>
                     <li class="nav-item" @click="collapseNavbar($event)">
+                        <router-link
+                            class="nav-link"
+                            :to="'/ifa'"
+                            :active-class="'active'"
+                        >
+                            獨立理財規劃
+                        </router-link>
+                    </li>
+                    <!-- <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
                             :to="'/posts'"
@@ -66,7 +76,7 @@
                         >
                             月更短文
                         </router-link>
-                    </li>
+                    </li> -->
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link myNavigation__aboutMe"
@@ -131,15 +141,22 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.myNavigation__aboutMe {
-    overflow: hidden;
-    // width: 44px;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    .aboutMe__avatar {
-        border-radius: 50%;
-        width: 44px;
+#myNavigation {
+    .navigation__brItem {
+        color: rgba(255, 255, 255, 0.5);
+        display: block;
+        padding: 0.5rem;
+        cursor: default;
+    }
+    .myNavigation__aboutMe {
+        overflow: hidden;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        .aboutMe__avatar {
+            border-radius: 50%;
+            width: 44px;
+        }
     }
 }
 .navbar {
@@ -165,21 +182,4 @@ export default {
         }
     }
 }
-// .nav {
-//     .nav-link {
-//         padding: 0;
-//     }
-// }
-// .nav-item {
-//     position: relative;
-//     margin-left: 0.5rem;
-//     .nav-link {
-//         color: lightgrey;
-//         background-color: unset;
-//         border: none;
-//         &:hover {
-//             color: white;
-//         }
-//     }
-// }
 </style>

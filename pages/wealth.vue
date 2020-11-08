@@ -1,3 +1,6 @@
 <template>
-    <div class="container">被動投資你的財富，或是找人投資你的財富</div>
+    <div class="container text-center py-5">
+        <h1>被動投資金錢</h1>
+        <p>找專家投資你的錢也行</p>
+    </div>
 </template>
