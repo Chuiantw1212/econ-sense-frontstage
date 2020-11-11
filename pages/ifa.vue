@@ -29,9 +29,13 @@
 			歡迎寄信給我
 		</button>
 		<br />
-		<p class="m-0 mt-5">但在聯絡之前，作者建議請先把書看完</p>
-		<p class="m-0">投資自己是無價且永續的</p>
-		<p class="m-0">照書中以及部落格中的內容努力個半年到一年</p>
+		<p class="m-0 mt-5">規劃完成後，會再送你幾本書</p>
+		<p class="m-0">陪伴你走完執行計畫的這段路</p>
+		<!-- <p class="m-0">投資自己是無價且永續的</p> -->
+		<br />
+		<p class="m-0">強烈建議規劃之前</p>
+		<p class="m-0">照部落格中內容努力個一年半年</p>
+		<!-- <p class="m-0">照書中以及部落格中的內容努力個半年到一年</p> -->
 		<p class="m-0">目標會更明確</p>
 		<p class="m-0">經過規劃後也更能事半功倍</p>
 		<!-- <p class="m-0">
@@ -43,7 +47,7 @@
 export default {
 	methods: {
 		openEmail() {
-			window.open('mailto:chuiantw1212@gmail.com')
+			window.open('mailto:chuiantw1212jobs@gmail.com')
 		}
 	}
 }

@@ -3,6 +3,7 @@
 		<h1>主動投資人生</h1>
 		<p class="m-0">心思，用來讓自己成為更好的人吧</p>
 		<hr />
+		<br />
 		<h2>賺錢，也賺幸福</h2>
 		<p class="m-0">
 			整個網站的思想都是延伸自
@@ -28,11 +29,11 @@
 				</a>
 			</div>
 			<div class="col-12 col-md-5">
-				<p class="m-0">我剛開始接觸股票投資的時候</p>
-				<p class="m-0">第一年也根本戒不掉每小時看一次K線的習慣</p>
-				<p class="m-0">投資能穩下心態，是很多閱讀與實踐累積的成果</p>
-				<p class="m-0">之所以讀推這本，是因為這本書涵蓋了最多的內容</p>
-				<p class="m-0">大多數的人，賺錢是為了生活</p>
+				<!-- <p class="m-0">我剛開始接觸股票投資的時候</p>
+				<p class="m-0">第一年也根本戒不掉每小時看一次K線的習慣</p> -->
+				<!-- <p class="m-0">投資能穩下心態，是很多閱讀與實踐累積的成果</p> -->
+				<!-- <p class="m-0">這本書涵蓋了理財的內容</p> -->
+				<p class="m-0 mt-5">大多數的人，賺錢是為了生活</p>
 				<p class="m-0">投資理財也是為了更好的生活</p>
 				<br />
 				<p class="m-0">但好多人卻寧願購買高價的投資課程</p>
@@ -42,7 +43,9 @@
 				<!-- <p class="m-0">賺錢，也賺幸福這本書的內容簡介</p> -->
 				<p class="m-0">這本書除了談到投資的方法</p>
 				<p class="m-0">也涵蓋了工作、稅務、保險等面相</p>
-				<p class="m-0">最重要的是不斷提醒，讓所有行為為心中的核心價值服務</p>
+				<br />
+				<p class="m-0">最重要的是不斷提醒</p>
+				<p class="m-0">讓所有行為自己的核心價值服務</p>
 				<a
 					href="https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/goods/11100899131.html?"
 					target="_blank"
@@ -52,12 +55,13 @@
 			</div>
 		</div>
 		<hr />
+		<br />
 		<h2>進修學習資源</h2>
 		<p class="m-0">比起氾濫且以行銷目的居多的的線上影音，我比較推線下的教學</p>
-		<p class="m-0">除了能問問題以外，也能結交人脈</p>
+		<p class="m-0">互動更頻繁，也能結交人脈</p>
 		<br />
-		<div class="row">
-			<div class="col-12 col-md-4 mb-5">
+		<div class="row mt-5">
+			<div class="col-12 col-lg-4 mb-5">
 				<h3>東吳大學推廣部</h3>
 				<p class="m-0">
 					個人非常推薦
@@ -86,7 +90,7 @@
 					/>
 				</a>
 			</div>
-			<div class="col-12 col-md-4 mb-5">
+			<div class="col-12 col-lg-4 mb-5">
 				<h3>Accupass活動通</h3>
 				<p class="m-0">
 					我在
@@ -99,13 +103,13 @@
 				<br />
 				<a href="https://www.accupass.com/" target="_blank">
 					<img
-						class="col"
+						class="col-8 col-lg-12"
 						src="https://storage.googleapis.com/my-blog-287510.appspot.com/knowledge/social_media_accupass_logo.jpg"
 						alt="活動通"
 					/>
 				</a>
 			</div>
-			<div class="col-12 col-md-4 mb-5">
+			<div class="col-12 col-lg-4 mb-5">
 				<h3>為你而讀</h3>
 				<p class="m-0">為你而讀的創辦人</p>
 				<p class="m-0">最剛開始見到他是在臺大某研討會</p>
@@ -123,7 +127,7 @@
 		</div>
 		<br />
 		<div class="row">
-			<div class="col-12 col-md-4 mb-5">
+			<div class="col-12 col-lg-4 mb-5">
 				<h3>讀冊生活</h3>
 				<p class="m-0">
 					<a

@@ -69,19 +69,19 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td>原始薪資</td>
+					<th>原始薪資</th>
 					<td>490,000</td>
 					<td>170,000</td>
 					<td>8,500</td>
 				</tr>
 				<tr>
-					<td>提繳6%</td>
+					<th>提繳6%</th>
 					<td>460,606</td>
 					<td>140,600</td>
 					<td>7,030</td>
 				</tr>
 				<tr>
-					<td class="align-middle">節稅結果</td>
+					<th class="align-middle">節稅結果</th>
 					<td class="align-middle">
 						<div>29,400</div>
 						<div>(支付給未來的自己)</div>
@@ -121,7 +121,7 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td class="align-middle">存放帳戶</td>
+					<th class="align-middle">存放帳戶</th>
 					<td class="align-middle">
 						<p class="m-0">月支出帳戶</p>
 						<p class="m-0">只綁一張信用卡</p>
@@ -132,7 +132,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td class="align-middle">科目</td>
+					<th class="align-middle">科目</th>
 					<td class="align-middle">
 						<p class="m-0">食衣住行樂</p>
 					</td>
@@ -172,7 +172,20 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td class="align-middle">考量</td>
+					<th class="align-middle">戶別建議</th>
+					<td class="align-middle">
+						<p class="m-0">數位帳戶</p>
+					</td>
+					<td class="align-middle">
+						<p class="m-0">綜合儲蓄帳戶</p>
+						<p class="m-0">(並設為證券戶)</p>
+					</td>
+					<td class="align-middle">
+						<p class="m-0">方便即可</p>
+					</td>
+				</tr>
+				<tr>
+					<th class="align-middle">考量</th>
 					<td class="align-middle">
 						<p class="m-0">ATM密集度</p>
 						<p class="m-0">信用卡功能</p>
@@ -183,11 +196,10 @@
 					</td>
 					<td class="align-middle">
 						<p class="m-0">方便即可</p>
-						<!-- <p class="m-0">可以不要信用卡</p> -->
 					</td>
 				</tr>
 				<tr>
-					<td class="align-middle">銀行推薦</td>
+					<th class="align-middle">銀行推薦</th>
 					<td class="align-middle">
 						<p class="m-0">領現便利：中信、國泰、台新</p>
 						<p class="m-0">信用卡就看個人考量</p>
@@ -218,13 +230,6 @@
 		<br />
 		<p class="m-0 text-danger">免費</p>
 		<br />
-		<!-- <p class="m-0">好到不像真的</p>
-        <p class="m-0">
-            可是他
-            <a href="https://moneybook.com.tw/?referrer=CQxbIc" target="_blank">
-                真的是真的
-            </a>
-        </p> -->
 		<p class="m-0">
 			透過
 			<a href="https://moneybook.com.tw/?referrer=CQxbIc" target="_blank"
