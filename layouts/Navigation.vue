@@ -57,7 +57,7 @@
 					<li class="nav-item navigation__brItem">｜</li>
 					<li class="nav-item" @click="collapseNavbar($event)">
 						<router-link class="nav-link" :to="'/ifa'" :active-class="'active'">
-							獨立理財規劃
+							實體活動
 						</router-link>
 					</li>
 					<li class="nav-item navigation__brItem">｜</li>
@@ -67,7 +67,7 @@
 							:to="'/posts'"
 							:active-class="'active'"
 						>
-							月更短文
+							理財百問
 						</router-link>
 					</li>
 					<li class="nav-item" @click="collapseNavbar($event)">

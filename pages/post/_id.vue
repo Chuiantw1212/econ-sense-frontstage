@@ -4,10 +4,10 @@
 			<!-- Post Content Column -->
 			<div class="col col-lg-8">
 				<!-- Title -->
-				<h1 class>{{post.title}}</h1>
+				<h1 class>{{ post.title }}</h1>
 
 				<!-- Date/Time -->
-				<p>發布時間: {{post.date|formatDate}}</p>
+				<p>發布時間: {{ post.date | formatDate }}</p>
 
 				<hr />
 
@@ -22,11 +22,11 @@
 				<hr />
 			</div>
 		</div>
-		<div class="row my-5">
+		<!-- <div class="row my-5">
 			<PostRelative></PostRelative>
 			<PostRelative></PostRelative>
 			<PostRelative></PostRelative>
-		</div>
+		</div> -->
 	</div>
 </template>
 <script>
