@@ -48,6 +48,7 @@ export default {
   */
   css: [
     'bootstrap/dist/css/bootstrap.css',
+    '@/assets/global.css',
   ],
   /*
   ** Auto import components

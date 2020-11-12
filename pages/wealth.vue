@@ -36,13 +36,29 @@
 				</tr>
 				<tr>
 					<th>建議通路</th>
-					<td>中租投顧</td>
+					<td>
+						<a
+							rel="noreferrer"
+							href="https://bb.ezfunds.com.tw/"
+							target="_blank"
+						>
+							中租投顧
+						</a>
+					</td>
 					<td>
 						<p class="m-0">投資帳戶下單</p>
 						<p class="m-0">0050 or 006208</p>
 					</td>
 					<td>
-						<p class="m-0">LnB信用市集</p>
+						<p class="m-0">
+							<a
+								rel="noreferrer"
+								href="https://www.lnb.com.tw/activity/mgm/1/CGBY113/1161359209"
+								target="_blank"
+							>
+								LnB信用市集
+							</a>
+						</p>
 					</td>
 				</tr>
 			</tbody>
@@ -58,12 +74,13 @@
 				<h3>智富台灣基金獎</h3>
 				<p class="m-0">
 					<a
+						rel="noreferrer"
 						href="https://www.google.com/search?q=智富台灣基金獎"
 						target="_blank"
 					>
 						智富台灣基金獎
 					</a>
-					是含金量算最高的基金評選
+					是含金量最高的基金評選
 				</p>
 				<p class="m-0">沒有通通有獎的行銷成分，獎項區分也足夠細緻</p>
 				<p class="m-0">裡面所獲獎的"全球多重資產基金"</p>
@@ -71,10 +88,12 @@
 				<p class="m-0">偏好低波動的話</p>
 				<p class="m-0">可以用全球債券基金取代</p>
 				<a
+					rel="noreferrer"
 					href="https://www.google.com/search?q=智富台灣基金獎"
 					target="_blank"
 				>
 					<img
+						alt="智富台灣基金獎"
 						src="https://storage.googleapis.com/my-blog-287510.appspot.com/wealth/smart.jpg"
 					/>
 				</a>
@@ -82,7 +101,9 @@
 			<div class="col-12 col-lg-4">
 				<h3>中租投顧</h3>
 				<p class="m-0">
-					<a href="https://bb.ezfunds.com.tw/" target="_blank"> 中租投顧 </a>
+					<a rel="noreferrer" href="https://bb.ezfunds.com.tw/" target="_blank">
+						中租投顧
+					</a>
 					是業界最為投資人著想的投顧了
 				</p>
 				<p class="m-0">願意把基金公司不想公開的Alpha值大方擺上</p>
@@ -91,12 +112,13 @@
 				<p class="m-0">絕對值得長期往來</p>
 				<p class="m-0">開戶完成後</p>
 				<p class="m-0">
-					<button class="btn btn-danger" @click="openEmail()">聯絡我</button>
+					<button class="btn btn-warning" @click="openEmail()">聯絡我</button>
 				</p>
 				<p class="m-0">可以獲得888點的手續費折抵(1點1元)</p>
 				<br />
-				<a href="https://bb.ezfunds.com.tw/" target="_blank">
+				<a rel="noreferrer" href="https://bb.ezfunds.com.tw/" target="_blank">
 					<img
+						alt="中租投顧"
 						src="https://storage.googleapis.com/my-blog-287510.appspot.com/wealth/ez.jpg"
 					/>
 				</a>
@@ -105,6 +127,7 @@
 				<h3>LnB信用市集</h3>
 				<p class="m-0">
 					<a
+						rel="noreferrer"
 						href="https://www.lnb.com.tw/activity/mgm/1/CGBY113/1161359209"
 						target="_blank"
 					>
@@ -118,10 +141,12 @@
 				<p class="m-0">更是大舉把其他平台給甩在後面</p>
 				<br />
 				<a
+					rel="noreferrer"
 					href="https://www.lnb.com.tw/activity/mgm/1/CGBY113/1161359209"
 					target="_blank"
 				>
 					<img
+						alt="Lnb信用市集"
 						class="col-8 col-lg-12"
 						src="https://storage.googleapis.com/my-blog-287510.appspot.com/wealth/Lnb-logo-2.jpg"
 					/>
@@ -139,3 +164,4 @@ export default {
 	}
 }
 </script>
+<scss>

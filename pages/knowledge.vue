@@ -7,7 +7,7 @@
 		<h2>賺錢，也賺幸福</h2>
 		<p class="m-0">
 			整個網站的思想都是延伸自
-			<a
+			<a rel="noreferrer"
 				href="https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/goods/11100899131.html?"
 				target="_blank"
 			>
@@ -18,7 +18,7 @@
 		<br />
 		<div class="row justify-content-center">
 			<div class="col-12 col-md-5">
-				<a
+				<a rel="noreferrer"
 					href="https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/goods/11100899131.html?"
 					target="_blank"
 				>
@@ -46,7 +46,7 @@
 				<br />
 				<p class="m-0">最重要的是不斷提醒</p>
 				<p class="m-0">讓所有行為自己的核心價值服務</p>
-				<a
+				<a rel="noreferrer"
 					href="https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/goods/11100899131.html?"
 					target="_blank"
 				>
@@ -64,8 +64,8 @@
 			<div class="col-12 col-lg-4 mb-5">
 				<h3>東吳大學推廣部</h3>
 				<p class="m-0">
-					個人非常推薦
-					<a href="https://www.ext.scu.edu.tw/" target="_blank">
+					非常推薦
+					<a rel="noreferrer" href="https://www.ext.scu.edu.tw/" target="_blank">
 						東吳大學推廣部
 					</a>
 					的進修課程
@@ -83,7 +83,7 @@
 				<p class="m-0">完全不用擔心老師會為了賺錢教一些奇怪的東西</p>
 				<p class="m-0">或是推銷下一門原價8888特價7878的課程</p>
 				<br />
-				<a href="https://www.ext.scu.edu.tw/" target="_blank">
+				<a rel="noreferrer" href="https://www.ext.scu.edu.tw/" target="_blank">
 					<img
 						src="https://storage.googleapis.com/my-blog-287510.appspot.com/knowledge/suchow.jpg"
 						alt="東吳大學進修部"
@@ -94,14 +94,14 @@
 				<h3>Accupass活動通</h3>
 				<p class="m-0">
 					我在
-					<a href="https://www.accupass.com/" target="_blank">活動通</a>
-					也參加上百場活動了
+					<a rel="noreferrer" href="https://www.accupass.com/" target="_blank">活動通</a>
+					參加上百場活動了
 				</p>
 				<p class="m-0">從對理財一竅不通到能夠出來<del>傳教</del>分享</p>
 				<p class="m-0">超過一半的心路歷程是跟Accupass有關</p>
 				<p class="m-0">絕對推薦給學習慾望強烈想拓展自己的人</p>
 				<br />
-				<a href="https://www.accupass.com/" target="_blank">
+				<a rel="noreferrer" href="https://www.accupass.com/" target="_blank">
 					<img
 						class="col-8 col-lg-12"
 						src="https://storage.googleapis.com/my-blog-287510.appspot.com/knowledge/social_media_accupass_logo.jpg"
@@ -117,7 +117,7 @@
 				<p class="m-0">不過近期因為拓展線上業務</p>
 				<p class="m-0">活動多以企業導向居多</p>
 				<br />
-				<a href="https://www.kscthinktank.com.tw/" target="_blank">
+				<a rel="noreferrer" href="https://www.kscthinktank.com.tw/" target="_blank">
 					<img
 						src="https://storage.googleapis.com/my-blog-287510.appspot.com/knowledge/readforyou.png"
 						alt="為你而讀"
@@ -130,7 +130,7 @@
 			<div class="col-12 col-lg-4 mb-5">
 				<h3>讀冊生活</h3>
 				<p class="m-0">
-					<a
+					<a rel="noreferrer"
 						href="https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/goods/11100899131.html?"
 						target="_blank"
 					>
@@ -146,7 +146,7 @@
 				<p class="m-0">剛開始是為了找到"錢與閒"這本書</p>
 				<p class="m-0">才無意中發現這個平台已經默默成立很久了</p>
 				<br />
-				<a
+				<a rel="noreferrer"
 					href="https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/goods/11100899131.html?"
 					target="_blank"
 				>

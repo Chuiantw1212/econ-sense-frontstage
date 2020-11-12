@@ -26,7 +26,7 @@
 		<p class="m-0">去規劃未來十年甚至一生的財務</p>
 		<p class="m-0">而不是去找就是想賣你商品的業務員</p>
 		<br />
-		<button type="button" class="btn btn-success" @click="openEmail()">
+		<button type="button" class="btn btn-warning" @click="openEmail()">
 			歡迎寄信給我
 		</button>
 		<br />

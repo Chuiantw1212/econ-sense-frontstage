@@ -5,7 +5,7 @@
                 @click="routeToHome()"
                 class="logoWrapper__logo"
                 alt="logo"
-                src="@/assets/常2.png"
+                src="@/assets/常2_200.png"
             />
         </div>
         <span class="footer__info">© 2020 常識經濟學 只教你需要的</span>

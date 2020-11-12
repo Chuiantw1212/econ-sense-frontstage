@@ -9,19 +9,23 @@
 			<div class="col-lg-4">
 				<Card>
 					<h2>政府擔保</h2>
-					<img src="@/assets/icon/protection.svg" alt="protection" />
+					<img
+						class="flow__icon"
+						src="@/assets/icon/protection.svg"
+						alt="protection"
+					/>
 				</Card>
 			</div>
 			<div class="col-lg-4">
 				<Card>
 					<h2>每年4%成長</h2>
-					<img src="@/assets/icon/graphics.svg" alt="grow" />
+					<img class="flow__icon" src="@/assets/icon/graphics.svg" alt="grow" />
 				</Card>
 			</div>
 			<div class="col-lg-4">
 				<Card>
 					<h2>退傭5%</h2>
-					<img src="@/assets/icon/refund.svg" alt="refund" />
+					<img class="flow__icon" src="@/assets/icon/refund.svg" alt="refund" />
 				</Card>
 			</div>
 		</div>
@@ -30,6 +34,7 @@
 		<div>其實這不是秘密，只是大部分的人都沒注意到</div>
 		<div>
 			這是我國的<a
+				rel="noreferrer"
 				href="https://www.mol.gov.tw/topic/3078/9686/22657/"
 				target="_blank"
 				>勞退基金</a
@@ -38,6 +43,7 @@
 		<br />
 		<div>
 			勞動部官網可以看到<a
+				rel="noreferrer"
 				href="https://www.mol.gov.tw/topic/6025/13123/34950/"
 				target="_blank"
 				>近15年來的平均收益率超過4%</a
@@ -49,6 +55,7 @@
 		<div>
 			絕大多數的人都可以達到
 			<a
+				rel="noreferrer"
 				href="https://www.etax.nat.gov.tw/etwmain/front/ETW158W1"
 				target="_blank"
 			>
@@ -99,7 +106,7 @@
 		<br />
 		<p>先來看一個人一輩子的收入曲線</p>
 		<img
-			class="col col-md-8"
+			class="flow__incomeCurve"
 			src="https://storage.googleapis.com/my-blog-287510.appspot.com/flow/income-curve-greyscale.jpg"
 			alt="income-curve"
 		/>
@@ -216,13 +223,21 @@
 		<h2>手癢又懶得記帳?</h2>
 		<p class="m-0">金融科技與法規的進步</p>
 		<p class="m-0">讓不動手就能記帳這件事情成為現實</p>
-		<a href="https://moneybook.com.tw/?referrer=CQxbIc" target="_blank">
+		<a
+			rel="noreferrer"
+			href="https://moneybook.com.tw/?referrer=CQxbIc"
+			target="_blank"
+		>
 			<img
 				src="https://storage.googleapis.com/my-blog-287510.appspot.com/flow/moneybook.jpg"
+				alt="麻布記帳"
 			/>
 		</a>
 		<p class="m-0">
-			<a href="https://moneybook.com.tw/?referrer=CQxbIc" target="_blank"
+			<a
+				rel="noreferrer"
+				href="https://moneybook.com.tw/?referrer=CQxbIc"
+				target="_blank"
 				>麻布記帳</a
 			>綁定網路銀行權限，自動同步更新所有收支，從此不再需要紀錄發票
 		</p>
@@ -232,7 +247,10 @@
 		<br />
 		<p class="m-0">
 			透過
-			<a href="https://moneybook.com.tw/?referrer=CQxbIc" target="_blank"
+			<a
+				rel="noreferrer"
+				href="https://moneybook.com.tw/?referrer=CQxbIc"
+				target="_blank"
 				>連結</a
 			>
 			取得15天免費同步
@@ -242,7 +260,13 @@
 	</div>
 </template>
 <style lang="scss" scoped>
-.flow__image {
-	width: 80%;
+.flow__icon {
+	width: 160px;
+	height: 160px;
+}
+.flow__incomeCurve {
+	max-width: 80%;
+	width: 740px;
+	height: auto;
 }
 </style>
