@@ -26,7 +26,7 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
+					<li class="nav-item" @click="collapseNavbar($event)">
 						<router-link
 							class="nav-link"
 							:to="'/flow'"
