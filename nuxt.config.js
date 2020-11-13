@@ -23,7 +23,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
+      { property: 'og:site_name', content: '常識經濟學' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:title', content: '常識經濟學' },
+      { property: 'og:description', content: '只教你需要的' },
+      { property: 'og:image', content: 'https://storage.googleapis.com/my-blog-287510.appspot.com/%E5%B8%B8_200.png' },
     ],
     script: [],
     link: [

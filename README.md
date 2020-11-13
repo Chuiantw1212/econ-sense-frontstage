@@ -1,4 +1,5 @@
 # frontstage
+一個有關理財無痛生活化的網站
 
 ## Build Setup
 
