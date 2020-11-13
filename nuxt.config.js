@@ -41,7 +41,8 @@ export default {
   */
   plugins: [
     '@/plugins/bootstrap.js',
-    '@/plugins/filters.js'
+    '@/plugins/filters.js',
+    { src: '~plugins/ga.js', mode: 'client' }
   ],
   /*
   ** Global CSS
@@ -59,6 +60,9 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    ['@nuxtjs/google-analytics', {
+      id: 'G-DY0VR8Q0RD'
+    }]
   ],
   /*
   ** Nuxt.js modules
