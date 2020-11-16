@@ -30,12 +30,14 @@ export default {
       { property: 'og:description', content: '只教你需要的' },
       { property: 'og:image', content: 'https://storage.googleapis.com/my-blog-287510.appspot.com/%E5%B8%B8_200.png' },
     ],
-    script: [],
+    script: [
+      { 'data-ad-client': 'ca-pub-6322593540825146', async: true, src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' },
+    ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/econ-sense.ico' },
       {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap",
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap',
         media: 'screen'
       },
     ]
