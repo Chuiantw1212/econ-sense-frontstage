@@ -112,7 +112,6 @@ export default {
 	},
 	methods: {
 		collapseNavbar() {
-			console.log('test')
 			$('.navbar-collapse').collapse('hide');
 		},
 		toggleClickOutside(isOn) {
