@@ -31,25 +31,33 @@ export default {
         }
     },
     created() {
-        const attemptToRead = () => {
-            window.requestAnimationFrame(() => {
-                if (firebase.app) {
-                    this.readPosts()
-                } else {
-                    setTimeout(() => {
-                        attemptToRead()
-                    }, 3000)
-                }
-            })
-        }
-        if (process.client) {
-            attemptToRead()
-        }
+        // const attemptToRead = () => {
+        //     window.requestAnimationFrame(() => {
+        //         if (firebase.app) {
+        //             this.readPosts()
+        //         } else {
+        //             attemptToRead()
+        //         }
+        //     })
+        // }
+        // if (process.client) {
+        //     attemptToRead()
+        // }
     },
     methods: {
         readPosts() {
+            Swal.fire({
+                title: '資料讀取中',
+                allowEscapeKey: false,
+                allowOutsideClick: false,
+                timer: 2000,
+                onOpen: () => {
+                    Swal.showLoading();
+                }
+            })
             const db = firebase.firestore()
             const allPosts = db.collection("postPreviews")
+            Swal.close()
             allPosts.orderBy('date').limit(10).get().then((querySnapshot) => {
                 this.posts = []
                 querySnapshot.forEach(doc => {
