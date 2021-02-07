@@ -2,11 +2,7 @@
     <div class="container py-5">
         <br />
         <div class="row justify-center">
-            <div
-                v-for="(post, index) in posts.reverse()"
-                class="col-12"
-                :key="index"
-            >
+            <div v-for="(post, index) in posts" class="col-12" :key="index">
                 <PostPreview v-model="posts[index]"></PostPreview>
             </div>
         </div>
@@ -31,23 +27,23 @@ export default {
         }
     },
     created() {
-        // const attemptToRead = () => {
-        //     window.requestAnimationFrame(() => {
-        //         if (firebase.app) {
-        //             this.readPosts()
-        //         } else {
-        //             attemptToRead()
-        //         }
-        //     })
-        // }
-        // if (process.client) {
-        //     attemptToRead()
-        // }
+        const attemptToRead = () => {
+            window.requestAnimationFrame(() => {
+                if (firebase.app) {
+                    this.readPosts()
+                } else {
+                    attemptToRead()
+                }
+            })
+        }
+        if (process.client) {
+            attemptToRead()
+        }
     },
     methods: {
-        readPosts() {
+        async readPosts() {
             Swal.fire({
-                title: '資料讀取中',
+                title: '載入中',
                 allowEscapeKey: false,
                 allowOutsideClick: false,
                 timer: 2000,
@@ -57,14 +53,14 @@ export default {
             })
             const db = firebase.firestore()
             const allPosts = db.collection("postPreviews")
-            Swal.close()
-            allPosts.orderBy('date').limit(10).get().then((querySnapshot) => {
-                this.posts = []
-                querySnapshot.forEach(doc => {
-                    const data = doc.data()
-                    this.posts.push(data)
-                })
+            const querySnapshot = await allPosts.orderBy('date').limit(10).get()
+            this.posts = []
+            querySnapshot.forEach(doc => {
+                const data = doc.data()
+                this.posts.push(data)
             })
+            this.posts.reverse()
+            Swal.close()
         }
     }
 }
