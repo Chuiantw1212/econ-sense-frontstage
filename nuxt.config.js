@@ -32,6 +32,9 @@ export default {
     ],
     script: [
       { 'data-ad-client': 'ca-pub-6322593540825146', async: true, src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' },
+      {
+        src: 'https://cdn.jsdelivr.net/npm/sweetalert2@10'
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/econ-sense.ico' },

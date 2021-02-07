@@ -69,7 +69,6 @@ import PostPreview from '@/components/PostPreview.vue'
 import WidgetSearch from '@/components/widgets/Search.vue'
 import WidgetCategories from '@/components/widgets/Categories.vue'
 import Pagination from '@/components/Pagination.vue'
-import * as firebase from "firebase/app";
 export default {
     components: {
         PostPreview,
@@ -77,45 +76,6 @@ export default {
         WidgetCategories,
         Pagination
     },
-    data: () => {
-        return {
-            posts: []
-        }
-    },
-    created() {
-        const attemptToRead = () => {
-            window.requestAnimationFrame(() => {
-                if (firebase.app) {
-                    this.readPosts()
-                } else {
-                    attemptToRead()
-                }
-            })
-        }
-        if (process.client) {
-            attemptToRead()
-        }
-    },
-    methods: {
-        readPosts() {
-            const db = firebase.firestore()
-            const allPosts = db.collection("posts")
-            allPosts.limit(10).get().then((querySnapshot) => {
-                const posts = []
-                querySnapshot.forEach(doc => {
-                    const data = doc.data()
-                    data.id = doc.ref.id
-                    posts.push(data)
-                })
-                posts.sort((one, another) => {
-                    const oneDate = new Date(one.date)
-                    const anotherDate = new Date(another.date)
-                    return anotherDate - oneDate
-                })
-                this.posts = posts
-            })
-        }
-    }
 }
 </script>
 
