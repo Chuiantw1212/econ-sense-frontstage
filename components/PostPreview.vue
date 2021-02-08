@@ -7,12 +7,13 @@
             <strong class="d-inline-block mb-2 text-primary">{{
                 value.class
             }}</strong>
-            <h3 class="mb-0">{{ value.title }}</h3>
+            <h3 class="mb-0 text-left">{{ value.title }}</h3>
             <div class="mb-1 text-muted">{{ value.date | formatDate }}</div>
             <p class="card-text mb-auto">
                 {{ value.subtitle }}
             </p>
             <router-link
+                v-if="value.contentId"
                 :to="{
                     path: 'post',
                     query: {
@@ -22,6 +23,9 @@
             >
                 繼續閱讀
             </router-link>
+            <a v-if="value.href" :href="value.href" target="_blank">
+                繼續閱讀
+            </a>
         </div>
         <img
             class="card-img-right flex-auto d-none d-md-block"
@@ -29,7 +33,11 @@
             alt="Thumbnail [200x250]"
             style="width: 200px; height: auto"
             data-holder-rendered="true"
-            :src="value.imageSrc"
+            :src="
+                value.imageSrc
+                    ? value.imageSrc
+                    : 'https://storage.googleapis.com/my-blog-287510.appspot.com/%E5%B8%B8_200.png'
+            "
         />
     </div>
 </template>
@@ -39,18 +47,27 @@ export default {
         value: {
             type: Object,
             default: () => {
-                return {}
+                return {
+                    title: '',
+                    subtitle: '',
+                    date: ''
+                }
             }
         }
     },
     methods: {
         routeToPost(post) {
-            this.$router.push({
-                path: 'post',
-                query: {
-                    id: post.contentId
-                }
-            })
+            if (post.contentId) {
+                this.$router.push({
+                    path: 'post',
+                    query: {
+                        id: post.contentId
+                    }
+                })
+            }
+            if (post.href) {
+                window.open(post.href, '_blank')
+            }
         }
     }
 }

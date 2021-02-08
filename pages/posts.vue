@@ -14,6 +14,7 @@ import WidgetSearch from '@/components/widgets/Search.vue'
 import WidgetCategories from '@/components/widgets/Categories.vue'
 import Pagination from '@/components/Pagination.vue'
 import * as firebase from "firebase/app";
+import axios from 'axios'
 export default {
     components: {
         PostPreview,
