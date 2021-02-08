@@ -30,7 +30,7 @@ export default {
             }
         })
         const response = await axios.request({
-            url: 'http://localhost:3001/news',
+            url: 'https://econ-sense-server.df.r.appspot.com/news',
             params: {
                 url: 'https://news.google.com/rss/search?q=site%3Amoney.udn.com%20%22%E9%87%91%E7%AE%A1%E6%9C%83%22%20%22%E4%BF%9D%E9%9A%AA%22%20%22%E5%81%9C%E5%94%AE%22&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant'
             },

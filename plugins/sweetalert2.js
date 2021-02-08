@@ -1,3 +1,3 @@
 if (process.client) {
-    require('sweetalert2')
+    const Swal = require('sweetalert2')
 }
