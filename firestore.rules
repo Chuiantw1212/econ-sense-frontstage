@@ -1,0 +1,17 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /posts/{item} {
+      allow read: if true;
+      allow create, write: if request.auth != null && request.auth.uid == "LyFM2x5wV0S3r5lzjiILkd62aTy1";
+    }
+    match /postPreviews/{item} {
+      allow read: if true;
+      allow create, write: if request.auth != null && request.auth.uid == "LyFM2x5wV0S3r5lzjiILkd62aTy1";
+    }
+    match /activities/{activity} {
+      allow read: if true;
+      allow create, write: if request.auth != null && request.auth.uid == "LyFM2x5wV0S3r5lzjiILkd62aTy1";
+    }
+  }
+}
