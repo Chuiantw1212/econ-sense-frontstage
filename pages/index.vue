@@ -3,32 +3,32 @@
         <div class="row">
             <div class="col text-center">
                 <h1 class="bold">
-                    <strong>理財生活化</strong>
+                    <strong>常識經濟學</strong>
                 </h1>
             </div>
         </div>
         <div>
-            <p>讓理財可理解、可執行、可分享</p>
+            <p>讓富裕不再是秘密</p>
         </div>
         <div class="row">
             <div class="col-lg-4">
                 <router-link class="home__link" :to="'/flow'" :tag="'div'">
                     <Card>
-                        <h2>順向理財</h2>
+                        <h2>自我覺察</h2>
                         <img
-                            src="@/assets/icon/flow-chart.svg"
+                            src="@/assets/icon/machine-learning.svg"
                             alt="money-flow"
                         />
                     </Card>
                 </router-link>
             </div>
             <div class="col-lg-4">
-                <router-link class="home__link" :to="'/knowledge'" :tag="'div'">
+                <router-link class="home__link" :to="'/self'" :tag="'div'">
                     <Card>
-                        <h2>主動投資人生</h2>
+                        <h2>斷捨離</h2>
                         <img
-                            src="@/assets/icon/machine-learning.svg"
-                            alt="invest-knowledge"
+                            src="@/assets/icon/flow-chart.svg"
+                            alt="invest-self"
                         />
                     </Card>
                 </router-link>
@@ -36,7 +36,7 @@
             <div class="col-lg-4">
                 <router-link class="home__link" :to="'/wealth'" :tag="'div'">
                     <Card>
-                        <h2>被動投資金錢</h2>
+                        <h2>理財規劃</h2>
                         <img
                             src="@/assets/icon/invest.svg"
                             alt="invest-money"
@@ -45,7 +45,7 @@
                 </router-link>
             </div>
         </div>
-        <p class="m-0 mt-5">2019年以前我對理財一竅不通</p>
+        <p class="m-0 mt-5">2018年10月，上了人生的第一堂理財課程</p>
         <p class="m-0">2020年末，我算得出我幾年後會財富自由</p>
         <br />
         <p class="m-0">我看過許多課程</p>
@@ -59,9 +59,8 @@
         <p class="m-0">2020年末我遇上一個好團隊</p>
         <p class="m-0">讓我確定自己不孤單，也補足我對生涯財務規劃的知識藍圖</p>
         <br />
-        <p class="m-0">這是一個從無到有的故事</p>
-        <p class="m-0">就當被騙最後一次</p>
-        <p class="m-0">你願意把故事聽完嗎？</p>
+        <p class="m-0">如果你總是覺得富有有什麼秘密或是捷徑</p>
+        <p class="m-0">希望這個網站的內容可以幫助到你</p>
     </div>
 </template>
 <script>

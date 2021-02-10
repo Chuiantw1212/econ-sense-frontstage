@@ -2,13 +2,13 @@
     <div>
         <nav
             id="myNavigation"
-            class="fixed-top navbar navbar-expand-md navbar-dark bg-dark"
+            class="fixed-top navbar navbar-expand-md navbar-light bg-light"
             aria-label="breadscrumb"
         >
             <a class="navbar-brand js-scroll-trigger" :href="`/`">
                 <img
                     class="navbar__brand"
-                    src="@/assets/常-透明.png"
+                    src="@/assets/logo-letter-black.png"
                     alt="logo"
                 />
             </a>
@@ -28,20 +28,20 @@
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
-                            :to="'/flow'"
+                            :to="'/self'"
                             :active-class="'active'"
-                            @click="collapseNavbar($event)"
                         >
-                            順向理財
+                            自我覺察
                         </router-link>
                     </li>
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
-                            :to="'/knowledge'"
+                            :to="'/flow'"
                             :active-class="'active'"
+                            @click="collapseNavbar($event)"
                         >
-                            主動投資人生
+                            斷捨離
                         </router-link>
                     </li>
                     <li class="nav-item" @click="collapseNavbar($event)">
@@ -50,7 +50,7 @@
                             :to="'/wealth'"
                             :active-class="'active'"
                         >
-                            被動投資金錢
+                            理財規劃
                         </router-link>
                     </li>
 
