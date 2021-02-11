@@ -12,7 +12,7 @@
         </div>
         <div class="row">
             <div class="col-lg-4">
-                <router-link class="home__link" :to="'/flow'" :tag="'div'">
+                <router-link class="home__link" :to="'/self'" :tag="'div'">
                     <Card>
                         <h2>自我覺察</h2>
                         <img
@@ -23,9 +23,9 @@
                 </router-link>
             </div>
             <div class="col-lg-4">
-                <router-link class="home__link" :to="'/self'" :tag="'div'">
+                <router-link class="home__link" :to="'/resources'" :tag="'div'">
                     <Card>
-                        <h2>斷捨離</h2>
+                        <h2>資源盤點</h2>
                         <img
                             src="@/assets/icon/flow-chart.svg"
                             alt="invest-self"

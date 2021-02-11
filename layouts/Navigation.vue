@@ -37,11 +37,11 @@
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
-                            :to="'/flow'"
+                            :to="'/resources'"
                             :active-class="'active'"
                             @click="collapseNavbar($event)"
                         >
-                            斷捨離
+                            資源盤點
                         </router-link>
                     </li>
                     <li class="nav-item" @click="collapseNavbar($event)">
@@ -73,7 +73,7 @@
                             精選新聞
                         </router-link>
                     </li>
-                    <li class="nav-item" @click="collapseNavbar($event)">
+                    <!-- <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
                             :to="'/ifa'"
@@ -81,7 +81,7 @@
                         >
                             實體活動
                         </router-link>
-                    </li>
+                    </li> -->
                     <!-- <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link myNavigation__aboutMe"
@@ -146,8 +146,9 @@ export default {
 </script>
 <style lang="scss" scoped>
 #myNavigation {
+    opacity: 0.9;
     .navigation__brItem {
-        color: rgba(255, 255, 255, 0.5);
+        color: black;
         display: block;
         padding: 0.5rem;
         cursor: default;
