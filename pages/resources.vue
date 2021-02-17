@@ -1,9 +1,7 @@
 <template>
     <div class="container text-center py-5">
         <h1>資源盤點</h1>
-        <p class="m-0">
-            時間、金錢、人際關係
-        </p>
+        <p class="m-0">時間、金錢、人際關係</p>
         <hr />
         <h2>耐用的消費</h2>
         <p>選擇保固期最久的，其次是最讓自己心動的</p>
@@ -102,43 +100,47 @@
         <p></p>
         <p></p>
         <h2>斷捨離</h2>
+        <p>用2021年整年驗證中......</p>
         <h2>定期檢視</h2>
         <p>有意識的檢視時間、金錢、人脈</p>
-        <!-- <p class="m-0">金融科技與法規的進步</p>
-        <p class="m-0">讓不動手就能記帳這件事情成為現實</p>
-        <a
-            rel="noreferrer"
-            href="https://moneybook.com.tw/?referrer=CQxbIc"
-            target="_blank"
-        >
-            <img
-                src="https://storage.googleapis.com/my-blog-287510.appspot.com/flow/moneybook.jpg"
-                alt="麻布記帳"
-            />
-        </a>
-        <p class="m-0">
-            <a
-                rel="noreferrer"
-                href="https://moneybook.com.tw/?referrer=CQxbIc"
-                target="_blank"
-                >麻布記帳</a
-            >綁定網路銀行權限，自動同步更新所有收支，從此不再需要紀錄發票
-        </p>
-        <p class="m-0">這樣的金融服務，每個月月費要收多少呢</p>
-        <br />
-        <p class="m-0 text-danger">免費</p>
-        <br />
-        <p class="m-0">
-            透過
-            <a
-                rel="noreferrer"
-                href="https://moneybook.com.tw/?referrer=CQxbIc"
-                target="_blank"
-                >連結</a
-            >
-            取得15天免費同步
-        </p>
-        <p class="m-0">15天過後也只是換成要手動去按某一顆按鈕同步而已</p>
-        <p class="m-0">功能依舊強大，而且依舊免費</p> -->
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-5">
+                <a
+                    rel="noreferrer"
+                    href="https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/products/11100912211.html?"
+                    target="_blank"
+                >
+                    <img
+                        src="https://storage.googleapis.com/my-blog-287510.appspot.com/resources/OTPR.jpeg"
+                        alt="OTPR敏捷工作法"
+                    />
+                </a>
+            </div>
+            <div class="col-12 col-md-5">
+                <p class="m-0 mt-4">書中前段解釋何謂OTPR，與它們的重要性</p>
+                <p class="m-0">中段逐一闡釋OTPR的組成</p>
+                <div class="row justify-content-center">
+                    <ul>
+                        <li>O是目標</li>
+                        <li>T是時間</li>
+                        <li>P是專案管理</li>
+                        <li>R是復盤</li>
+                    </ul>
+                </div>
+                <p class="m-0">書後段訪問了許多人的時間管理方式</p>
+                <p class="m-0">讓整本書的前中段得以用具體經驗實證</p>
+                <br />
+                <p class="m-0">除了傳心法以外、更講授做法</p>
+                <p class="m-0">讓讀者學習時間管理以外</p>
+                <p class="m-0">還能應用Google Calendar這個工具</p>
+                <a
+                    rel="noreferrer"
+                    href="https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/products/11100912211.html?"
+                    target="_blank"
+                >
+                    <p class="m-0">提升自我效率</p>
+                </a>
+            </div>
+        </div>
     </div>
 </template>

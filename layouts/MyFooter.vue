@@ -51,5 +51,8 @@ export default {
     .footer__info {
         text-align: center;
     }
+    .footer__claim {
+        font-size: 16px;
+    }
 }
 </style>

@@ -8,6 +8,11 @@
                 <PostPreview v-model="posts[index]"></PostPreview>
             </div>
         </div>
+        <br />
+        <span class="footer__info">
+            <a href="https://ctee.com.tw/" target="_blank">工商時報</a>
+            相關新聞標題與內容之著作權與智慧財產權均屬原網站及原作者所有，本網站僅提供新聞聯播，不主張任何權利。</span
+        >
     </div>
 </template>
 <script>
