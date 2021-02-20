@@ -53,8 +53,7 @@
                             理財規劃
                         </router-link>
                     </li>
-
-                    <li class="nav-item navigation__brItem">｜</li>
+                    <!-- <li class="nav-item navigation__brItem">｜</li> -->
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"

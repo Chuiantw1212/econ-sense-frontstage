@@ -32,10 +32,13 @@ export default {
     }
 }
 </script>
-<style>
+<style lang="scss">
 .app {
     font-family: "Noto Sans TC", sans-serif;
     padding-top: 68px;
+    p {
+        margin: 0;
+    }
 }
 .container {
     min-height: 100vh;

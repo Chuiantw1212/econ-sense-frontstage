@@ -1,7 +1,8 @@
 <template>
     <div class="container text-center py-5">
         <h1>理財規劃</h1>
-        <p>賺快錢行不通。耐心經營總會勝過急功近利</p>
+        <p>賺快錢行不通，</p>
+        <p>耐心經營總會勝過急功近利。</p>
         <hr />
         <h2>記帳</h2>
         <p class="m-0">金融科技與法規的進步</p>
@@ -108,9 +109,8 @@
             </tbody>
         </table>
         <h2>資產配置</h2>
-        <p class="m-0">
-            再怎麼保守，都應該配有25%股票；再怎麼激進，都應該配有25%債券。
-        </p>
+        <p>再怎麼保守，都應該配有25%股票；</p>
+        <p>再怎麼激進，都應該配有25%債券。</p>
         <br />
         <table class="table table-bordered">
             <thead>
@@ -170,68 +170,95 @@
             </tbody>
         </table>
         <br />
-        <h2>通路與訊息</h2>
+        <h2>通路訊息</h2>
+        <p>給你滿滿的大平台。</p>
         <br />
         <div class="row">
-            <div class="card col-12 col-lg-4">
-                <a
-                    class="card-img-top"
-                    rel="noreferrer"
-                    href="https://www.google.com/search?q=智富台灣基金獎"
-                    target="_blank"
-                >
-                    <img
-                        alt="智富台灣基金獎"
-                        src="https://storage.googleapis.com/my-blog-287510.appspot.com/wealth/smart.jpg"
-                    />
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title">智富台灣基金獎</h5>
-                    <p>沒有通通有獎的行銷成分</p>
-                    <p>裡面所獲獎的"全球多重資產基金"</p>
-                    <p>很適合作為存基金的初始標的</p>
-                    <p>偏好低波動的話</p>
-                    <p>可以用全球債券基金取代</p>
+            <div class="col-12 col-lg-4">
+                <div class="card m-2">
+                    <a
+                        class="card-img-top card__link"
+                        rel="noreferrer"
+                        href="https://bb.ezfunds.com.tw/"
+                        target="_blank"
+                    >
+                        <img
+                            class="card__image"
+                            alt="中租投顧"
+                            src="https://storage.googleapis.com/my-blog-287510.appspot.com/wealth/ez.jpg"
+                        />
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">中租投顧</h5>
+                        <p class="text-left">
+                            基金公司通常不想公開Alpha值，這通常代表自己的操盤手輸給市場。中租投顧是少數把5年Alpha值大方擺上的投顧，保證找到優秀的基金，絕對值得長期往來
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="card col-12 col-lg-4 py-1">
-                <a
-                    rel="noreferrer"
-                    href="https://bb.ezfunds.com.tw/"
-                    target="_blank"
-                >
-                    <img
-                        alt="中租投顧"
-                        src="https://storage.googleapis.com/my-blog-287510.appspot.com/wealth/ez.jpg"
-                    />
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title">中租投顧</h5>
-                    <p>中租投顧 是業界最為投資人著想的投顧了</p>
-                    <p>基金公司不想公開的Alpha值大方擺上</p>
-                    <p>那怕能申購的基金比較少</p>
-                    <p>也能保證找到優秀的基金</p>
-                    <p>絕對值得長期往來</p>
+            <div class="col-12 col-lg-4">
+                <div class="card m-2">
+                    <a
+                        rel="noreferrer"
+                        href="https://www.lnb.com.tw/activity/mgm/1/CGBY113/1161359209"
+                        target="_blank"
+                    >
+                        <img
+                            alt="Lnb信用市集"
+                            class="card__image"
+                            src="https://storage.googleapis.com/my-blog-287510.appspot.com/wealth/Lnb-logo-2.jpg"
+                        />
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">LnB信用市集</h5>
+                        <p>台灣最好的P2P借貸平台</p>
+                        <p>不斷的擴充選項給投資人</p>
+                        <p>自動下單免盯盤的蘿菠投方案</p>
+                        <p>更是大舉把其他平台給甩在後面</p>
+                    </div>
                 </div>
             </div>
-            <div class="card col-12 col-lg-4 py-1">
-                <a
-                    rel="noreferrer"
-                    href="https://www.lnb.com.tw/activity/mgm/1/CGBY113/1161359209"
-                    target="_blank"
-                >
-                    <img
-                        alt="Lnb信用市集"
-                        class="col-8 col-lg-12"
-                        src="https://storage.googleapis.com/my-blog-287510.appspot.com/wealth/Lnb-logo-2.jpg"
-                    />
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title">LnB信用市集</h5>
-                    <p>台灣最好的P2P借貸平台</p>
-                    <p>不斷的擴充選項給投資人</p>
-                    <p>自動下單免盯盤的蘿菠投方案</p>
-                    <p>更是大舉把其他平台給甩在後面</p>
+            <div class="col-12 col-lg-4">
+                <div class="card m-2">
+                    <a
+                        rel="noreferrer"
+                        href="www.sunnyfounder.com/i/F98QOW"
+                        target="_blank"
+                    >
+                        <img
+                            alt="陽光伏特家"
+                            class="card__image"
+                            src="https://storage.googleapis.com/my-blog-287510.appspot.com/wealth/sunnyfounder.jpg"
+                        />
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">陽光伏特家</h5>
+                        <p class="text-left">
+                            出資太陽能農場，不定期會釋出案件，也有監控系統監看每個電廠的發電狀況，平均收益更高達6%。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="card m-2">
+                    <a
+                        class="card-img-top"
+                        rel="noreferrer"
+                        href="https://www.google.com/search?q=智富台灣基金獎"
+                        target="_blank"
+                    >
+                        <img
+                            class="card__image"
+                            alt="智富台灣基金獎"
+                            src="https://storage.googleapis.com/my-blog-287510.appspot.com/wealth/smart.jpg"
+                        />
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">智富台灣基金獎</h5>
+                        <p class="text-left">
+                            其中獲獎的"全球多重資產基金"，很適合作為存基金，偏好低波動的話可以用全球債券基金取代
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -276,4 +303,19 @@ export default {
     }
 }
 </script>
-<scss>
+<style lang="scss" scoped>
+.card__link {
+    // min-height: 280px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card__image {
+    // display: block;
+    // // height: 300px;
+    // width: auto;
+    align-self: center;
+    max-width: 240px;
+    // max-height: 100%;
+}
+</style>
