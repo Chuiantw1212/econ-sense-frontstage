@@ -175,9 +175,8 @@
         <br />
         <div class="row">
             <div class="col-12 col-lg-4">
-                <div class="card m-2">
+                <div class="card m-1">
                     <a
-                        class="card-img-top card__link"
                         rel="noreferrer"
                         href="https://bb.ezfunds.com.tw/"
                         target="_blank"
@@ -197,7 +196,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-4">
-                <div class="card m-2">
+                <div class="card my-1">
                     <a
                         rel="noreferrer"
                         href="https://www.lnb.com.tw/activity/mgm/1/CGBY113/1161359209"
@@ -211,15 +210,12 @@
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">LnB信用市集</h5>
-                        <p>台灣最好的P2P借貸平台</p>
-                        <p>不斷的擴充選項給投資人</p>
-                        <p>自動下單免盯盤的蘿菠投方案</p>
-                        <p>更是大舉把其他平台給甩在後面</p>
+                        <p class="text-left">台灣最好的P2P借貸平台，不斷的擴充選項給投資人，自動下單免盯盤的蘿菠投方案，更是大舉把其他平台給甩在後面</p>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-lg-4">
-                <div class="card m-2">
+                <div class="card my-1">
                     <a
                         rel="noreferrer"
                         href="www.sunnyfounder.com/i/F98QOW"
@@ -240,7 +236,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-4">
-                <div class="card m-2">
+                <div class="card my-1">
                     <a
                         class="card-img-top"
                         rel="noreferrer"
@@ -304,18 +300,8 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.card__link {
-    // min-height: 280px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
 .card__image {
-    // display: block;
-    // // height: 300px;
-    // width: auto;
     align-self: center;
     max-width: 240px;
-    // max-height: 100%;
 }
 </style>

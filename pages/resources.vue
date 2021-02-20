@@ -6,6 +6,7 @@
         <h2>耐用的消費</h2>
         <p>選擇保固期最久的，其次是最讓自己心動的</p>
         <p>有關耐久財與品牌保固的關聯，請點下方按鈕</p>
+        <br />
         <div class="row justify-content-center">
             <button
                 class="btn btn-primary"
@@ -18,8 +19,8 @@
                 展開相關列表
             </button>
         </div>
-        <br />
         <div class="collapse" id="collapseExample">
+            <br />
             <div class="card card-body">
                 <table class="table">
                     <thead>
@@ -101,6 +102,7 @@
         <p></p>
         <h2>斷捨離</h2>
         <p>用2021年整年驗證中......</p>
+        <br />
         <h2>定期檢視</h2>
         <p>有意識的檢視時間、金錢、人脈</p>
         <div class="row justify-content-center">

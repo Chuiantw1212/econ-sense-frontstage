@@ -1,9 +1,8 @@
 <template>
     <div class="container text-center py-5">
         <h1>自我覺察</h1>
-        <p class="m-0">
-            截斷一切偷心，自然正念常存。譬如滴水穿石，何愁入道無門。
-        </p>
+        <p class="m-0">截斷一切偷心，自然正念常存。</p>
+        <p class="m-0">譬如滴水穿石，何愁入道無門。</p>
         <hr />
         <h2>1. 找對老師與學習方法</h2>
         <img
@@ -75,121 +74,130 @@
         <p class="m-0">能力有所增長，也才能驅動OPT, OPM, OPR</p>
         <br />
         <div class="row">
-            <div class="card col-12 col-lg-4">
-                <a
-                    class="card-img-top"
-                    rel="noreferrer"
-                    href="https://www.ext.scu.edu.tw/"
-                    target="_blank"
-                >
-                    <img
-                        src="https://storage.googleapis.com/my-blog-287510.appspot.com/knowledge/suchow.jpg"
-                        alt="東吳大學進修部"
-                    />
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title">東吳大學推廣部</h5>
-                    <p class="card-text">時數長，手把手教，費用實惠</p>
-                    <p>
-                        交通
-                        <span class="text-danger">非常</span>
-                        方便
-                    </p>
-                    <p>從西門捷運站2出口只要走6分鐘就到了</p>
-                </div>
-            </div>
-            <div class="card col-12 col-lg-4 py-2">
-                <a
-                    class="card-img-top"
-                    rel="noreferrer"
-                    href="https://www.accupass.com/"
-                    target="_blank"
-                >
-                    <img
-                        class="col-8 col-lg-12"
-                        src="https://storage.googleapis.com/my-blog-287510.appspot.com/knowledge/social_media_accupass_logo.jpg"
-                        alt="活動通"
-                    />
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title">活動通</h5>
-                    <p class="card-text">
-                        我在
-                        <a
-                            rel="noreferrer"
-                            href="https://www.accupass.com/"
-                            target="_blank"
-                            >活動通</a
-                        >
-                        參加上百場活動了
-                    </p>
-                    <p>從對理財一竅不通到能夠出來<del>傳教</del>分享</p>
-                    <p>超過一半的心路歷程是跟Accupass有關</p>
-                    <p>絕對推薦給學習慾望強烈想拓展自己的人</p>
-                </div>
-            </div>
-            <div class="card col-12 col-lg-4">
-                <div class="card-body">
+            <div class="col-12 col-lg-4">
+                <div class="card m-1">
                     <a
-                        class="card-img-top"
                         rel="noreferrer"
-                        href="https://www.kscthinktank.com.tw/"
+                        href="https://www.ext.scu.edu.tw/"
                         target="_blank"
                     >
                         <img
-                            class="d-block m-auto"
-                            src="https://storage.googleapis.com/my-blog-287510.appspot.com/knowledge/readforyou.png"
-                            alt="為你而讀"
+                            class="card__image"
+                            src="https://storage.googleapis.com/my-blog-287510.appspot.com/knowledge/suchow.jpg"
+                            alt="東吳大學進修部"
                         />
                     </a>
-                    <br />
-                    <h5 class="card-title">為你而讀</h5>
-                    <p>主要為自我成長等偏商業的主題</p>
-                    <p>每個月都會固定開班，內容CP值破表</p>
+                    <div class="card-body">
+                        <h5 class="card-title">東吳大學推廣部</h5>
+                        <p class="card-text">時數長，手把手教，費用實惠</p>
+                        <p>
+                            交通
+                            <span class="text-danger">非常</span>
+                            方便
+                        </p>
+                        <p>從西門捷運站2出口只要走6分鐘就到了</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="card m-2 p-1">
+                    <a
+                        rel="noreferrer"
+                        href="https://www.accupass.com/"
+                        target="_blank"
+                    >
+                        <img
+                            class="card__image"
+                            src="https://storage.googleapis.com/my-blog-287510.appspot.com/knowledge/social_media_accupass_logo.jpg"
+                            alt="活動通"
+                        />
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">活動通</h5>
+                        <p class="card-text">
+                            我在
+                            <a
+                                rel="noreferrer"
+                                href="https://www.accupass.com/"
+                                target="_blank"
+                                >活動通</a
+                            >
+                            參加上百場活動了
+                        </p>
+                        <p>從對理財一竅不通到能夠出來<del>傳教</del>分享</p>
+                        <p>超過一半的心路歷程是跟Accupass有關</p>
+                        <p>絕對推薦給學習慾望強烈想拓展自己的人</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="card m-1">
+                    <div class="card-body">
+                        <a
+                            class="card-img-top"
+                            rel="noreferrer"
+                            href="https://www.kscthinktank.com.tw/"
+                            target="_blank"
+                        >
+                            <img
+                                class="card__image"
+                                src="https://storage.googleapis.com/my-blog-287510.appspot.com/knowledge/readforyou.png"
+                                alt="為你而讀"
+                            />
+                        </a>
+                        <br />
+                        <h5 class="card-title">為你而讀</h5>
+                        <p>主要為自我成長等偏商業的主題</p>
+                        <p>每個月都會固定開班，內容CP值破表</p>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="card col-12 col-lg-4">
-                <div class="card-body">
-                    <a
-                        class="card-img-top"
-                        rel="noreferrer"
-                        href="https://www.darencademy.com/course"
-                        target="_blank"
-                    >
-                        <img
-                            class="d-block m-auto"
-                            src="https://storage.googleapis.com/my-blog-287510.appspot.com/knowledge/daren.png"
-                            alt="大人學"
-                        />
-                    </a>
-                    <br />
-                    <h5 class="card-title">大人學</h5>
-                    <p>除了有PMI PDU相關的課程以外</p>
-                    <p>也有一些買車買房結婚之類等</p>
-                    <p>名符其實的大人必學的課題</p>
+            <div class="col-12 col-lg-4">
+                <div class="card m-1">
+                    <div class="card-body">
+                        <a
+                            class="card-img-top"
+                            rel="noreferrer"
+                            href="https://www.darencademy.com/course"
+                            target="_blank"
+                        >
+                            <img
+                                class="card__image"
+                                src="https://storage.googleapis.com/my-blog-287510.appspot.com/knowledge/daren.png"
+                                alt="大人學"
+                            />
+                        </a>
+                        <br />
+                        <h5 class="card-title">大人學</h5>
+                        <p>除了有PMI PDU相關的課程以外</p>
+                        <p>也有一些買車買房結婚之類等</p>
+                        <p>名符其實的大人必學的課題</p>
+                    </div>
                 </div>
             </div>
-            <div class="card col-12 col-lg-4">
-                <div class="card-body">
-                    <a
-                        class="card-img-top"
-                        rel="noreferrer"
-                        href="https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/goods/11100899131.html?"
-                        target="_blank"
-                    >
-                        <img
-                            class="d-block m-auto"
-                            src="https://storage.googleapis.com/my-blog-287510.appspot.com/knowledge/tazze.jpg"
-                            alt="讀冊生活"
-                        />
-                    </a>
-                    <br />
-                    <h5 class="card-title">讀冊生活</h5>
-                    <p>可以購買二手書籍</p>
-                    <p>也可以賣二手書籍</p>
-                    <p>讓家中不要的藏書可以發揮效用</p>
+            <div class="col-12 col-lg-4">
+                <div class="card m-1">
+                    <div class="card-body">
+                        <a
+                            class="card-img-top"
+                            rel="noreferrer"
+                            href="https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/goods/11100899131.html?"
+                            target="_blank"
+                        >
+                            <img
+                                class="card__image"
+                                src="https://storage.googleapis.com/my-blog-287510.appspot.com/knowledge/tazze.jpg"
+                                alt="讀冊生活"
+                            />
+                        </a>
+                        <br />
+                        <h5 class="card-title">讀冊生活</h5>
+                        <p>可以購買二手書籍</p>
+                        <p>也可以賣二手書籍</p>
+                        <p>讓家中不要的藏書可以發揮效用</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -246,3 +254,9 @@
         <br />
     </div>
 </template>
+<style lang="scss" scoped>
+.card__image {
+    align-self: center;
+    max-width: 240px;
+}
+</style>
