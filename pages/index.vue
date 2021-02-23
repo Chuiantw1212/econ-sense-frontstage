@@ -13,9 +13,9 @@
             </div>
             <div class="row">
                 <div class="col-lg-4">
-                    <router-link class="home__link" :to="'/self'" :tag="'div'">
+                    <router-link class="home__link" :to="'/intake'" :tag="'div'">
                         <Card>
-                            <h2>自我覺察</h2>
+                            <h2>開源</h2>
                             <img
                                 src="@/assets/icon/machine-learning.svg"
                                 alt="money-flow"
@@ -30,7 +30,7 @@
                         :tag="'div'"
                     >
                         <Card>
-                            <h2>資源盤點</h2>
+                            <h2>資源管理</h2>
                             <img
                                 src="@/assets/icon/flow-chart.svg"
                                 alt="invest-self"
@@ -45,7 +45,7 @@
                         :tag="'div'"
                     >
                         <Card>
-                            <h2>理財規劃</h2>
+                            <h2>累積資產</h2>
                             <img
                                 src="@/assets/icon/invest.svg"
                                 alt="invest-money"

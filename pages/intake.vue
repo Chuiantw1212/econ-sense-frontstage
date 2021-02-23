@@ -100,7 +100,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-4">
-                <div class="card m-2 p-1">
+                <div class="card m-1 p-1">
                     <a
                         rel="noreferrer"
                         href="https://www.accupass.com/"

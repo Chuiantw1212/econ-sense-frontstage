@@ -28,10 +28,10 @@
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
-                            :to="'/self'"
+                            :to="'/intake'"
                             :active-class="'active'"
                         >
-                            自我覺察
+                            開源
                         </router-link>
                     </li>
                     <li class="nav-item" @click="collapseNavbar($event)">
@@ -41,7 +41,7 @@
                             :active-class="'active'"
                             @click="collapseNavbar($event)"
                         >
-                            資源盤點
+                            資源管理
                         </router-link>
                     </li>
                     <li class="nav-item" @click="collapseNavbar($event)">
@@ -50,7 +50,7 @@
                             :to="'/wealth'"
                             :active-class="'active'"
                         >
-                            理財規劃
+                            累積資產
                         </router-link>
                     </li>
                     <!-- <li class="nav-item navigation__brItem">｜</li> -->
@@ -70,6 +70,15 @@
                             :active-class="'active'"
                         >
                             精選新聞
+                        </router-link>
+                    </li>
+                    <li class="nav-item" @click="collapseNavbar($event)">
+                        <router-link
+                            class="nav-link"
+                            :to="'/lessons'"
+                            :active-class="'active'"
+                        >
+                            好書推薦
                         </router-link>
                     </li>
                     <!-- <li class="nav-item" @click="collapseNavbar($event)">
