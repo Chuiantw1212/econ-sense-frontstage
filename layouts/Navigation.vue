@@ -28,7 +28,7 @@
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
-                            :to="'/self'"
+                            :to="'/intake'"
                             :active-class="'active'"
                         >
                             自我覺察
@@ -41,7 +41,7 @@
                             :active-class="'active'"
                             @click="collapseNavbar($event)"
                         >
-                            資源盤點
+                            資源管理
                         </router-link>
                     </li>
                     <li class="nav-item" @click="collapseNavbar($event)">
@@ -50,7 +50,7 @@
                             :to="'/wealth'"
                             :active-class="'active'"
                         >
-                            理財規劃
+                            累積資產
                         </router-link>
                     </li>
                     <!-- <li class="nav-item navigation__brItem">｜</li> -->
@@ -72,6 +72,15 @@
                             精選新聞
                         </router-link>
                     </li>
+                    <!-- <li class="nav-item" @click="collapseNavbar($event)">
+                        <router-link
+                            class="nav-link"
+                            :to="'/lessons'"
+                            :active-class="'active'"
+                        >
+                            好書推薦
+                        </router-link>
+                    </li> -->
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
@@ -81,28 +90,6 @@
                             關於作者
                         </router-link>
                     </li>
-                    <!-- <li class="nav-item" @click="collapseNavbar($event)">
-                        <router-link
-                            class="nav-link"
-                            :to="'/ifa'"
-                            :active-class="'active'"
-                        >
-                            實體活動
-                        </router-link>
-                    </li> -->
-                    <!-- <li class="nav-item" @click="collapseNavbar($event)">
-                        <router-link
-                            class="nav-link myNavigation__aboutMe"
-                            :to="'/special'"
-                        >
-                            <span class="aboutMe__description">關於網站</span>
-                            <img
-                                alt="myAvatar"
-                                class="aboutMe__avatar"
-                                src="https://storage.googleapis.com/my-blog-287510.appspot.com/myAvatar.png"
-                            />
-                        </router-link>
-                    </li> -->
                 </ul>
             </div>
         </nav>

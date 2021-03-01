@@ -2,7 +2,7 @@
     <div class="container py-5">
         <div class="row justify-content-center">
             <!-- Post Content Column -->
-            <div class="col col-lg-8">
+            <div v-if="post" class="col col-lg-8">
                 <!-- Title -->
                 <h1 class>{{ post.title }}</h1>
 
@@ -32,7 +32,7 @@ export default {
     },
     data: function () {
         return {
-            post: {}
+            post: null
         }
     },
     computed: {
