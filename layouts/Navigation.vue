@@ -72,6 +72,15 @@
                             精選新聞
                         </router-link>
                     </li>
+                    <li class="nav-item" @click="collapseNavbar($event)">
+                        <router-link
+                            class="nav-link"
+                            :to="'/special'"
+                            :active-class="'active'"
+                        >
+                            關於作者
+                        </router-link>
+                    </li>
                     <!-- <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"

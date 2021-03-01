@@ -47,7 +47,7 @@ export default {
         const parser = new DOMParser();
         const xmlDoc = parser.parseFromString(response.data, "text/xml");
         const items = xmlDoc.getElementsByTagName('item')
-        const posts = Array.from(items).map((item) => {
+        let posts = Array.from(items).map((item) => {
             const title = item.getElementsByTagName('title')[0].innerHTML
             const date = item.getElementsByTagName('pubDate')[0].innerHTML
             const descriptionHTML = item.getElementsByTagName('description')[0].innerHTML
@@ -60,7 +60,13 @@ export default {
                 imageSrc: 'https://storage.googleapis.com/my-blog-287510.appspot.com/%E5%B7%A5%E5%95%86%E6%99%82%E5%A0%B1.jpg'
             }
         })
-        this.posts = posts.slice(0, 5)
+        posts.sort((one, another) => {
+            const oneTime = new Date(one.date)
+            const anotherTime = new Date(another.date)
+            return anotherTime - oneTime
+        })
+        posts = posts.slice(0, 8)
+        this.posts = posts
         Swal.close()
     }
 }

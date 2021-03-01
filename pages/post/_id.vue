@@ -1,86 +1,79 @@
 <template>
-	<div class="container pt-4">
-		<div class="row justify-content-center">
-			<!-- Post Content Column -->
-			<div class="col col-lg-8">
-				<!-- Title -->
-				<h1 class>{{ post.title }}</h1>
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <!-- Post Content Column -->
+            <div class="col col-lg-8">
+                <!-- Title -->
+                <h1 class>{{ post.title }}</h1>
 
-				<!-- Date/Time -->
-				<p>發布時間: {{ post.date | formatDate }}</p>
+                <!-- Date/Time -->
+                <p>發布時間: {{ post.date | formatDate }}</p>
 
-				<hr />
+                <hr />
 
-				<!-- Preview Image -->
-				<img class="post__image" :src="post.imageSrc" alt />
-
-				<hr />
-
-				<!-- Post Content -->
-				<div v-html="post.content"></div>
-
-				<hr />
-			</div>
-		</div>
-		<!-- <div class="row my-5">
+                <!-- Post Content -->
+                <div class="post__content" v-html="post.content"></div>
+            </div>
+        </div>
+        <!-- <div class="row my-5">
+                <hr />
 			<PostRelative></PostRelative>
 			<PostRelative></PostRelative>
 			<PostRelative></PostRelative>
 		</div> -->
-	</div>
+    </div>
 </template>
 <script>
 import PostRelative from '@/components/PostRelative.vue'
 import * as firebase from "firebase/app";
 export default {
-	components: {
-		PostRelative
-	},
-	data: function () {
-		return {
-			post: {}
-		}
-	},
-	computed: {
-		docId() {
-			return this.$route.query.id
-		}
-	},
-	mounted() {
-		const attemptToRead = () => {
-			window.requestAnimationFrame(() => {
-				if (firebase.app) {
-					this.readPostSync()
-				} else {
-					attemptToRead()
-				}
-			})
-		}
-		if (process.client) {
-			attemptToRead()
-		}
-	},
-	methods: {
-		getLocalDate(date) {
-			const dateInstance = new Date(date)
-			const localDate = dateInstance.toLocaleString()
-			return localDate
-		},
-		async readPostSync() {
-			const db = firebase.firestore()
-			const docRef = db.collection('posts').doc(this.docId)
-			const docSnapShot = await docRef.get()
-			const docData = docSnapShot.data()
-			this.post = docData
-			console.log({
-				docData
-			})
-		}
-	}
+    components: {
+        PostRelative
+    },
+    data: function () {
+        return {
+            post: {}
+        }
+    },
+    computed: {
+        docId() {
+            return this.$route.query.id
+        }
+    },
+    mounted() {
+        const attemptToRead = () => {
+            window.requestAnimationFrame(() => {
+                if (firebase.app) {
+                    this.readPostSync()
+                } else {
+                    attemptToRead()
+                }
+            })
+        }
+        if (process.client) {
+            attemptToRead()
+        }
+    },
+    methods: {
+        getLocalDate(date) {
+            const dateInstance = new Date(date)
+            const localDate = dateInstance.toLocaleString()
+            return localDate
+        },
+        async readPostSync() {
+            const db = firebase.firestore()
+            const docRef = db.collection('posts').doc(this.docId)
+            const docSnapShot = await docRef.get()
+            const docData = docSnapShot.data()
+            this.post = docData
+        }
+    }
 }
 </script>
 <style lang="scss" scoped>
-.post__image {
-	width: 100%;
+.container {
+    .post__image {
+        width: 100%;
+    }
 }
 </style>
