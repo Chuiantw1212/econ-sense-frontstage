@@ -10,57 +10,73 @@
                 <div class="col-12 col-md-4">
                     <div class="card m-1 pb-4">
                         <div class="card-body">
-                            <h3 class="card-title">自我認同</h3>
-                            <hr />
+                            <h3 class="card-title">自我覺察</h3>
                             <p class="card-subtitle text-muted">
-                                告別菜尾世代：大膽向世界遞履歷，我在哈佛體系的觀察
+                                大氣可以晚成：當世界沉迷年少得志，耐心是你成功的本事
+                            </p>
+                            <p>
+                                (
+                                <a
+                                    href="https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/usedList.html?oid=11100884682?a=t"
+                                    target="_blank"
+                                    >二手書</a
+                                >
+                                /
+                                <a
+                                    href="https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/products/11100884682.html?"
+                                    target="_blank"
+                                    >新書</a
+                                >
+                                )
                             </p>
                         </div>
-                        <a
-                            rel="noreferrer"
-                            href="https://www.accupass.com/"
-                            target="_blank"
-                        >
-                            <img
-                                class="card__image"
-                                src="https://storage.googleapis.com/my-blog-287510.appspot.com/%E5%B8%B8_200.png"
-                                alt="活動通"
-                            />
-                        </a>
+                        <img
+                            class="card__image"
+                            src="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/latebloomers.jpeg"
+                            alt="大氣可以晚成"
+                        />
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="card m-1 pb-4">
                         <div class="card-body">
                             <h3 class="card-title">累積專業</h3>
-                            <hr />
                             <p class="card-subtitle text-muted">
                                 你花掉的錢都會自己流回來
                             </p>
+                            <p>
+                                (
+                                <a
+                                    href="https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/usedList.html?oid=11100868187?a=t"
+                                    target="_blank"
+                                    >二手書</a
+                                >
+                                /
+                                <a
+                                    href="https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/products/11100868187.html?"
+                                    target="_blank"
+                                    >新書</a
+                                >
+                                )
+                            </p>
                         </div>
-                        <a
-                            rel="noreferrer"
-                            href="https://www.accupass.com/"
-                            target="_blank"
-                        >
-                            <img
-                                class="card__image"
-                                src="https://storage.googleapis.com/my-blog-287510.appspot.com/%E5%B8%B8_200.png"
-                                alt="活動通"
-                            />
-                        </a>
+                        <img
+                            class="card__image"
+                            src="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/%E8%8A%B1%E6%8E%89%E7%9A%84%E9%8C%A2%E9%83%BD%E6%9C%83%E8%87%AA%E5%B7%B1%E6%B5%81%E5%9B%9E%E4%BE%86.jpeg"
+                            alt="你花掉的錢都會自己流回來"
+                        />
                     </div>
                 </div>
             </div>
         </section>
         <section class="mt-5">
-            <h2>持續經營與管理</h2>
+            <h2>生活經營與管理</h2>
             <div class="row">
                 <div class="col-12 col-md-4">
                     <div class="card m-1 pb-4">
                         <div class="card-body">
                             <h3 class="card-title">時間管理、目標管理</h3>
-                            <hr />
+                            <!-- <hr /> -->
                             <p class="card-subtitle text-muted">
                                 OTPR敏捷工作法：拿回績效主導權，讓工作做得更快、更好、更有價值
                             </p>
@@ -220,9 +236,7 @@
                         <div class="card-body">
                             <h3 class="card-title">財報視讀</h3>
                             <hr />
-                            <p class="card-subtitle text-muted">
-                                目前從缺
-                            </p>
+                            <p class="card-subtitle text-muted">目前從缺</p>
                         </div>
                         <a
                             rel="noreferrer"

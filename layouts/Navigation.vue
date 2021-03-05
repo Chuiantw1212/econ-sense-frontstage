@@ -31,7 +31,7 @@
                             :to="'/intake'"
                             :active-class="'active'"
                         >
-                            自我覺察
+                            自我定位
                         </router-link>
                     </li>
                     <li class="nav-item" @click="collapseNavbar($event)">
