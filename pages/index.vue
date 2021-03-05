@@ -15,7 +15,7 @@
                 <div class="col-lg-4">
                     <router-link class="home__link" :to="'/intake'" :tag="'div'">
                         <Card>
-                            <h2>開源</h2>
+                            <h2>自我定位</h2>
                             <img
                                 src="@/assets/icon/machine-learning.svg"
                                 alt="money-flow"

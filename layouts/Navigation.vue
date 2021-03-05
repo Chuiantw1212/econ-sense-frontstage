@@ -31,7 +31,7 @@
                             :to="'/intake'"
                             :active-class="'active'"
                         >
-                            自我覺察
+                            自我定位
                         </router-link>
                     </li>
                     <li class="nav-item" @click="collapseNavbar($event)">
@@ -41,7 +41,7 @@
                             :active-class="'active'"
                             @click="collapseNavbar($event)"
                         >
-                            資源管理
+                            經營管理
                         </router-link>
                     </li>
                     <li class="nav-item" @click="collapseNavbar($event)">
@@ -53,7 +53,15 @@
                             累積資產
                         </router-link>
                     </li>
-                    <!-- <li class="nav-item navigation__brItem">｜</li> -->
+                    <li class="nav-item" @click="collapseNavbar($event)">
+                        <router-link
+                            class="nav-link"
+                            :to="'/lessons'"
+                            :active-class="'active'"
+                        >
+                            好書推薦
+                        </router-link>
+                    </li>
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
@@ -72,15 +80,6 @@
                             精選新聞
                         </router-link>
                     </li>
-                    <!-- <li class="nav-item" @click="collapseNavbar($event)">
-                        <router-link
-                            class="nav-link"
-                            :to="'/lessons'"
-                            :active-class="'active'"
-                        >
-                            好書推薦
-                        </router-link>
-                    </li> -->
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
