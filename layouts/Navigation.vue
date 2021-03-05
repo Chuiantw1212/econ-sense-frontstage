@@ -28,7 +28,7 @@
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
-                            :to="'/intake'"
+                            :to="'/self'"
                             :active-class="'active'"
                         >
                             自我定位
