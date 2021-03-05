@@ -8,13 +8,7 @@
                 <a
                     :href="`https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/usedList.html?oid=${productId}`"
                     target="_blank"
-                    >二手書</a
-                >
-                /
-                <a
-                    :href="`https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/products/${productId}.html?`"
-                    target="_blank"
-                    >新書</a
+                    >二手書 / 電子書 / 新書</a
                 >
                 )
             </p>

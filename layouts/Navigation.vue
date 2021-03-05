@@ -37,7 +37,7 @@
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
-                            :to="'/resources'"
+                            :to="'/management'"
                             :active-class="'active'"
                             @click="collapseNavbar($event)"
                         >

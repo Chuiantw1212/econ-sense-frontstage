@@ -46,20 +46,44 @@
                 </div>
                 <div class="col-12 col-md-4">
                     <Book
-                        title="聰明消費"
+                        title="消費管理"
                         subtitle="精準購買"
                         productId="11100884641"
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/buymeonce.jpg"
                     ></Book>
                 </div>
+                <div class="col-12 col-md-4">
+                    <div class="card m-1 pb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">節稅</h3>
+                            <p class="card-subtitle text-muted">
+                                國稅局節稅手冊
+                            </p>
+                            <p>
+                                (
+                                <a
+                                    :href="`https://www.etax.nat.gov.tw/etwmain/web/ETW118W/CON/406/5140077482396615285?tagCode=`"
+                                    target="_blank"
+                                    >連結前往</a
+                                >
+                                )
+                            </p>
+                        </div>
+                        <img
+                            class="card__image"
+                            src="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/tax.png"
+                            alt="封面"
+                        />
+                    </div>
+                </div>
             </div>
         </section>
         <section class="mt-5">
-            <h2>維持資產品質</h2>
+            <h2>累積資產</h2>
             <div class="row">
                 <div class="col-12 col-md-4">
                     <Book
-                        title="基金、ETF"
+                        title="基金、ETF、資產配置"
                         subtitle="綠角的基金八堂課"
                         productId="11100788917"
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/greenhorn.jpg"
@@ -83,6 +107,36 @@
                 </div>
             </div>
         </section>
+        <section class="mt-5">
+            <h2>全方位理財書</h2>
+            <p>選擇障礙的救星</p>
+            <div class="row mt-1">
+                <div class="col-12 col-md-4">
+                    <Book
+                        title="理財聖經"
+                        subtitle="The Richest Man in Babylon"
+                        productId="11100918455"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/babylon.jpg"
+                    ></Book>
+                </div>
+                <div class="col-12 col-md-4">
+                    <Book
+                        title="有錢有閒"
+                        subtitle="賺錢，也賺幸福"
+                        productId="11100899131"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/millionaire.jpg"
+                    ></Book>
+                </div>
+                <div class="col-12 col-md-4">
+                    <Book
+                        title="人生企劃書"
+                        subtitle="一生幸福的人生企畫書"
+                        productId="11100786472"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/efficiency.jpg"
+                    ></Book>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 <script>
@@ -92,3 +146,9 @@ export default {
     }
 }
 </script>
+<style lang="scss" scoped>
+.card__image {
+    align-self: center;
+    max-width: 240px;
+}
+</style>

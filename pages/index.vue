@@ -26,7 +26,7 @@
                 <div class="col-lg-4">
                     <router-link
                         class="home__link"
-                        :to="'/resources'"
+                        :to="'/management'"
                         :tag="'div'"
                     >
                         <Card>
