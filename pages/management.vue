@@ -103,46 +103,109 @@
         <h2>斷捨離</h2>
         <p>用2021年整年驗證中......</p>
         <br />
-        <h2>定期檢視</h2>
-        <p>有意識的檢視時間、金錢、人脈</p>
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-5">
-                <a
-                    rel="noreferrer"
-                    href="https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/products/11100912211.html?"
-                    target="_blank"
-                >
-                    <img
-                        src="https://storage.googleapis.com/my-blog-287510.appspot.com/resources/OTPR.jpeg"
-                        alt="OTPR敏捷工作法"
-                    />
-                </a>
-            </div>
-            <div class="col-12 col-md-5">
-                <p class="m-0 mt-4">書中前段解釋何謂OTPR，與它們的重要性</p>
-                <p class="m-0">中段逐一闡釋OTPR的組成</p>
-                <div class="row justify-content-center">
-                    <ul>
-                        <li>O是目標</li>
-                        <li>T是時間</li>
-                        <li>P是專案管理</li>
-                        <li>R是復盤</li>
-                    </ul>
-                </div>
-                <p class="m-0">書後段訪問了許多人的時間管理方式</p>
-                <p class="m-0">讓整本書的前中段得以用具體經驗實證</p>
-                <br />
-                <p class="m-0">除了傳心法以外、更講授做法</p>
-                <p class="m-0">讓讀者學習時間管理以外</p>
-                <p class="m-0">還能應用Google Calendar這個工具</p>
-                <a
-                    rel="noreferrer"
-                    href="https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/products/11100912211.html?"
-                    target="_blank"
-                >
-                    <p class="m-0">提升自我效率</p>
-                </a>
-            </div>
+        <h2>記帳</h2>
+        <p class="m-0">金融科技與法規的進步</p>
+        <p class="m-0">讓不動手就能記帳這件事情成為現實</p>
+        <a
+            rel="noreferrer"
+            href="https://moneybook.com.tw/?referrer=CQxbIc"
+            target="_blank"
+        >
+            <img
+                src="https://storage.googleapis.com/my-blog-287510.appspot.com/flow/moneybook.jpg"
+                alt="麻布記帳"
+            />
+        </a>
+        <p class="m-0">
+            <a
+                rel="noreferrer"
+                href="https://moneybook.com.tw/?referrer=CQxbIc"
+                target="_blank"
+                >麻布記帳</a
+            >綁定網路銀行權限，自動同步更新所有收支，從此不再需要紀錄發票
+        </p>
+        <p class="m-0">這樣的金融服務，每個月月費要收多少呢</p>
+        <br />
+        <p class="m-0 text-danger">免費</p>
+        <br />
+        <p class="m-0">
+            透過
+            <a
+                rel="noreferrer"
+                href="https://moneybook.com.tw/?referrer=CQxbIc"
+                target="_blank"
+                >連結</a
+            >
+            取得15天免費同步
+        </p>
+        <p class="m-0">15天過後也只是換成要手動去按某一顆按鈕同步而已</p>
+        <p class="m-0">功能依舊強大，而且依舊免費</p>
+        <br />
+        <h2>節稅</h2>
+        <div>
+            我國的<a
+                rel="noreferrer"
+                href="https://www.mol.gov.tw/topic/3078/9686/22657/"
+                target="_blank"
+                >勞退基金</a
+            >可以看到<a
+                rel="noreferrer"
+                href="https://www.mol.gov.tw/topic/6025/13123/34950/"
+                target="_blank"
+                >近15年來的平均收益率超過4%</a
+            >
         </div>
+        <div>又因為提繳不納入年度薪資所得課稅的關係</div>
+        <div>所得級距越高，節稅效果越明顯</div>
+        <div>以國人薪資中位數490,000來計算</div>
+        <div>
+            絕大多數的人都可以達到
+            <a
+                rel="noreferrer"
+                href="https://www.etax.nat.gov.tw/etwmain/front/ETW158W1"
+                target="_blank"
+            >
+                5%的節稅效果
+            </a>
+        </div>
+        <br />
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">薪水</th>
+                    <th scope="col">
+                        <div>薪水減去扣除額</div>
+                    </th>
+                    <th scope="col">5%所得稅</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>原始薪資</th>
+                    <td>490,000</td>
+                    <td>170,000</td>
+                    <td>8,500</td>
+                </tr>
+                <tr>
+                    <th>提繳6%</th>
+                    <td>460,606</td>
+                    <td>140,600</td>
+                    <td>7,030</td>
+                </tr>
+                <tr>
+                    <th class="align-middle">節稅結果</th>
+                    <td class="align-middle">
+                        <div>29,400</div>
+                        <div>(支付給未來的自己)</div>
+                    </td>
+                    <td class="align-middle">-</td>
+                    <td class="align-middle">
+                        <div class="text-danger">1,470</div>
+                        <div class="text-danger">(紮紮實實少繳的稅金)</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </template>

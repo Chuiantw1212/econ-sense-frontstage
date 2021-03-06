@@ -13,7 +13,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4">
-                    <router-link class="home__link" :to="'/intake'" :tag="'div'">
+                    <router-link class="home__link" :to="'/self'" :tag="'div'">
                         <Card>
                             <h2>自我定位</h2>
                             <img
@@ -26,11 +26,11 @@
                 <div class="col-lg-4">
                     <router-link
                         class="home__link"
-                        :to="'/resources'"
+                        :to="'/management'"
                         :tag="'div'"
                     >
                         <Card>
-                            <h2>資源管理</h2>
+                            <h2>經營管理</h2>
                             <img
                                 src="@/assets/icon/flow-chart.svg"
                                 alt="invest-self"
