@@ -1,10 +1,10 @@
 <template>
     <div class="container text-center py-5">
-        <h1>自我覺察</h1>
+        <h1>自我定位</h1>
         <p class="m-0">截斷一切偷心，自然正念常存。</p>
         <p class="m-0">譬如滴水穿石，何愁入道無門。</p>
         <hr />
-        <h2>1. 找對老師與學習方法</h2>
+        <!-- <h2>1. 找對老師與學習方法</h2>
         <img
             class="d-block m-auto"
             src="https://storage.googleapis.com/my-blog-287510.appspot.com/DISC.png"
@@ -62,7 +62,7 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
         ></iframe>
-        <br />
+        <br /> -->
 
         <br />
         <h2>2. 持續精進與學習</h2>
@@ -201,56 +201,6 @@
                 </div>
             </div>
         </div>
-        <br />
-        <h2>3. 在財富與幸福間取得平衡</h2>
-        <p class="m-0">
-            整個網站的思想都是延伸自
-            <a
-                rel="noreferrer"
-                href="https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/goods/11100899131.html?"
-                target="_blank"
-            >
-                這本書
-            </a>
-            的內容
-        </p>
-        <br />
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-5">
-                <a
-                    rel="noreferrer"
-                    href="https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/goods/11100899131.html?"
-                    target="_blank"
-                >
-                    <img
-                        src="https://storage.googleapis.com/my-blog-287510.appspot.com/knowledge/The%20Millionaire%20in%20you%20.jpg"
-                        alt="賺錢，也賺幸福"
-                    />
-                </a>
-            </div>
-            <div class="col-12 col-md-5">
-                <p class="m-0 mt-5">大多數的人，賺錢是為了生活</p>
-                <p class="m-0">投資理財也是為了更好的生活</p>
-                <br />
-                <p class="m-0">但好多人卻寧願購買高價的投資課程</p>
-                <p class="m-0">去隨著市場起伏心驚膽跳、寢食難安</p>
-                <p class="m-0">為了那1%的報酬率賠掉大半的精力(還有錢!)</p>
-                <br />
-                <p class="m-0">這本書除了談到投資的方法</p>
-                <p class="m-0">也涵蓋了工作、稅務、保險等面相</p>
-                <br />
-                <p class="m-0">最重要的是不斷提醒</p>
-                <p class="m-0">讓所有行為自己的核心價值服務</p>
-                <a
-                    rel="noreferrer"
-                    href="https://www.taaze.tw/apredir.html?154858690/https://www.taaze.tw/goods/11100899131.html?"
-                    target="_blank"
-                >
-                    <p class="m-0">擁抱幸福的生活</p>
-                </a>
-            </div>
-        </div>
-        <hr />
         <br />
     </div>
 </template>

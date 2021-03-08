@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-12 col-md-4">
                     <Book
-                        title="記帳、收支管理"
+                        title="記帳、支付、信用卡"
                         subtitle="行動支付時代的金錢整理術"
                         productId="11100923100"
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/daily.jpg"
