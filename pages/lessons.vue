@@ -114,9 +114,9 @@
                 <div class="col-12 col-md-4">
                     <Book
                         title="理財聖經"
-                        subtitle="The Richest Man in Babylon"
+                        subtitle="巴比倫最有錢的人"
                         productId="11100918455"
-                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/babylon.jpg"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/babylon.jpeg"
                     ></Book>
                 </div>
                 <div class="col-12 col-md-4">

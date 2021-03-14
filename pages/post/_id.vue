@@ -37,7 +37,7 @@ export default {
     },
     computed: {
         docId() {
-            return this.$route.query.id
+            return this.$route.params.id
         }
     },
     mounted() {

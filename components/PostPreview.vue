@@ -5,7 +5,7 @@
             @click="routeToPost(value)"
         >
             <strong class="d-inline-block mb-2 text-primary">{{
-                value.class
+                value.category
             }}</strong>
             <h3 class="mb-0 text-left">{{ value.title }}</h3>
             <div class="mb-1 text-muted">{{ value.date | formatDate }}</div>
@@ -59,10 +59,7 @@ export default {
         routeToPost(post) {
             if (post.contentId) {
                 this.$router.push({
-                    path: 'post',
-                    query: {
-                        id: post.contentId
-                    }
+                    path: `post/${post.contentId}`,
                 })
             }
             if (post.href) {
