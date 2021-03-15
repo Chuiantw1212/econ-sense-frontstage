@@ -83,7 +83,7 @@
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
-                            :to="'/special'"
+                            :to="'/about'"
                             :active-class="'active'"
                         >
                             關於作者

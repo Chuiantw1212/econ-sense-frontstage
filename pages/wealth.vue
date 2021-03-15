@@ -1,8 +1,8 @@
 <template>
     <div class="container text-center py-5">
         <h1>累積資產</h1>
-        <p>賺快錢行不通，</p>
-        <p>耐心經營總會勝過急功近利。</p>
+        <p>時間是你的朋友，而衝動則是你的敵人。</p>
+        <i style="">— Vanguard創辦人　約翰‧柏格（John C. Bogle）</i>
         <hr />
 
         <h2>資產配置</h2>
@@ -10,14 +10,6 @@
         <p>再怎麼激進，都應該配有25%債券。</p>
         <br />
         <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th scope="col"></th>
-                    <th scope="col">50%</th>
-                    <th scope="col">40%</th>
-                    <th scope="col">10%</th>
-                </tr>
-            </thead>
             <tbody>
                 <tr>
                     <th>標的</th>

@@ -7,13 +7,13 @@
         <h2>1. 探尋生命意義</h2>
         <div class="text-center"></div>
         <img
-            class="d-block m-auto"
+            class="d-block m-auto mw-100"
             src="https://storage.googleapis.com/my-blog-287510.appspot.com/self/ikigai.png"
             alt="disc"
         />
         <h2>2. 均衡你的目標</h2>
         <img
-            class="d-block m-auto"
+            class="d-block m-auto mw-100"
             src="https://storage.googleapis.com/my-blog-287510.appspot.com/self/nine%20squares.png"
             alt="disc"
         />
