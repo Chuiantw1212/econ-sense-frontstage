@@ -8,7 +8,7 @@
             <h2>全方位理財書</h2>
             <p>新手入門最佳解</p>
             <div class="row mt-1">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <Book
                         title="理財聖經"
                         subtitle="巴比倫最有錢的人"
@@ -16,7 +16,7 @@
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/babylon.jpeg"
                     ></Book>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <Book
                         title="有錢有閒"
                         subtitle="賺錢，也賺幸福"
@@ -24,7 +24,7 @@
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/millionaire.jpg"
                     ></Book>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <Book
                         title="人生企劃書"
                         subtitle="一生幸福的人生企畫書"
@@ -37,7 +37,7 @@
         <section class="mt-5">
             <h2>自我定位</h2>
             <div class="row">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <Book
                         title="自我覺察"
                         subtitle="大器可以晚成"
@@ -45,7 +45,7 @@
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/latebloomers.jpeg"
                     ></Book>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <Book
                         title="累積專業"
                         subtitle="你花掉的錢都會自己流回來"
@@ -58,7 +58,7 @@
         <section class="mt-5">
             <h2>經營管理</h2>
             <div class="row">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <Book
                         title="時間管理、目標管理"
                         subtitle="OTPR敏捷工作法"
@@ -66,7 +66,7 @@
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/OTPR.jpg"
                     ></Book>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <Book
                         title="記帳、支付、信用卡"
                         subtitle="行動支付時代的金錢整理術"
@@ -74,7 +74,7 @@
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/daily.jpg"
                     ></Book>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <Book
                         title="消費管理"
                         subtitle="精準購買"
@@ -82,7 +82,7 @@
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/buymeonce.jpg"
                     ></Book>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card m-1 pb-4">
                         <div class="card-body">
                             <h3 class="card-title">節稅</h3>
@@ -111,7 +111,7 @@
         <section class="mt-5">
             <h2>累積資產</h2>
             <div class="row">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <Book
                         title="基金、ETF、資產配置"
                         subtitle="綠角的基金八堂課"
@@ -119,7 +119,7 @@
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/greenhorn.jpg"
                     ></Book>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <Book
                         title="保險"
                         subtitle=" 醫生強烈建議你買的保險"
@@ -127,7 +127,7 @@
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/insurance.jpg"
                     ></Book>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <Book
                         title="房地產"
                         subtitle="張金鶚的房產七堂課"

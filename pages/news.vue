@@ -3,8 +3,12 @@
         <h1>精選新聞</h1>
         <p>蒐錄熱銷的金融產品</p>
         <br />
-        <div class="row justify-center">
-            <div v-for="(post, index) in posts" class="col-12" :key="index">
+        <div class="row justify-content-center">
+            <div
+                v-for="(post, index) in posts"
+                class="col-12 col-lg-10"
+                :key="index"
+            >
                 <PostPreview v-model="posts[index]"></PostPreview>
             </div>
         </div>
@@ -54,7 +58,7 @@ export default {
             const href = descriptionHTML.match(/https:\/\/.*(?=" )/)
             return {
                 title,
-                class: '保險',
+                category: '保險',
                 date,
                 href,
                 imageSrc: 'https://storage.googleapis.com/my-blog-287510.appspot.com/%E5%B7%A5%E5%95%86%E6%99%82%E5%A0%B1.jpg'
