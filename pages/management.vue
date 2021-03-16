@@ -1,6 +1,6 @@
 <template>
     <div class="text-center">
-        <h1>資源盤點</h1>
+        <h1>經營管理</h1>
         <p class="m-0">時間、金錢、人際關係</p>
         <hr />
         <h2>耐用的消費</h2>

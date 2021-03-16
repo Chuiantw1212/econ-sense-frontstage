@@ -167,7 +167,7 @@
                 <div class="col-6 col-md-3 mt-3">
                     <div class="card">
                         <div class="card-body">
-                            <h4>理財規劃人員</h4>
+                            <h6>理財規劃人員</h6>
                             <img
                                 class="image--full-width"
                                 src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/financeManagement.jpeg"
@@ -178,7 +178,7 @@
                 <div class="col-6 col-md-3 mt-3">
                     <div class="card">
                         <div class="card-body">
-                            <h4>金融科技力</h4>
+                            <h6>金融科技力</h6>
                             <img
                                 class="image--full-width"
                                 src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/fin-tech.JPG"
@@ -189,7 +189,7 @@
                 <div class="col-6 col-md-3 mt-3">
                     <div class="card">
                         <div class="card-body">
-                            <h4>鵝堡初階桌遊師</h4>
+                            <h6>鵝堡初階桌遊師</h6>
                             <img
                                 class="image--full-width"
                                 src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/teacher-junior.JPG"
@@ -200,7 +200,7 @@
                 <div class="col-6 col-md-3 mt-3">
                     <div class="card">
                         <div class="card-body">
-                            <h4>鵝堡進階桌遊師</h4>
+                            <h6>鵝堡進階桌遊師</h6>
                             <img
                                 class="image--full-width"
                                 src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/teacher-senior.JPG"
@@ -211,7 +211,7 @@
                 <div class="col-md-4 mt-3">
                     <div class="card">
                         <div class="card-body">
-                            <p>給非行銷人員的第一堂行銷課</p>
+                            <h6>給非行銷人員的第一堂行銷課</h6>
                             <img
                                 class="image--full-width"
                                 src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/marketingManagement.jpeg"
