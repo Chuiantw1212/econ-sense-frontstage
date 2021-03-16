@@ -1,5 +1,5 @@
 <template>
-    <div class="container py-5">
+    <div>
         <div class="row">
             <h1 class="col">Hello.</h1>
         </div>

@@ -39,8 +39,12 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/econ-sense.ico' },
       {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com'
+      },
+      {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap",
         media: 'screen',
         defer: true
       },

@@ -1,7 +1,9 @@
 <template>
     <div class="app">
         <Navigation></Navigation>
-        <Nuxt />
+        <div class="container py-5">
+            <Nuxt />
+        </div>
         <MyFooter></MyFooter>
     </div>
 </template>
@@ -34,11 +36,12 @@ export default {
 </script>
 <style lang="scss">
 .app {
-    font-family: "Noto Sans TC", sans-serif;
+    font-family: "charter", "Georgia", "Cambria", "Times New Roman", "Times",
+        "serif";
     padding-top: 68px;
-    p {
-        margin: 0;
-    }
+    // p {
+    //     margin: 0;
+    // }
 }
 .container {
     min-height: 100vh;

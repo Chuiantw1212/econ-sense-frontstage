@@ -1,5 +1,5 @@
 <template>
-    <div class="container text-center py-5">
+    <div class="text-center">
         <h1>資源盤點</h1>
         <p class="m-0">時間、金錢、人際關係</p>
         <hr />

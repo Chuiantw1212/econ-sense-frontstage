@@ -1,10 +1,9 @@
 <template>
-    <div class="container text-center py-5">
+    <div class="text-center">
         <h1>累積資產</h1>
         <p>時間是你的朋友，而衝動則是你的敵人。</p>
         <i style="">— Vanguard創辦人　約翰‧柏格（John C. Bogle）</i>
         <hr />
-
         <h2>資產配置</h2>
         <p>再怎麼保守，都應該配有25%股票；</p>
         <p>再怎麼激進，都應該配有25%債券。</p>

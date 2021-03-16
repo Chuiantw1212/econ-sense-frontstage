@@ -1,12 +1,12 @@
 <template>
-    <div class="container py-5">
+    <div>
         <div class="text-center">
             <h1>理財百問</h1>
             <p>回答過的理財問題整理成冊</p>
         </div>
         <br />
-        <div class="row justify-center">
-            <div v-for="(post, index) in posts" class="col-12" :key="index">
+        <div class="row justify-content-center">
+            <div v-for="(post, index) in posts" class="col-12 col-lg-10" :key="index">
                 <PostPreview v-model="posts[index]"></PostPreview>
             </div>
         </div>

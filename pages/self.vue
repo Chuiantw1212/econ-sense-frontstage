@@ -1,5 +1,5 @@
 <template>
-    <div class="container py-5 text-center">
+    <div class="text-center">
         <h1>自我定位</h1>
         <p class="m-0">截斷一切偷心，自然正念常存。</p>
         <p class="m-0">譬如滴水穿石，何愁入道無門。</p>
@@ -162,6 +162,6 @@
 <style lang="scss" scoped>
 .card__image {
     align-self: center;
-    max-width: 240px;
+    max-width: 100%;
 }
 </style>

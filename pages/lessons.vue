@@ -1,10 +1,40 @@
 <template>
-    <div class="container text-center py-5">
+    <div class="text-center">
         <h1>好書推薦</h1>
         <p class="m-0">一個面向一本書，</p>
         <p class="m-0">每本都是精挑細選。</p>
         <hr />
-        <section>
+        <section class="mt-5">
+            <h2>全方位理財書</h2>
+            <p>新手入門最佳解</p>
+            <div class="row mt-1">
+                <div class="col-12 col-md-4">
+                    <Book
+                        title="理財聖經"
+                        subtitle="巴比倫最有錢的人"
+                        productId="11100918455"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/babylon.jpeg"
+                    ></Book>
+                </div>
+                <div class="col-12 col-md-4">
+                    <Book
+                        title="有錢有閒"
+                        subtitle="賺錢，也賺幸福"
+                        productId="11100899131"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/millionaire.jpg"
+                    ></Book>
+                </div>
+                <div class="col-12 col-md-4">
+                    <Book
+                        title="人生企劃書"
+                        subtitle="一生幸福的人生企畫書"
+                        productId="11100786472"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/efficiency.jpg"
+                    ></Book>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5">
             <h2>自我定位</h2>
             <div class="row">
                 <div class="col-12 col-md-4">
@@ -103,36 +133,6 @@
                         subtitle="張金鶚的房產七堂課"
                         productId="11100202908"
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/realestate.jpg"
-                    ></Book>
-                </div>
-            </div>
-        </section>
-        <section class="mt-5">
-            <h2>全方位理財書</h2>
-            <p>選擇障礙的救星</p>
-            <div class="row mt-1">
-                <div class="col-12 col-md-4">
-                    <Book
-                        title="理財聖經"
-                        subtitle="巴比倫最有錢的人"
-                        productId="11100918455"
-                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/babylon.jpeg"
-                    ></Book>
-                </div>
-                <div class="col-12 col-md-4">
-                    <Book
-                        title="有錢有閒"
-                        subtitle="賺錢，也賺幸福"
-                        productId="11100899131"
-                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/millionaire.jpg"
-                    ></Book>
-                </div>
-                <div class="col-12 col-md-4">
-                    <Book
-                        title="人生企劃書"
-                        subtitle="一生幸福的人生企畫書"
-                        productId="11100786472"
-                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/efficiency.jpg"
                     ></Book>
                 </div>
             </div>

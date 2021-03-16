@@ -1,8 +1,8 @@
 <template>
-    <div class="container py-5">
+    <div class="post">
         <div class="row justify-content-center">
             <!-- Post Content Column -->
-            <div v-if="post" class="col col-lg-8">
+            <div v-if="post" class="col-12 col-md-10 col-lg-8">
                 <!-- Title -->
                 <h1 class>{{ post.title }}</h1>
 
@@ -15,21 +15,11 @@
                 <div class="post__content" v-html="post.content"></div>
             </div>
         </div>
-        <!-- <div class="row my-5">
-                <hr />
-			<PostRelative></PostRelative>
-			<PostRelative></PostRelative>
-			<PostRelative></PostRelative>
-		</div> -->
     </div>
 </template>
 <script>
-import PostRelative from '@/components/PostRelative.vue'
 import * as firebase from "firebase/app";
 export default {
-    components: {
-        PostRelative
-    },
     data: function () {
         return {
             post: null
@@ -71,9 +61,23 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.container {
+.post {
     .post__image {
         width: 100%;
+    }
+    .post__content {
+        span {
+            line-height: 1.7em;
+            font-size: 18px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .post {
+        .post__content {
+            font-size: 20px;
+        }
     }
 }
 </style>
