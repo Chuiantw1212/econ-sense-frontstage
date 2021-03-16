@@ -341,12 +341,12 @@ export default {
     background-position: center;
 }
 .card__background--econsense {
-    background-image: url("https://storage.googleapis.com/my-resume-306606.appspot.com/projects/econ-sense.png");
+    background-image: url("https://storage.googleapis.com/my-blog-287510.appspot.com/about/econ-sense.png");
 }
 .card__background--josie {
     background-image: url("https://storage.googleapis.com/my-blog-287510.appspot.com/about/josie.png");
 }
 .card__background--mbia {
-    background-image: url("https://storage.googleapis.com/my-resume-306606.appspot.com/projects/mbia.png");
+    background-image: url("https://storage.googleapis.com/my-blog-287510.appspot.com/about/mbia.png");
 }
 </style>
