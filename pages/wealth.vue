@@ -5,9 +5,9 @@
         <i style="">— Vanguard創辦人　約翰‧柏格（John C. Bogle）</i>
         <hr />
         <h2>資產配置</h2>
-        <p>再怎麼保守，都應該配有25%股票；</p>
-        <p>再怎麼激進，都應該配有25%債券。</p>
-        <br />
+        <!-- <p>再怎麼保守，都應該配有25%股票；</p>
+        <p>再怎麼激進，都應該配有25%債券。</p> -->
+        <!-- <br /> -->
         <table class="table table-bordered">
             <tbody>
                 <tr>
@@ -40,7 +40,7 @@
                         </a>
                     </td>
                     <td>
-                        <p class="m-0">元大證券</p>
+                        <p class="m-0">元大、凱基、富邦</p>
                     </td>
                     <td>
                         <p class="m-0">

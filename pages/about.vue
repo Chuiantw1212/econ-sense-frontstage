@@ -26,12 +26,68 @@
                 all come to you in the future.
             </p>
         </div>
-        <br />
-
+        <section class="mt-3">
+            <h2>Thank list</h2>
+            <p>
+                Logo made by Charlie from
+                <a
+                    rel="noreferrer"
+                    href="https://www.branding-good.com"
+                    target="_blank"
+                    >好日子視覺設計</a
+                >
+            </p>
+            <p>
+                Icons made by
+                <a
+                    rel="noreferrer"
+                    href="https://www.flaticon.com/authors/freepik"
+                    title="Freepik"
+                    target="_blank"
+                    >Freepik</a
+                >
+                from
+                <a
+                    rel="noreferrer"
+                    href="https://www.flaticon.com/"
+                    title="Flaticon"
+                    target="_blank"
+                >
+                    www.flaticon.com</a
+                >
+            </p>
+            <p>
+                Team support and materials from
+                <a
+                    rel="noreferrer"
+                    href="https://www.azsinopro.com.tw/"
+                    target="_blank"
+                    >azsinopro</a
+                >
+            </p>
+        </section>
         <hr />
         <section>
             <h2>外包專案</h2>
             <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <div
+                            class="card__background card__background--mbia"
+                        ></div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a
+                                    href="https://www.mbia.com.tw/"
+                                    target="_blank"
+                                >
+                                    倉儲管理公司(2021)
+                                </a>
+                            </h5>
+                            <p class="card-text">使用Nuxt製作，Alpha中</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
                         <div
@@ -49,24 +105,6 @@
                             <p class="card-text">
                                 協助珠寶設計師轉職網站設計師的網頁
                             </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <div
-                            class="card__background card__background--mbia"
-                        ></div>
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <div
-                                    href="https://chuiantw1212.github.io/josies-portfolio/#/home"
-                                    target="_blank"
-                                >
-                                    倉儲管理公司(2021)
-                                </div>
-                            </h5>
-                            <p class="card-text">使用Nuxt製作，Alpha中</p>
                         </div>
                     </div>
                 </div>
@@ -95,8 +133,9 @@
                             <h4>金融理財</h4>
                             <ul>
                                 <li>
-                                    多元投資於股票、債券、ETF、特別股、基金、虛擬貨幣
+                                    多元投資於股票、ETF、特別股、基金、虛擬貨幣、天使股權
                                 </li>
+                                <li>IFA獨立理財規劃顧問協會發起人之一</li>
                                 <li>
                                     不定期於
                                     <a
@@ -107,7 +146,6 @@
                                     </a>
                                     發布財商桌遊講座
                                 </li>
-                                <li>IFA獨立理財規劃顧問協會發起人之一</li>
                                 <!-- <li>蒐集金融證照中，目標是湊一張AFP</li> -->
                             </ul>
                         </div>
@@ -120,6 +158,7 @@
                             <ul>
                                 <li>Accupass參加上百場活動</li>
                                 <li>新天鵝堡培訓桌遊講師</li>
+                                <li>誠遠國際合作理財講師</li>
                             </ul>
                         </div>
                     </div>
@@ -129,9 +168,9 @@
                         <div class="card-body">
                             <h4>專案管理</h4>
                             <ul>
-                                <li>留美主攻Project Management</li>
+                                <li>留美主攻 Project Management</li>
                                 <li>2020/05 4A成績正式取得PMP證照</li>
-                                <!-- <li>職涯目標成為金融科技跨領域的經理人</li> -->
+                                <li>持續培養跨業能力</li>
                             </ul>
                         </div>
                     </div>
@@ -268,46 +307,6 @@
                     <li>國立中興大學資工系</li>
                 </ul>
             </MyListItem>
-        </section>
-        <section class="mt-5">
-            <h2>Thank list</h2>
-            <p>
-                Logo made by Charlie from
-                <a
-                    rel="noreferrer"
-                    href="https://www.branding-good.com"
-                    target="_blank"
-                    >https://www.branding-good.com</a
-                >
-            </p>
-            <p>
-                Icons made by
-                <a
-                    rel="noreferrer"
-                    href="https://www.flaticon.com/authors/freepik"
-                    title="Freepik"
-                    target="_blank"
-                    >Freepik</a
-                >
-                from
-                <a
-                    rel="noreferrer"
-                    href="https://www.flaticon.com/"
-                    title="Flaticon"
-                    target="_blank"
-                >
-                    www.flaticon.com</a
-                >
-            </p>
-            <p>
-                Team support and materials from
-                <a
-                    rel="noreferrer"
-                    href="https://www.azsinopro.com.tw/"
-                    target="_blank"
-                    >azsinopro</a
-                >
-            </p>
         </section>
     </div>
 </template>
