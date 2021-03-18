@@ -12,24 +12,13 @@
             <tbody>
                 <tr>
                     <th>標的</th>
-                    <td>全球多重資產基金</td>
-                    <td>台灣指數型ETF</td>
-                    <td>P2P借貸</td>
+                    <!-- <td>理由</td> -->
+                    <td>建議通路</td>
+                    <td>內部報酬率(IRR)</td>
                 </tr>
                 <tr>
-                    <th>理由</th>
-                    <td>境外基金不課稅</td>
-                    <td>
-                        <p class="m-0">長期績效勝過國內2/3基金</p>
-                        <p class="m-0">出借股票再賺一層利息</p>
-                    </td>
-                    <td>
-                        <p class="m-0">投資獲利來自於解決問題</p>
-                        <p class="m-0">金融也可以很有溫度</p>
-                    </td>
-                </tr>
-                <tr>
-                    <th>建議通路</th>
+                    <th>境外基金</th>
+                    <!-- <td>境外收益年免稅額670萬</td> -->
                     <td>
                         <a
                             rel="noreferrer"
@@ -39,9 +28,65 @@
                             中租投顧
                         </a>
                     </td>
+                    <td>8%</td>
+                </tr>
+                <tr>
+                    <th>台灣指數型ETF</th>
+                    <!-- <td>
+                        <p class="m-0">長期績效勝過國內2/3基金</p>
+                        <p class="m-0">出借股票再賺一層利息</p>
+                    </td> -->
                     <td>
-                        <p class="m-0">元大、凱基、富邦</p>
+                        <p class="m-0">
+                            <a
+                                href="https://www.yuanta.com.tw/file-repository/content/lending/mb/index_mobile.html"
+                                target="_blank"
+                            >
+                                元大
+                            </a>
+                            、
+                            <a
+                                href="https://www.kgieworld.com.tw/Stock/stock_lending/index.html"
+                                target="_blank"
+                            >
+                                凱基
+                            </a>
+                            、
+                            <a
+                                href="https://www.fubon.com/securities/hot_new/so-easy/lend.html"
+                                target="_blank"
+                            >
+                                富邦
+                            </a>
+                        </p>
                     </td>
+                    <td>8%</td>
+                </tr>
+                <tr>
+                    <th>太陽能板</th>
+                    <!-- <td>
+                        <p class="m-0">投資獲利來自於解決真實問題</p>
+                        <p class="m-0">金融也可以很有溫度</p>
+                    </td> -->
+                    <td>
+                        <p class="m-0">
+                            <a
+                                rel="noreferrer"
+                                href="www.sunnyfounder.com/i/F98QOW"
+                                target="_blank"
+                            >
+                                陽光伏特加家
+                            </a>
+                        </p>
+                    </td>
+                    <td>6%</td>
+                </tr>
+                <tr>
+                    <th>p2p網路借貸</th>
+                    <!-- <td>
+                        <p class="m-0">投資獲利來自於解決真實問題</p>
+                        <p class="m-0">金融也可以很有溫度</p>
+                    </td> -->
                     <td>
                         <p class="m-0">
                             <a
@@ -53,6 +98,7 @@
                             </a>
                         </p>
                     </td>
+                    <td>5%</td>
                 </tr>
             </tbody>
         </table>
@@ -147,7 +193,7 @@
                 </div>
             </div>
         </div>
-        <br />
+        <!-- <br />
         <h2>獨立財務顧問</h2>
         <br />
         <h3>IFA獨立財務顧問的使命</h3>
@@ -176,7 +222,7 @@
         <br />
         <button type="button" class="btn btn-warning" @click="openEmail()">
             歡迎寄信給我
-        </button>
+        </button> -->
     </div>
 </template>
 <script>

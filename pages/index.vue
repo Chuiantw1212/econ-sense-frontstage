@@ -85,7 +85,8 @@ export default {
         PostPreview,
         WidgetSearch,
         WidgetCategories,
-        Pagination
+        Pagination,
+        Card: () => import('./index/Card.vue')
     },
 }
 </script>

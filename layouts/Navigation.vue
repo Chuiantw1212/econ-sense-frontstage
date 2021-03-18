@@ -28,7 +28,7 @@
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
-                            :to="'/self'"
+                            :to="'/vocation'"
                             :active-class="'active'"
                         >
                             自我定位
@@ -47,10 +47,10 @@
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
-                            :to="'/wealth'"
+                            :to="'/assets'"
                             :active-class="'active'"
                         >
-                            累積資產
+                            資產配置
                         </router-link>
                     </li>
                     <li class="nav-item" @click="collapseNavbar($event)">
