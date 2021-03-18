@@ -11,11 +11,13 @@
             <div>
                 <p>讓富裕不再是秘密</p>
             </div>
+            <hr />
+            <h2>理財框架</h2>
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-4">
                     <router-link class="home__link" :to="'/self'" :tag="'div'">
+                        <h3 class="card__header">自我定位</h3>
                         <Card>
-                            <h2>自我定位</h2>
                             <img
                                 src="@/assets/icon/machine-learning.svg"
                                 alt="money-flow"
@@ -23,14 +25,14 @@
                         </Card>
                     </router-link>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-4">
                     <router-link
                         class="home__link"
                         :to="'/management'"
                         :tag="'div'"
                     >
+                        <h3 class="card__header">經營管理</h3>
                         <Card>
-                            <h2>經營管理</h2>
                             <img
                                 src="@/assets/icon/flow-chart.svg"
                                 alt="invest-self"
@@ -38,14 +40,14 @@
                         </Card>
                     </router-link>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-4">
                     <router-link
                         class="home__link"
                         :to="'/wealth'"
                         :tag="'div'"
                     >
+                        <h3 class="card__header">累積資產</h3>
                         <Card>
-                            <h2>累積資產</h2>
                             <img
                                 src="@/assets/icon/invest.svg"
                                 alt="invest-money"
@@ -92,6 +94,9 @@ export default {
 </script>
 
 <style style="scss">
+.card__header {
+    font-size: 20px;
+}
 .home__link {
     cursor: pointer;
 }
