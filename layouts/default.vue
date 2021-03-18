@@ -1,10 +1,10 @@
 <template>
     <div class="app">
-        <Navigation></Navigation>
+        <!-- <Navigation class="d-none d-sm-block"></Navigation> -->
         <div class="container py-5">
             <Nuxt />
         </div>
-        <MyFooter></MyFooter>
+        <!-- <MyFooter></MyFooter> -->
     </div>
 </template>
 <script>
@@ -38,7 +38,7 @@ export default {
 .app {
     font-family: "charter", "Georgia", "Cambria", "Times New Roman", "Times",
         "serif";
-    padding-top: 68px;
+    // padding-top: 68px;
     // p {
     //     margin: 0;
     // }

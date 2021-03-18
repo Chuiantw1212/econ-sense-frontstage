@@ -6,7 +6,7 @@
     </div>
 </template>
 <style lang="scss" scoped>
-$size-sm: 130px;
+$size-sm: 80px;
 $size-md: 180px;
 $size-lg: 210px;
 .myCard {
@@ -51,7 +51,7 @@ $size-lg: 210px;
 }
 
 @media screen and (min-width: 992px) {
-   .myCard {
+    .myCard {
         margin: auto;
         width: $size-lg;
         height: $size-lg; // color: #212529;
