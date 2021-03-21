@@ -40,7 +40,7 @@ export default ({ app }) => {
         /*
          ** We tell Google Analytics to add a `pageview`
          */
-        console.log(to.fullPath)
+        // console.log(to.fullPath)
         ga('set', 'page', to.fullPath)
         ga('send', 'pageview')
     })

@@ -135,7 +135,9 @@
                                 <li>
                                     多元投資於股票、ETF、特別股、基金、虛擬貨幣、天使股權
                                 </li>
-                                <li>IFA獨立理財規劃顧問協會發起人之一</li>
+                                <li>
+                                    台灣IFA獨立理財規劃顧問產業發產協會發起人之一
+                                </li>
                                 <li>
                                     不定期於
                                     <a
@@ -247,13 +249,35 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3">
+                <div class="col-6 col-md-4 mt-3">
                     <div class="card">
                         <div class="card-body">
                             <h6>給非行銷人員的第一堂行銷課</h6>
                             <img
                                 class="image--full-width"
                                 src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/marketingManagement.jpeg"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6>電腦玩物Esor的時間管理哲學</h6>
+                            <img
+                                class="image--full-width"
+                                src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/marketingManagement.jpeg"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6>302專案的談判與協商</h6>
+                            <img
+                                class="image--full-width"
+                                src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/negotiation-and-mediation-in-a-proejct-environment.JPG"
                             />
                         </div>
                     </div>
@@ -267,6 +291,7 @@
                 <h5>October 2020 ~</h5>
                 <ul>
                     <li>駐點知名人壽開發保單審核系統</li>
+                    <li>系統性分享專案經驗</li>
                 </ul>
             </MyListItem>
             <MyListItem>
@@ -279,7 +304,7 @@
                 </ul>
             </MyListItem>
             <MyListItem>
-                <h4>區塊鏈有限公司 全端工程師</h4>
+                <h4>恩智區塊鏈科技有限公司 全端工程師</h4>
                 <h5>March 2018 - March 2019</h5>
                 <ul>
                     <li>獨立開發區塊鏈會員管理系統前後台</li>
@@ -288,7 +313,7 @@
                 </ul>
             </MyListItem>
             <MyListItem>
-                <h4>博弈網遊有限公司 前端工程師</h4>
+                <h4>香蕉會兒設計有限公司 遊戲工程師</h4>
                 <h5>March 2017 - March 2018</h5>
             </MyListItem>
             <MyListItem>

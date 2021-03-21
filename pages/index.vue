@@ -11,11 +11,13 @@
             <div>
                 <p>讓富裕不再是秘密</p>
             </div>
+            <hr />
+            <!-- <h2>財富框架</h2> -->
             <div class="row">
                 <div class="col-lg-4">
-                    <router-link class="home__link" :to="'/self'" :tag="'div'">
+                    <router-link class="home__link" :to="'/vocation'" :tag="'div'">
                         <Card>
-                            <h2>自我定位</h2>
+                            <h4>自我定位</h4>
                             <img
                                 src="@/assets/icon/machine-learning.svg"
                                 alt="money-flow"
@@ -30,7 +32,7 @@
                         :tag="'div'"
                     >
                         <Card>
-                            <h2>經營管理</h2>
+                            <h4>經營管理</h4>
                             <img
                                 src="@/assets/icon/flow-chart.svg"
                                 alt="invest-self"
@@ -41,11 +43,11 @@
                 <div class="col-lg-4">
                     <router-link
                         class="home__link"
-                        :to="'/wealth'"
+                        :to="'/assets'"
                         :tag="'div'"
                     >
                         <Card>
-                            <h2>累積資產</h2>
+                            <h4>累積資產</h4>
                             <img
                                 src="@/assets/icon/invest.svg"
                                 alt="invest-money"

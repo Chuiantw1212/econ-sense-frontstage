@@ -1,17 +1,17 @@
 <template>
     <div class="text-center">
-        <h1>累積資產</h1>
-        <p>時間是你的朋友，而衝動則是你的敵人。</p>
-        <i style="">— Vanguard創辦人　約翰‧柏格（John C. Bogle）</i>
+        <h1>資產配置</h1>
+        <p class="m-0">時間是你的朋友，而衝動則是你的敵人。</p>
+        <i>— Vanguard創辦人　約翰‧柏格（John C. Bogle）</i>
         <hr />
-        <h2>資產配置</h2>
+        <h2>商品訊息</h2>
         <!-- <p>再怎麼保守，都應該配有25%股票；</p>
         <p>再怎麼激進，都應該配有25%債券。</p> -->
         <!-- <br /> -->
         <table class="table table-bordered">
             <tbody>
                 <tr>
-                    <th>標的</th>
+                    <th>商品</th>
                     <!-- <td>理由</td> -->
                     <td>建議通路</td>
                     <td>內部報酬率(IRR)</td>
@@ -227,6 +227,9 @@
 </template>
 <script>
 export default {
+    head: {
+        title: '常識經濟學 - 資產配置'
+    },
     methods: {
         openEmail() {
             window.open('mailto:chuiantw1212jobs@gmail.com')

@@ -3,12 +3,13 @@
         <h1>自我定位</h1>
         <p class="m-0">截斷一切偷心，自然正念常存。</p>
         <p class="m-0">譬如滴水穿石，何愁入道無門。</p>
+        <i>— 永覺元賢禪師廣錄</i>
         <hr />
         <h2>1. 探尋生命意義</h2>
         <div class="text-center"></div>
         <img
             class="d-block m-auto mw-100"
-            src="https://storage.googleapis.com/my-blog-287510.appspot.com/self/ikigai.png"
+            src="https://storage.googleapis.com/my-blog-287510.appspot.com/self/ikigai2.png"
             alt="disc"
         />
         <h2>2. 均衡你的目標</h2>
@@ -159,6 +160,13 @@
         <br />
     </div>
 </template>
+<script>
+export default {
+    head: {
+        title: '常識經濟學 - 自我定位',
+    }
+}
+</script>
 <style lang="scss" scoped>
 .card__image {
     align-self: center;
