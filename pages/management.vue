@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center">
+    <div class="container text-center">
         <h1>經營管理</h1>
         <p class="m-0">你不能衡量它，就不能管理它</p>
         <i>— 管理學之父　彼得．杜拉克（Peter Drucker）</i>

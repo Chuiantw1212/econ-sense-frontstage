@@ -1,7 +1,7 @@
 <template>
     <div class="app">
         <Navigation></Navigation>
-        <div class="container py-5">
+        <div class="py-5">
             <Nuxt />
         </div>
         <MyFooter></MyFooter>

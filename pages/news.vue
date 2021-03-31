@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center">
+    <div class="container text-center">
         <h1>精選新聞</h1>
         <p>蒐錄熱銷的金融產品</p>
         <br />

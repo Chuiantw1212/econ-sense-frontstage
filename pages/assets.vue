@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center">
+    <div class="container text-center">
         <h1>資產配置</h1>
         <p class="m-0">時間是你的朋友，而衝動則是你的敵人。</p>
         <i>— Vanguard創辦人　約翰‧柏格（John C. Bogle）</i>

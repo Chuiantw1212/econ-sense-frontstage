@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center">
+    <div class="container text-center">
         <section>
             <div class="row">
                 <div class="col text-center">
@@ -15,7 +15,7 @@
             <!-- <h2>財富框架</h2> -->
             <div class="row">
                 <div class="col-lg-4">
-                    <router-link class="home__link" :to="'/vocation'" :tag="'div'">
+                    <router-link class="home__link" :to="'/target'" :tag="'div'">
                         <Card>
                             <h4>自我定位</h4>
                             <img

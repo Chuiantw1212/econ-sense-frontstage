@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center">
+    <div class="container text-center">
         <h1>自我定位</h1>
         <p class="m-0">截斷一切偷心，自然正念常存。</p>
         <p class="m-0">譬如滴水穿石，何愁入道無門。</p>

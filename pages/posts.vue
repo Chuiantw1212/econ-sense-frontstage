@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <div class="text-center">
             <h1>理財百問</h1>
             <p>回答過的理財問題整理成冊</p>

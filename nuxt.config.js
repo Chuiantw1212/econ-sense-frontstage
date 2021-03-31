@@ -55,6 +55,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    '@/plugins/main.js',
     '@/plugins/bootstrap.js',
     '@/plugins/filters.js',
     { src: '~plugins/ga.js', mode: 'client' }

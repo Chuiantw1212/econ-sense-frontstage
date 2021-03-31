@@ -1,0 +1,145 @@
+// class名稱不能動會改到很多鬼東西
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+    .inputGroup__titleGroup {
+        display: flex;
+        justify-content: space-between;
+        min-height: 16px;
+        .titleGroup__text {
+            font-size: 14px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+        .titleGroup__text--required {
+            color: #2f3bf5;
+        }
+    }
+    .inputGroup__message {
+        color: #d54a5b;
+        font-size: 14px;
+    }
+    .inputGroup__label {
+        display: flex;
+        margin-top: 4px;
+        border-radius: 4px;
+        border: solid 1px #d0d0d0;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+        // padding-right: 8px;
+        > select {
+            -moz-appearance: none; /* Firefox */
+            -webkit-appearance: none; /* Safari and Chrome */
+            appearance: none;
+        }
+        // &:focus-within {
+        //     outline: 1px solid rgb(77, 144, 254);
+        // }
+        .label__input {
+            border: none;
+            width: 100%;
+            padding: 4px 8px;
+            box-sizing: border-box;
+            height: 32px;
+            line-height: 24px;
+            font-size: 14px;
+            &:focus {
+                outline: none;
+            }
+            &::placeholder {
+                font-size: 14px;
+            }
+        }
+        .label__input--disabled {
+            background-color: rgb(235, 235, 228);
+            cursor: unset;
+        }
+        .label__button {
+            height: 30px;
+            line-height: 30px;
+            cursor: pointer;
+            background-color: unset;
+            border: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            right: 0;
+            bottom: 0;
+            .button__icon {
+                width: 20px;
+                height: 20px;
+                display: block;
+            }
+        }
+        .label__button--disabled {
+            cursor: inherit;
+        }
+    }
+    .inputGroup__options {
+        display: flex;
+        margin-top: 4px;
+        flex-wrap: wrap;
+        .options__label {
+            display: flex;
+            position: relative;
+            cursor: pointer;
+            margin-bottom: 4px;
+            .options__label__input {
+                position: absolute;
+                visibility: hidden;
+            }
+            .label__text {
+                margin-left: 4px;
+                white-space: nowrap;
+            }
+            .options__label__container {
+                min-width: 16px;
+                height: 16px;
+                background-color: white;
+                border-radius: 50%;
+                border: solid 1px #00b85a;
+                display: flex;
+                .container__content {
+                    width: 10px;
+                    height: 10px;
+                    background-color: #00b85a;
+                    border-radius: 50%;
+                    margin: auto;
+                }
+            }
+            .options__label__container--checkboxes {
+                border-radius: 4px;
+                .container__content {
+                    border-radius: unset;
+                    margin: unset;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            > * {
+                align-self: center;
+            }
+            &:not(:last-child) {
+                margin-right: 16px;
+            }
+        }
+    }
+}
+
+.inputGroup--error {
+    .inputGroup__label {
+        border: solid 1px #d54a5b;
+    }
+}
+
+.inputGroup--changed {
+    .inputGroup__label {
+        border: solid 1px #fda700;
+    }
+}

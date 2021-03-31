@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center">
+    <div class="container text-center">
         <h1>好書推薦</h1>
         <p class="m-0">一個面向一本書，</p>
         <p class="m-0">每本都是精挑細選。</p>

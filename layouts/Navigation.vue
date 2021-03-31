@@ -24,11 +24,11 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
-                            :to="'/vocation'"
+                            :to="'/target'"
                             :active-class="'active'"
                         >
                             自我定位
@@ -78,6 +78,15 @@
                             :active-class="'active'"
                         >
                             精選新聞
+                        </router-link>
+                    </li>
+                     <li class="nav-item" @click="collapseNavbar($event)">
+                        <router-link
+                            class="nav-link"
+                            :to="'/pension'"
+                            :active-class="'active'"
+                        >
+                            勞退試算
                         </router-link>
                     </li>
                     <li class="nav-item" @click="collapseNavbar($event)">
