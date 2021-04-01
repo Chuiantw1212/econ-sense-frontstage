@@ -6,7 +6,7 @@
         <hr />
         <div class="row justify-content-center">
             <div class="col-12 col-md-8 col-lg-6">
-                <h2>勞退試算</h2>
+                <h2>勞退專戶試算</h2>
                 <InputNumber
                     v-model="monthlyIncome"
                     title="個人目前薪資（元/每月）"
@@ -17,11 +17,6 @@
                     title="屆退時預期勞退年資（年）"
                     @change="updateChart()"
                 ></InputNumber>
-                <InputRadios
-                    v-model="retireYear"
-                    title="退休年齡（歲）"
-                    :options="retireYearOptions"
-                ></InputRadios>
                 <InputNumber
                     v-model="internalRateReturn"
                     title="預估個人退休金投資報酬率（%/每年）"
@@ -32,27 +27,40 @@
                     title="預估個人薪資成長率（%/每年）"
                     disabled
                 ></InputNumber>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-8 col-lg-6">
-                <!-- <h2>專戶累積</h2> -->
                 <InputNumber
                     v-model="depositRateMannul"
                     title="退休金提繳率（雇主提撥6%，可再自提6%，最高12%）"
                     @change="updateChart()"
                 ></InputNumber>
-                <!-- <p class="text-left">
-                    雇主提撥6%累積退休金：{{ defaultPensionAmount }}元
-                </p> -->
-                <p class="text-left">
-                    累積退休金：{{ defaultPensionAmount }}元
-                </p>
-                <!-- <InputText
-                    v-model="defaultPensionAmount"
-                    title="雇主提撥6%累積總額"
-                ></InputText> -->
+                <p class="text-left">累積退休金：{{ getAccountValue() }}元</p>
                 <canvas id="pensionAccount"></canvas>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+            <div class="col-12 col-md-8 col-lg-6">
+                <h2>勞退年金試算</h2>
+                <!-- <p>勞退年金三個變數，專戶總額、餘命、利率</p> -->
+                <InputRadios
+                    v-model="retireYear"
+                    title="退休年齡（歲）"
+                    :options="retireYearOptions"
+                    @change="updateChart()"
+                ></InputRadios>
+                <InputNumber
+                    v-model="bankRate"
+                    title="當地銀行二年期定期存款利率（%/每年）"
+                    disabled
+                ></InputNumber>
+                <p class="text-left">
+                    自提前每月退休金：{{
+                        getMonthlyIncome(this.depositDefaultRate)
+                    }}元
+                </p>
+                <p class="text-left">
+                    自提後退休金：{{
+                        getMonthlyIncome(this.depositRateMannul)
+                    }}元
+                </p>
             </div>
         </div>
         <div class="row justify-content-center mt-5">
@@ -61,6 +69,13 @@
                 <ul class="text-left">
                     <li>
                         每月經常薪資：2021年的國人薪資中位數約莫為500,000元，換算每月的經常性薪資約莫是42000左右。
+                    </li>
+                    <li>
+                        退休年齡：2021年的國人預期退休年齡中位數約為65歲。且餘命參考自<a
+                            href="https://www.bli.gov.tw/0018437.html"
+                            target="_blank"
+                            >勞退試算</a
+                        >
                     </li>
                     <li>
                         預估個人退休金投資報酬率：4.62%，引用自勞動部2021年3月的<a
@@ -99,7 +114,8 @@ export default {
             depositDefaultRate: 6,
             depositRateMannul: 12,
             careerLength: 35,
-            retireYear: 24,
+            retireYear: 20,
+            bankRate: 0.987,
             retireYearOptions: [
                 {
                     text: '60',
@@ -108,6 +124,10 @@ export default {
                 {
                     text: '65',
                     value: 20
+                },
+                {
+                    text: '70',
+                    value: 17
                 }
             ],
             pensionChart: null,
@@ -121,6 +141,25 @@ export default {
         this.initChart()
     },
     methods: {
+        getAccountValue() {
+            const data = this.getPensionEndValue(this.depositRateMannul)
+            const accountValue = data[data.length - 1]
+            return accountValue.toLocaleString()
+        },
+        getPresentValue(lifeExpectancy = 20) {
+            const r = 1 + (0.987 / 100)
+            const fraction = 1 - Math.pow(1 / r, lifeExpectancy)
+            const deno = 12 * (Math.pow(r, 1 / 12) - 1)
+            const presentValue = fraction / deno * Math.pow(r, 1 / 12)
+            return presentValue
+        },
+        getMonthlyIncome(depositRateMannul) {
+            const accumulations = this.getPensionEndValue(depositRateMannul)
+            const accumulateResult = accumulations[accumulations.length - 1]
+            const annuity = this.getPresentValue(this.retireYear)
+            let income = accumulateResult / annuity / 12
+            return Number(income.toFixed(0))
+        },
         getPensionEndValue(depositDefaultRate) {
             let annualSavings = this.monthlyIncome * 12 * depositDefaultRate * 0.01
             let totalAmount = 0
@@ -134,8 +173,8 @@ export default {
             const wholeData = data.map(number => {
                 return Number(number.toFixed(0))
             })
-            const accumulateResult = wholeData[wholeData.length - 1]
-            this.defaultPensionAmount = accumulateResult.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+            // const accumulateResult = wholeData[wholeData.length - 1]
+            // this.defaultPensionAmount = accumulateResult.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })
             return wholeData
         },
         initChart() {
@@ -157,6 +196,7 @@ export default {
                     labels,
                     datasets: [
                         {
+                            label: '雇主提撥6%',
                             data: this.getPensionEndValue(this.depositDefaultRate),
                             backgroundColor: backgroundColorDefault,
                             // borderColor: [
@@ -170,15 +210,16 @@ export default {
                             // borderWidth: 1
                         },
                         {
+                            label: `雇主6%+自提${this.depositRateMannul - 6}%`,
                             data: this.getPensionEndValue(this.depositRateMannul),
                             backgroundColor: backgroundColorManuual
                         }
                     ]
                 },
                 options: {
-                    legend: {
-                        display: false
-                    },
+                    // legend: {
+                    //     display: false
+                    // },
                     scales: {
                         xAxes: [{
                             stacked: true
