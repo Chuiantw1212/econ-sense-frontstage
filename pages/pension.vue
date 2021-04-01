@@ -5,37 +5,58 @@
         <i>— 某不知名網頁工程師　朱老闆</i>
         <hr />
         <div class="row justify-content-center">
-            <div class="col-12 col-sm-6 col-md-6">
-                <h4>勞退試算</h4>
+            <div class="col-12 col-md-8 col-lg-6">
+                <h2>勞退試算</h2>
                 <InputNumber
                     v-model="monthlyIncome"
-                    title="個人目前薪資（月）"
-                ></InputNumber>
-                <InputNumber
-                    v-model="internalReturn"
-                    title="預估個人退休金投資報酬率（年）"
-                ></InputNumber>
-                <InputNumber
-                    v-model="incomeYOY"
-                    title="預估個人薪資成長率（年）"
-                ></InputNumber>
-                <InputNumber
-                    v-model="depositRate"
-                    title="退休金提繳率（月）"
+                    title="個人目前薪資（元/每月）"
+                    @change="updateChart()"
                 ></InputNumber>
                 <InputNumber
                     v-model="careerLength"
-                    title="工作年資："
+                    title="屆退時預期勞退年資（年）"
+                    @change="updateChart()"
                 ></InputNumber>
                 <InputRadios
                     v-model="retireYear"
-                    title="退休年齡："
+                    title="退休年齡（歲）"
                     :options="retireYearOptions"
                 ></InputRadios>
+                <InputNumber
+                    v-model="internalRateReturn"
+                    title="預估個人退休金投資報酬率（%/每年）"
+                    disabled
+                ></InputNumber>
+                <InputNumber
+                    v-model="incomeYOY"
+                    title="預估個人薪資成長率（%/每年）"
+                    disabled
+                ></InputNumber>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6">
+                <!-- <h2>專戶累積</h2> -->
+                <InputNumber
+                    v-model="depositRateMannul"
+                    title="退休金提繳率（雇主提撥6%，可再自提6%，最高12%）"
+                    @change="updateChart()"
+                ></InputNumber>
+                <!-- <p class="text-left">
+                    雇主提撥6%累積退休金：{{ defaultPensionAmount }}元
+                </p> -->
+                <p class="text-left">
+                    累積退休金：{{ defaultPensionAmount }}元
+                </p>
+                <!-- <InputText
+                    v-model="defaultPensionAmount"
+                    title="雇主提撥6%累積總額"
+                ></InputText> -->
+                <canvas id="pensionAccount"></canvas>
             </div>
         </div>
         <div class="row justify-content-center mt-5">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-8">
                 <h4>勞退試算預設值說明</h4>
                 <ul class="text-left">
                     <li>
@@ -68,13 +89,15 @@
     </div>
 </template>
 <script>
+import Chart from 'chart.js'
 export default {
     data: function () {
         return {
-            monthlyIncome: 498000,
-            internalReturn: 4.62,
+            monthlyIncome: 41500,
+            internalRateReturn: 4.62,
             incomeYOY: 1.72,
-            depositRate: 6,
+            depositDefaultRate: 6,
+            depositRateMannul: 12,
             careerLength: 35,
             retireYear: 24,
             retireYearOptions: [
@@ -86,11 +109,89 @@ export default {
                     text: '65',
                     value: 20
                 }
-            ]
+            ],
+            pensionChart: null,
+            defaultPensionAmount: 0,
         }
     },
     components: {
         InputNumber: () => import('@/components/input/InputNumber.vue')
+    },
+    mounted() {
+        this.initChart()
+    },
+    methods: {
+        getPensionEndValue(depositDefaultRate) {
+            let annualSavings = this.monthlyIncome * 12 * depositDefaultRate * 0.01
+            let totalAmount = 0
+            const data = []
+            for (let i = 0; i < this.careerLength; i++) {
+                totalAmount *= 1 + (this.internalRateReturn / 100)
+                totalAmount += annualSavings
+                data.push(totalAmount)
+                annualSavings *= 1 + (this.incomeYOY / 100)
+            }
+            const wholeData = data.map(number => {
+                return Number(number.toFixed(0))
+            })
+            const accumulateResult = wholeData[wholeData.length - 1]
+            this.defaultPensionAmount = accumulateResult.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+            return wholeData
+        },
+        initChart() {
+            const labels = []
+            for (let i = 0; i < this.careerLength; i++) {
+                labels.push(`${i + 1}年`)
+            }
+            const backgroundColorDefault = []
+            for (let i = 0; i < this.careerLength; i++) {
+                backgroundColorDefault.push('black')
+            }
+            const backgroundColorManuual = []
+            for (let i = 0; i < this.careerLength; i++) {
+                backgroundColorManuual.push('#4472c4')
+            }
+            this.pensionChart = new Chart('pensionAccount', {
+                type: 'bar',
+                data: {
+                    labels,
+                    datasets: [
+                        {
+                            data: this.getPensionEndValue(this.depositDefaultRate),
+                            backgroundColor: backgroundColorDefault,
+                            // borderColor: [
+                            //     'rgba(255, 99, 132, 1)',
+                            //     'rgba(54, 162, 235, 1)',
+                            //     'rgba(255, 206, 86, 1)',
+                            //     'rgba(75, 192, 192, 1)',
+                            //     'rgba(153, 102, 255, 1)',
+                            //     'rgba(255, 159, 64, 1)'
+                            // ],
+                            // borderWidth: 1
+                        },
+                        {
+                            data: this.getPensionEndValue(this.depositRateMannul),
+                            backgroundColor: backgroundColorManuual
+                        }
+                    ]
+                },
+                options: {
+                    legend: {
+                        display: false
+                    },
+                    scales: {
+                        xAxes: [{
+                            stacked: true
+                        }],
+                    }
+                }
+            })
+        },
+        updateChart() {
+            const pensionValues = this.getPensionEndValue(this.depositRateMannul)
+            this.pensionChart.data.datasets[1].data = pensionValues
+            this.pensionChart.update()
+        },
     }
 }
 </script>

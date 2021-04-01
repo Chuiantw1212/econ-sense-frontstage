@@ -124,6 +124,7 @@ export default {
                     // 空字串以及其他不可以轉型別避免生成0，導致必填檢核失效
                     this.$emit('input', newValue)
                 }
+                this.$emit('change')
             }
         },
         step() {
