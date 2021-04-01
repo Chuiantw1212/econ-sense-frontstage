@@ -135,14 +135,14 @@
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/realestate.jpg"
                     ></Book>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <!-- <div class="col-12 col-md-6 col-lg-4">
                     <Book
                         title="房地產投資"
                         subtitle="我25歲，有30間房收租"
                         productId="11100749070"
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/rental.jpeg"
                     ></Book>
-                </div>
+                </div> -->
             </div>
         </section>
     </div>
