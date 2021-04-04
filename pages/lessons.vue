@@ -10,7 +10,7 @@
             <div class="row mt-1">
                 <div class="col-12 col-md-6 col-lg-4">
                     <Book
-                        title="理財聖經"
+                        title="理財故事書"
                         subtitle="巴比倫最有錢的人"
                         productId="11100918455"
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/babylon.jpeg"

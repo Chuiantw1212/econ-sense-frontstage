@@ -133,22 +133,12 @@
                             <h4>金融理財</h4>
                             <ul>
                                 <li>
-                                    多元投資於股票、ETF、特別股、基金、虛擬貨幣、天使股權
+                                    多元投資於股票、ETF、特別股、基金、虛擬貨幣、天使股權、P2P債權
                                 </li>
                                 <li>
                                     台灣IFA獨立理財規劃顧問產業發產協會發起人之一
                                 </li>
-                                <li>
-                                    不定期於
-                                    <a
-                                        href="https://www.accupass.com/"
-                                        target="_blank"
-                                    >
-                                        Accupass
-                                    </a>
-                                    發布財商桌遊講座
-                                </li>
-                                <!-- <li>蒐集金融證照中，目標是湊一張AFP</li> -->
+                                <li>不定期舉辦財商桌遊講座</li>
                             </ul>
                         </div>
                     </div>
@@ -156,7 +146,13 @@
                 <div class="col-md-6 mt-3">
                     <div class="card">
                         <div class="card-body">
-                            <h4>學習與分享者</h4>
+                            <h4>
+                                <a
+                                    href="https://photos.app.goo.gl/WTnP5qWKmStsjoW27"
+                                    target="_blank"
+                                    >學習與分享者</a
+                                >
+                            </h4>
                             <ul>
                                 <li>Accupass參加上百場活動</li>
                                 <li>新天鵝堡培訓桌遊講師</li>
