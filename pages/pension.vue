@@ -14,33 +14,36 @@
                 ></InputNumber>
                 <InputNumber
                     v-model="age"
-                    title="勞退提繳起始年齡"
+                    title="勞退提繳起算年齡"
                     @change="updateCareerLength(), updateChart()"
                 ></InputNumber>
                 <InputNumber
                     v-model="retireYear"
-                    title="申請退休之年齡（至少60）"
+                    title="欲申請退休之年齡（至少60）"
                     @change="updateCareerLength(), updateChart()"
                 ></InputNumber>
                 <InputNumber
                     v-model="careerLength"
-                    title="服務年資（年）"
+                    title="預估勞退年資（年）"
                     disabled
                     @change="updateChart()"
                 ></InputNumber>
                 <InputNumber
                     v-model="internalRateReturn"
                     title="預估個人退休金投資報酬率（%/每年）"
-                    disabled
                 ></InputNumber>
                 <InputNumber
                     v-model="incomeYOY"
                     title="預估個人薪資成長率（%/每年）"
+                ></InputNumber>
+                 <InputNumber
+                    value="6"
+                    title="雇主提撥6%"
                     disabled
                 ></InputNumber>
                 <InputNumber
                     v-model="depositRateMannul"
-                    title="自行提繳率（雇主提撥6%，可再自提6%，最高總和12%）"
+                    title="自行提撥率（可再自提6%）"
                     @change="updateChart()"
                 ></InputNumber>
                 <p class="text-left">
@@ -58,7 +61,6 @@
                 <InputNumber
                     v-model="bankRate"
                     title="當地銀行二年期定期存款利率（%/每年）"
-                    disabled
                 ></InputNumber>
                 <p class="text-left">
                     自提前每月退休金：{{
@@ -219,7 +221,7 @@ export default {
             return presentValue
         },
         getMonthlyIncome(depositRateMannul) {
-            const rateMannual = Math.max(depositRateMannul, 12)
+            const rateMannual = Math.min(depositRateMannul, 12)
             const accumulations = this.getPensionEndValue(rateMannual)
             const accumulateResult = accumulations[accumulations.length - 1]
             const lifeExpectancy = this.getLifeRemain(this.retireYear)
