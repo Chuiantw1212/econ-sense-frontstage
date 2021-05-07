@@ -122,7 +122,7 @@
                                     Vue.js(Nuxt) + Express.js + Firebase + GCP
                                 </li>
                                 <li>獨立架設常識經濟學部落格 SEO 100分</li>
-                                <li>歡迎做Reference Check</li>
+                                <li>Clean Code實踐者，歡迎做Reference Check</li>
                             </ul>
                         </div>
                     </div>
@@ -150,7 +150,7 @@
                                 <a
                                     href="https://photos.app.goo.gl/WTnP5qWKmStsjoW27"
                                     target="_blank"
-                                    >學習與分享者</a
+                                    >學習、實踐與分享者</a
                                 >
                             </h4>
                             <ul>
@@ -226,6 +226,28 @@
                 <div class="col-6 col-md-3 mt-3">
                     <div class="card">
                         <div class="card-body">
+                            <h6>信託業業務人員</h6>
+                            <img
+                                class="image--full-width"
+                                src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/Proficiency%20Test%20for%20Trust%20Operations%20Personnel.JPG"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6>金融市場常識與職業道德</h6>
+                            <img
+                                class="image--full-width"
+                                src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/financeSense.JPG"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 mt-3">
+                    <div class="card">
+                        <div class="card-body">
                             <h6>鵝堡初階桌遊師</h6>
                             <img
                                 class="image--full-width"
@@ -278,6 +300,17 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-6 col-md-4 mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6>P046軟體產業才能掌握的敏捷式團隊工作術</h6>
+                            <img
+                                class="image--full-width"
+                                src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/learning-agile-and%20-scrum-through-games.JPG"
+                            />
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="mt-5">
@@ -286,7 +319,7 @@
                 <h4>普鴻科技股份有限公司 前端工程師</h4>
                 <h5>October 2020 ~</h5>
                 <ul>
-                    <li>駐點知名人壽開發保單審核系統</li>
+                    <li>駐點知名人壽開發保單審核系統，團隊規模約15人</li>
                     <li>系統性分享專案經驗</li>
                 </ul>
             </MyListItem>
@@ -294,7 +327,7 @@
                 <h4>博暉股份有限公司 前端工程師</h4>
                 <h5>March 2019 ~ July 2020</h5>
                 <ul>
-                    <li>挽救官方背景投信的好享退專案</li>
+                    <li>挽救官方背景投信的好享退專案，團隊規模約5人</li>
                     <li>架構一個可以模組化開發的後台系統</li>
                     <li>傳授網頁開發技術知識</li>
                 </ul>
@@ -311,6 +344,10 @@
             <MyListItem>
                 <h4>香蕉會兒設計有限公司 遊戲工程師</h4>
                 <h5>March 2017 - March 2018</h5>
+                <ul>
+                    <li>感謝Rita容忍我的不成熟</li>
+                    <li>相比後面真的沒什麼成績可以拿出來講XD</li>
+                </ul>
             </MyListItem>
             <MyListItem>
                 <h4>工作以前</h4>
