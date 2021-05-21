@@ -1,7 +1,7 @@
 <template>
     <div class="container text-center">
         <h1>好書推薦</h1>
-        <p class="m-0">一個面向一本書，</p>
+        <p class="m-0">一個面向一本入門，</p>
         <p class="m-0">每本都是精挑細選。</p>
         <hr />
         <section class="mt-5">
@@ -24,12 +24,12 @@
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/millionaire.jpg"
                     ></Book>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                 <div class="col-12 col-md-6 col-lg-4">
                     <Book
-                        title="人生企劃書"
-                        subtitle="一生幸福的人生企畫書"
-                        productId="11100786472"
-                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/efficiency.jpg"
+                        title="金錢 = 生命活力"
+                        subtitle="跟錢好好相處"
+                        productId="11100854970"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/your-money-or-your-life.jpeg"
                     ></Book>
                 </div>
             </div>
@@ -39,20 +39,36 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <Book
-                        title="自我覺察"
-                        subtitle="大器可以晚成"
-                        productId="11100884682"
-                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/latebloomers.jpeg"
-                    ></Book>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <Book
                         title="累積專業"
                         subtitle="你花掉的錢都會自己流回來"
                         productId="11100868187"
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/%E8%8A%B1%E6%8E%89%E7%9A%84%E9%8C%A2%E9%83%BD%E6%9C%83%E8%87%AA%E5%B7%B1%E6%B5%81%E5%9B%9E%E4%BE%86.jpeg"
                     ></Book>
                 </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <Book
+                        title="均衡人生目標"
+                        subtitle="一生幸福的人生企畫書"
+                        productId="11100786472"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/efficiency.jpg"
+                    ></Book>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <Book
+                        title="拉高人生維度"
+                        subtitle="通往財富自由之路"
+                        productId="11100835378"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/roadToFututre.jpeg"
+                    ></Book>
+                </div>
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <Book
+                        title="自我覺察"
+                        subtitle="大器可以晚成"
+                        productId="11100884682"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/latebloomers.jpeg"
+                    ></Book>
+                </div> -->
             </div>
         </section>
         <section class="mt-5">
@@ -129,18 +145,18 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <Book
-                        title="房地產自住"
-                        subtitle="張金鶚的房產七堂課"
-                        productId="11100202908"
-                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/realestate.jpg"
+                        title="房地產"
+                        subtitle="買一間會增值的房子"
+                        productId="11100749070"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/realestate.jpeg"
                     ></Book>
                 </div>
                 <!-- <div class="col-12 col-md-6 col-lg-4">
                     <Book
-                        title="房地產投資"
-                        subtitle="我25歲，有30間房收租"
-                        productId="11100749070"
-                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/rental.jpeg"
+                        title="房地產市場"
+                        subtitle="張金鶚的房產七堂課"
+                        productId="11100202908"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/realestate.jpg"
                     ></Book>
                 </div> -->
             </div>
