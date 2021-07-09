@@ -168,7 +168,7 @@
                             <ul>
                                 <li>留美主攻 Project Management</li>
                                 <li>2020/05 4A成績正式取得PMP證照</li>
-                                <li>持續培養跨業能力</li>
+                                <li>創業中......</li>
                             </ul>
                         </div>
                     </div>
@@ -321,6 +321,9 @@
                 <ul>
                     <li>駐點知名人壽開發保單審核系統，團隊規模約15人</li>
                     <li>系統性分享專案經驗</li>
+                    <li>
+                        <a href="https://www.flyingfar.net/node/170">誠遠國際財商桌遊講師</a>
+                    </li>
                 </ul>
             </MyListItem>
             <MyListItem>
@@ -339,6 +342,13 @@
                     <li>獨立開發區塊鏈會員管理系統前後台</li>
                     <li>獨立開發臉部辨識系統Protoype</li>
                     <li>教導非工程背景同事寫網頁</li>
+                    <li>
+                        <a
+                            href="https://www.sce.pccu.edu.tw/courses/0IZCsample"
+                        >
+                            中國文化大學進修部兼任講師 (未開課)
+                        </a>
+                    </li>
                 </ul>
             </MyListItem>
             <MyListItem>
