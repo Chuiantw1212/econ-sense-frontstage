@@ -158,7 +158,7 @@
         </div>
         <div>又因為提繳不納入年度薪資所得課稅的關係</div>
         <div>所得級距越高，節稅效果越明顯</div>
-        <div>以國人薪資中位數490,000來計算</div>
+        <div>以國人薪資中位數490,000來概算</div>
         <div>
             絕大多數的人都可以達到
             <a
@@ -185,24 +185,24 @@
                 <tr>
                     <th>原始薪資</th>
                     <td>490,000</td>
-                    <td>170,000</td>
-                    <td>8,500</td>
+                    <td>90,000</td>
+                    <td>4,500</td>
                 </tr>
                 <tr>
                     <th>提繳6%</th>
-                    <td>460,606</td>
-                    <td>140,600</td>
-                    <td>7,030</td>
+                    <td>460,000</td>
+                    <td>60,000</td>
+                    <td>3,000</td>
                 </tr>
                 <tr>
                     <th class="align-middle">節稅結果</th>
                     <td class="align-middle">
-                        <div>29,400</div>
+                        <div>30,000</div>
                         <div>(支付給未來的自己)</div>
                     </td>
                     <td class="align-middle">-</td>
                     <td class="align-middle">
-                        <div class="text-danger">1,470</div>
+                        <div class="text-danger">1,500</div>
                         <div class="text-danger">(紮紮實實少繳的稅金)</div>
                     </td>
                 </tr>

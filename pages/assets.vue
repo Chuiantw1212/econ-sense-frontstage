@@ -4,6 +4,25 @@
         <p class="m-0">時間是你的朋友，而衝動則是你的敵人。</p>
         <i>— Vanguard創辦人　約翰‧柏格（John C. Bogle）</i>
         <hr />
+        <h2>股利所得抵稅</h2>
+        <p class="m-0">
+            <a
+                href="https://www.etax.nat.gov.tw/etwmain/web/ETW118W/CON/460/7811567922763436027?tagCode="
+                target="_blank"
+            >
+                台灣股利金額的8.5%可計算抵減稅額。
+            </a>
+        </p>
+        <p>如果一個人的所得税級距是5%，就相當於"多折抵"3.5%，甚至可以退稅。</p>
+        <div class="row">
+            <div class="col">
+                <img
+                    class="width--100"
+                    src="https://storage.googleapis.com/my-blog-287510.appspot.com/wealth/tax2020.png"
+                />
+            </div>
+        </div>
+        <br />
         <h2>商品訊息</h2>
         <table class="table table-bordered">
             <tbody>
@@ -13,20 +32,7 @@
                     <td>內部報酬率(IRR)</td>
                 </tr>
                 <tr>
-                    <th>境外基金</th>
-                    <td>
-                        <a
-                            rel="noreferrer"
-                            href="https://bb.ezfunds.com.tw/"
-                            target="_blank"
-                        >
-                            中租投顧
-                        </a>
-                    </td>
-                    <td>8%</td>
-                </tr>
-                <tr>
-                    <th>台灣指數型ETF</th>
+                    <th>指數型ETF、複委託</th>
                     <td>
                         <p class="m-0">
                             <a
@@ -91,27 +97,6 @@
         <br />
         <div class="row">
             <div class="col-12 col-lg-4">
-                <div class="card m-1">
-                    <a
-                        rel="noreferrer"
-                        href="https://bb.ezfunds.com.tw/"
-                        target="_blank"
-                    >
-                        <img
-                            class="card__image"
-                            alt="中租投顧"
-                            src="https://storage.googleapis.com/my-blog-287510.appspot.com/wealth/ez.jpg"
-                        />
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">中租投顧</h5>
-                        <p class="text-left">
-                            基金公司通常不想公開Alpha值，經理人長期大多輸給市場。中租投顧是少數把5年Alpha值大方擺上的投顧，保證找到優秀的基金，絕對值得長期往來
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-4">
                 <div class="card my-1">
                     <a
                         rel="noreferrer"
@@ -127,7 +112,7 @@
                     <div class="card-body">
                         <h5 class="card-title">LnB信用市集</h5>
                         <p class="text-left">
-                            台灣最好的P2P借貸平台，不斷的擴充選項給投資人，自動下單免盯盤的蘿菠投方案，更是大舉把其他平台給甩在後面
+                            台灣最好的P2P借貸平台，不斷的擴充選項給投資人，自動下單免盯盤的蘿菠投方案，更是大舉把其他平台給甩在後面。點擊Logo獲取100元回饋金。
                         </p>
                     </div>
                 </div>
@@ -136,7 +121,7 @@
                 <div class="card my-1">
                     <a
                         rel="noreferrer"
-                        href="www.sunnyfounder.com/i/F98QOW"
+                        href="https://www.sunnyfounder.com/i/F98QOW"
                         target="_blank"
                     >
                         <img
@@ -148,29 +133,7 @@
                     <div class="card-body">
                         <h5 class="card-title">陽光伏特家</h5>
                         <p class="text-left">
-                            出資太陽能農場，不定期會釋出案件，也有監控系統監看每個電廠的發電狀況，平均收益更高達6%。投彰化、台南、雲林的案件就對了。
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-4">
-                <div class="card my-1">
-                    <a
-                        class="card-img-top"
-                        rel="noreferrer"
-                        href="https://www.google.com/search?q=智富台灣基金獎"
-                        target="_blank"
-                    >
-                        <img
-                            class="card__image"
-                            alt="智富台灣基金獎"
-                            src="https://storage.googleapis.com/my-blog-287510.appspot.com/wealth/smart.jpg"
-                        />
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">智富台灣基金獎</h5>
-                        <p class="text-left">
-                            其中獲獎的"全球多重資產基金"，很適合作為存基金，偏好低波動的話可以用全球債券基金取代
+                            出資太陽能農場，不定期會釋出案件，也有監控系統監看每個電廠的發電狀況，平均收益更高達6%。且視同租賃所得，稅務優勢導致幾乎免稅。點擊Logo獲取100元回饋金。
                         </p>
                     </div>
                 </div>
@@ -191,6 +154,10 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+.width--100 {
+    width: 100%;
+    display: block;
+}
 .card__image {
     align-self: center;
     max-width: 240px;
