@@ -116,6 +116,12 @@ export default {
                 return this.value
             },
             set(newValue) {
+                if (newValue && this.minimumValue > Number(newValue)) {
+                    newValue = this.minimumValue
+                }
+                if (this.maximumValue && this.maximumValue < Number(newValue)) {
+                    newValue = this.maximumValue
+                }
                 if (newValue && this.type === 'number') {
                     // 正常數字需轉型別
                     const formatNewNumber = Number(newValue)
@@ -133,9 +139,6 @@ export default {
         }
     },
     watch: {
-        _value(newValue, oldValue) {
-
-        },
         // eslint-disable-next-line
         precision(newPrecision) {
             this.toPrecision(newPrecision)
