@@ -13,6 +13,12 @@
                     @change="updateChart()"
                 ></InputNumber>
                 <InputNumber
+                    :value="getEstimatedIncomeTax()"
+                    title="預估每年綜所稅"
+                    :disabled="true"
+                    @change="updateChart()"
+                ></InputNumber>
+                <InputNumber
                     v-model="age"
                     title="勞退提繳起算年齡"
                     @change="updateCareerLength(), updateChart()"
@@ -33,22 +39,20 @@
                     title="預估個人退休金投資報酬率（%/每年）"
                 ></InputNumber>
                 <InputNumber
-                    v-model="incomeYOY"
-                    title="預估個人薪資成長率（%/每年）"
-                ></InputNumber>
-                 <InputNumber
                     value="6"
                     title="雇主提撥6%"
                     disabled
                 ></InputNumber>
                 <InputNumber
                     v-model="depositRateMannul"
-                    title="自行提撥率（可再自提6%）"
+                    title="自行提撥率（最多自提6%）"
+                    :maximumValue="6"
                     @change="updateChart()"
                 ></InputNumber>
                 <p class="text-left">
                     累積退休金：{{ getAccountValue().toLocaleString() }}元
                 </p>
+                <p class="text-left">累積節稅效益:{{ getTaxDeduction() }}</p>
                 <canvas id="pensionAccount"></canvas>
             </div>
         </div>
@@ -90,6 +94,10 @@
                 <p class="text-left">
                     當年度退職所得申報： {{ getAnnulIncome().toLocaleString() }}
                 </p>
+                <p class="text-left">
+                    當年度所得稅試算：
+                    {{ estimateOneTimeTax().toLocaleString() }}
+                </p>
             </div>
         </div>
         <div class="row justify-content-center mt-3">
@@ -105,6 +113,9 @@
             <div class="col-12 col-md-8">
                 <h2>勞退試算預設值說明</h2>
                 <ul class="text-left">
+                    <li>
+                        綜所稅以單身試算扣除一般扣除額120,000，另外僅扣除薪資特別扣除額
+                    </li>
                     <li>
                         每月經常薪資：2021年的國人薪資中位數約莫為500,000元，換算每月的經常性薪資約莫是42000左右。
                         最新資訊可以從<a
@@ -127,9 +138,9 @@
                             >經營績效</a
                         >。
                     </li>
-                    <li>
+                    <!-- <li>
                         薪資每年成長幅度：2012年的國人薪資中位數為442,000元，2019年國人薪資中位數為498,000，回推每年的調幅約為1.72%。
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -148,7 +159,7 @@ export default {
             age: 40,
             monthlyIncome: 41500,
             internalRateReturn: 4.62,
-            incomeYOY: 1.72,
+            // incomeYOY: 1.72,
             depositDefaultRate: 6,
             depositRateMannul: 6,
             careerLength: 25,
@@ -157,6 +168,9 @@ export default {
             taxFreeUnit: 18,
             pensionChart: null,
             defaultPensionAmount: 0,
+            // 節稅效果
+            estimatedIncomeTax: 0,
+            taxDiscount: 0,
         }
     },
     components: {
@@ -168,6 +182,52 @@ export default {
         this.updateChart()
     },
     methods: {
+        getTaxDeduction() {
+            const annulIncome = this.monthlyIncome * 12 - 408000
+            let depositPart = this.monthlyIncome * 12 * this.depositRateMannul
+            let taxRate = 0
+            if (0 <= annulIncome < 540000) {
+                taxRate = 5
+            } else if (540000 <= annulIncome < 1210000) {
+                taxRate = 12
+            } else if (1210000 <= annulIncome < 2420000) {
+                taxRate = 20
+            } else if (2420000 <= annulIncome < 4530000) {
+                taxRate = 30
+            } else {
+                taxRate = 40
+            }
+            let taxDeduction = Math.floor(depositPart * taxRate / 100)
+            return taxDeduction.toLocaleString()
+        },
+        getEstimatedIncomeTax() {
+            const annulIncome = this.monthlyIncome * 12 - 408000
+            if (0 <= annulIncome < 540000) {
+                return Math.floor(annulIncome * 0.05)
+            } else if (540000 <= annulIncome < 1210000) {
+                return Math.floor(annulIncome * 0.12 - 37800)
+            } else if (1210000 <= annulIncome < 2420000) {
+                return Math.floor(annulIncome * 0.20 - 134600)
+            } else if (2420000 <= annulIncome < 4530000) {
+                return Math.floor(annulIncome * 0.30 - 376600)
+            } else {
+                return Math.floor(annulIncome * 0.40 - 829600)
+            }
+        },
+        estimateOneTimeTax() {
+            const getAnnulIncome = this.getAnnulIncome()
+            if (0 <= getAnnulIncome < 540000) {
+                return Math.floor(getAnnulIncome * 0.05)
+            } else if (540000 <= getAnnulIncome < 1210000) {
+                return Math.floor(getAnnulIncome * 0.12 - 37800)
+            } else if (1210000 <= getAnnulIncome < 2420000) {
+                return Math.floor(getAnnulIncome * 0.20 - 134600)
+            } else if (2420000 <= getAnnulIncome < 4530000) {
+                return Math.floor(getAnnulIncome * 0.30 - 376600)
+            } else {
+                return Math.floor(getAnnulIncome * 0.40 - 829600)
+            }
+        },
         getLifeRemain() {
             const retireYear = Math.max(60, this.retireYear)
             const lifeRemain = lifeExpectancy[retireYear]
@@ -240,7 +300,7 @@ export default {
                 totalAmount *= 1 + (this.internalRateReturn / 100)
                 totalAmount += annualSavings
                 data.push(totalAmount)
-                annualSavings *= 1 + (this.incomeYOY / 100)
+                // annualSavings *= 1 + (this.incomeYOY / 100)
             }
             const wholeData = data.map(number => {
                 return Number(number.toFixed(0))

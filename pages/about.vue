@@ -119,7 +119,7 @@
                             <h4>網頁製作</h4>
                             <ul>
                                 <li>
-                                    Vue.js(Nuxt) + Express.js + Firebase + GCP
+                                    Vue.js(Nuxt) + Express.js + Firebase
                                 </li>
                                 <li>獨立架設常識經濟學部落格 SEO 100分</li>
                                 <li>Clean Code實踐者，歡迎做Reference Check</li>
