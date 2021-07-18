@@ -24,7 +24,7 @@
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/millionaire.jpg"
                     ></Book>
                 </div>
-                 <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <Book
                         title="金錢 = 生命活力"
                         subtitle="跟錢好好相處"
@@ -165,6 +165,9 @@
 </template>
 <script>
 export default {
+    head: {
+        title: '常識經濟學 - 好書推薦'
+    },
     components: {
         Book: () => import('./lessons/book.vue')
     }

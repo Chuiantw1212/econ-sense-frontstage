@@ -154,6 +154,9 @@
 import Chart from 'chart.js'
 import lifeExpectancy from '@/libs/lifeExpectancy.js'
 export default {
+    head: {
+        title: '常識經濟學 - 勞退試算'
+    },
     data: function () {
         return {
             age: 40,

@@ -19,6 +19,9 @@ import WidgetCategories from '@/components/widgets/Categories.vue'
 import Pagination from '@/components/Pagination.vue'
 import * as firebase from "firebase/app";
 export default {
+    head: {
+        title: '常識經濟學 - 理財FQ'
+    },
     components: {
         PostPreview,
         WidgetSearch,
