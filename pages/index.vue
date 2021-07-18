@@ -51,7 +51,7 @@
                         :tag="'div'"
                     >
                         <Card>
-                            <h4>累積資產</h4>
+                            <h4>資產配置</h4>
                             <img
                                 src="@/assets/icon/invest.svg"
                                 alt="invest-money"

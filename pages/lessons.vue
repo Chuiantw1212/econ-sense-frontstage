@@ -125,7 +125,7 @@
             </div>
         </section>
         <section class="mt-5">
-            <h2>累積資產</h2>
+            <h2>資產配置</h2>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <Book

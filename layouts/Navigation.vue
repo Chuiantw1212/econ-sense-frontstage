@@ -65,10 +65,19 @@
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
+                            :to="'/classic'"
+                            :active-class="'active'"
+                        >
+                            經典課程
+                        </router-link>
+                    </li>
+                    <li class="nav-item" @click="collapseNavbar($event)">
+                        <router-link
+                            class="nav-link"
                             :to="'/posts'"
                             :active-class="'active'"
                         >
-                            理財百問
+                            理財FQ
                         </router-link>
                     </li>
                     <li class="nav-item" @click="collapseNavbar($event)">
@@ -80,7 +89,7 @@
                             精選新聞
                         </router-link>
                     </li>
-                     <li class="nav-item" @click="collapseNavbar($event)">
+                    <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
                             :to="'/pension'"
