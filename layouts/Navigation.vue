@@ -28,29 +28,10 @@
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
-                            :to="'/target'"
+                            :to="'/classic'"
                             :active-class="'active'"
                         >
-                            自我定位
-                        </router-link>
-                    </li>
-                    <li class="nav-item" @click="collapseNavbar($event)">
-                        <router-link
-                            class="nav-link"
-                            :to="'/management'"
-                            :active-class="'active'"
-                            @click="collapseNavbar($event)"
-                        >
-                            經營管理
-                        </router-link>
-                    </li>
-                    <li class="nav-item" @click="collapseNavbar($event)">
-                        <router-link
-                            class="nav-link"
-                            :to="'/assets'"
-                            :active-class="'active'"
-                        >
-                            資產配置
+                            經典課程
                         </router-link>
                     </li>
                     <li class="nav-item" @click="collapseNavbar($event)">
@@ -60,15 +41,6 @@
                             :active-class="'active'"
                         >
                             好書推薦
-                        </router-link>
-                    </li>
-                    <li class="nav-item" @click="collapseNavbar($event)">
-                        <router-link
-                            class="nav-link"
-                            :to="'/classic'"
-                            :active-class="'active'"
-                        >
-                            經典課程
                         </router-link>
                     </li>
                     <li class="nav-item" @click="collapseNavbar($event)">

@@ -13,3 +13,25 @@
         ></iframe>
     </div>
 </template>
+<script>
+export default {
+    head: {
+        title: '常識經濟學 - 經典課程'
+    },
+    methods: {
+        openEmail() {
+            window.open('mailto:chuiantw1212jobs@gmail.com')
+        }
+    }
+}
+</script>
+<style lang="scss" scoped>
+.width--100 {
+    width: 100%;
+    display: block;
+}
+.card__image {
+    align-self: center;
+    max-width: 240px;
+}
+</style>
