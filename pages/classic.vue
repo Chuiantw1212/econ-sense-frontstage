@@ -11,6 +11,18 @@
             mozallowfullscreen="true"
             webkitallowfullscreen="true"
         ></iframe>
+        <hr />
+        <h1>懶人投資</h1>
+        <!-- <p>長期持有、全球分散、資產配置</p> -->
+        <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vSpVZ3KW-tPOPo_gmQknkHUDHmNyXGpp-79CaVpdzUykouW6kDyNlwivB1Pb7pC_URVRkmmQdf93h2t/embed?start=false&loop=false&delayms=3000"
+            frameborder="0"
+            width="960"
+            height="569"
+            allowfullscreen="true"
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true"
+        ></iframe>
     </div>
 </template>
 <script>
