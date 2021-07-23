@@ -11,53 +11,33 @@
             <div>
                 <p>讓富裕不再是秘密</p>
             </div>
-            <hr />
-            <!-- <h2>財富框架</h2> -->
             <div class="row">
                 <div class="col-lg-4">
-                    <router-link
-                        class="home__link"
-                        :to="'/target'"
-                        :tag="'div'"
-                    >
-                        <Card>
-                            <h4>自我定位</h4>
-                            <img
-                                src="@/assets/icon/machine-learning.svg"
-                                alt="money-flow"
-                            />
-                        </Card>
-                    </router-link>
+                    <Card>
+                        <h4>目標設定</h4>
+                        <img
+                            src="@/assets/icon/machine-learning.svg"
+                            alt="money-flow"
+                        />
+                    </Card>
                 </div>
                 <div class="col-lg-4">
-                    <router-link
-                        class="home__link"
-                        :to="'/management'"
-                        :tag="'div'"
-                    >
-                        <Card>
-                            <h4>經營管理</h4>
-                            <img
-                                src="@/assets/icon/flow-chart.svg"
-                                alt="invest-self"
-                            />
-                        </Card>
-                    </router-link>
+                    <Card>
+                        <h4>經營管理</h4>
+                        <img
+                            src="@/assets/icon/flow-chart.svg"
+                            alt="invest-self"
+                        />
+                    </Card>
                 </div>
                 <div class="col-lg-4">
-                    <router-link
-                        class="home__link"
-                        :to="'/assets'"
-                        :tag="'div'"
-                    >
-                        <Card>
-                            <h4>資產配置</h4>
-                            <img
-                                src="@/assets/icon/invest.svg"
-                                alt="invest-money"
-                            />
-                        </Card>
-                    </router-link>
+                    <Card>
+                        <h4>資產配置</h4>
+                        <img
+                            src="@/assets/icon/invest.svg"
+                            alt="invest-money"
+                        />
+                    </Card>
                 </div>
             </div>
             <hr />
