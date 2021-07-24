@@ -35,11 +35,11 @@
             </div>
         </section>
         <section class="mt-5">
-            <h2>自我定位</h2>
+            <h2>目標設定</h2>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <Book
-                        title="累積專業"
+                        title="投資自己"
                         subtitle="你花掉的錢都會自己流回來"
                         productId="11100868187"
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/%E8%8A%B1%E6%8E%89%E7%9A%84%E9%8C%A2%E9%83%BD%E6%9C%83%E8%87%AA%E5%B7%B1%E6%B5%81%E5%9B%9E%E4%BE%86.jpeg"
@@ -53,27 +53,20 @@
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/efficiency.jpg"
                     ></Book>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <Book
-                        title="拉高人生維度"
-                        subtitle="通往財富自由之路"
-                        productId="11100835378"
-                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/roadToFututre.jpeg"
-                    ></Book>
-                </div>
-                <!-- <div class="col-12 col-md-6 col-lg-4">
-                    <Book
-                        title="自我覺察"
-                        subtitle="大器可以晚成"
-                        productId="11100884682"
-                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/latebloomers.jpeg"
-                    ></Book>
-                </div> -->
+
             </div>
         </section>
         <section class="mt-5">
             <h2>經營管理</h2>
             <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <Book
+                        title="自我管理"
+                        subtitle="把時間當作朋友"
+                        productId="11100841896"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/treatTimeAsFriend.jpeg"
+                    ></Book>
+                </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <Book
                         title="時間管理、目標管理"
