@@ -53,20 +53,19 @@
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/efficiency.jpg"
                     ></Book>
                 </div>
-
             </div>
         </section>
         <section class="mt-5">
             <h2>經營管理</h2>
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
+                <!-- <div class="col-12 col-md-6 col-lg-4">
                     <Book
                         title="自我管理"
                         subtitle="把時間當作朋友"
                         productId="11100841896"
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/treatTimeAsFriend.jpeg"
                     ></Book>
-                </div>
+                </div> -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <Book
                         title="時間管理、目標管理"
@@ -81,14 +80,6 @@
                         subtitle="行動支付時代的金錢整理術"
                         productId="11100923100"
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/daily.jpg"
-                    ></Book>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <Book
-                        title="消費管理"
-                        subtitle="精準購買"
-                        productId="11100884641"
-                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/buymeonce.jpg"
                     ></Book>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
@@ -144,14 +135,35 @@
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/realestate.jpeg"
                     ></Book>
                 </div>
-                <!-- <div class="col-12 col-md-6 col-lg-4">
+            </div>
+        </section>
+        <section class="mt-5">
+            <h2>簡單生活</h2>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
                     <Book
-                        title="房地產市場"
-                        subtitle="張金鶚的房產七堂課"
-                        productId="11100202908"
-                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/realestate.jpg"
+                        title="消費管理"
+                        subtitle="精準購買"
+                        productId="11100884641"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/buymeonce.jpg"
                     ></Book>
-                </div> -->
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <Book
+                        title="斷捨離"
+                        subtitle="新斷捨離"
+                        productId="11100918482"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/%E6%96%B0%E6%96%B7%E6%8D%A8%E9%9B%A2.jpeg"
+                    ></Book>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <Book
+                        title="極簡主義"
+                        subtitle="我們的極簡生活"
+                        productId="11100828010"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/minimalist.jpeg"
+                    ></Book>
+                </div>
             </div>
         </section>
     </div>
