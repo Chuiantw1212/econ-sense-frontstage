@@ -43,7 +43,7 @@
                             好書推薦
                         </router-link>
                     </li>
-                    <li class="nav-item" @click="collapseNavbar($event)">
+                    <!-- <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
                             :to="'/posts'"
@@ -51,8 +51,8 @@
                         >
                             理財FQ
                         </router-link>
-                    </li>
-                    <li class="nav-item" @click="collapseNavbar($event)">
+                    </li> -->
+                    <!-- <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
                             :to="'/news'"
@@ -60,7 +60,7 @@
                         >
                             精選新聞
                         </router-link>
-                    </li>
+                    </li> -->
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
