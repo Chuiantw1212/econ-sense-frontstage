@@ -137,7 +137,7 @@
                 </div>
             </div>
         </section>
-        <section class="mt-5">
+        <!-- <section class="mt-5">
             <h2>簡單生活</h2>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
@@ -165,7 +165,7 @@
                     ></Book>
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>
 </template>
 <script>

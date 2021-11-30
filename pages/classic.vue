@@ -12,7 +12,7 @@
             webkitallowfullscreen="true"
         ></iframe>
         <hr />
-        <h1>懶人投資</h1>
+        <!-- <h1>懶人投資</h1>
         <p>金融心理、ETF、全球分散</p>
         <iframe
             src="https://docs.google.com/presentation/d/e/2PACX-1vSpVZ3KW-tPOPo_gmQknkHUDHmNyXGpp-79CaVpdzUykouW6kDyNlwivB1Pb7pC_URVRkmmQdf93h2t/embed?start=false&loop=false&delayms=3000"
@@ -22,7 +22,7 @@
             allowfullscreen="true"
             mozallowfullscreen="true"
             webkitallowfullscreen="true"
-        ></iframe>
+        ></iframe> -->
     </div>
 </template>
 <script>
