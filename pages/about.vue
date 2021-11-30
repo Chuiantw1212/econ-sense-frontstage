@@ -8,81 +8,75 @@
         </div>
         <br />
         <div class="row">
-            <p class="col">
-                I am an web developer in Fin-Tech industry, and the creator of
-                this website.
-            </p>
+            <p class="col">I am an web developer in Fin-Tech industry, and the creator of this website.</p>
         </div>
         <br />
         <div class="row">
             <p class="col">
-                This website is created for spreading the common knowledge of
-                lifetime finance management.
+                This website is created for spreading the common knowledge of lifetime finance management.
             </p>
         </div>
         <div class="row">
             <p class="col">
-                Many thanks to those who read this line, I wish the best will
-                all come to you in the future.
+                Many thanks to those who read this line, I wish the best will all come to you in the future.
             </p>
         </div>
         <section class="mt-3">
             <h2>Thank list</h2>
             <p>
                 Logo made by Charlie from
-                <a
-                    rel="noreferrer"
-                    href="https://www.branding-good.com"
-                    target="_blank"
-                    >好日子視覺設計</a
-                >
-            </p>
-            <p>
-                Icons made by
-                <a
-                    rel="noreferrer"
-                    href="https://www.flaticon.com/authors/freepik"
-                    title="Freepik"
-                    target="_blank"
-                    >Freepik</a
-                >
-                from
-                <a
-                    rel="noreferrer"
-                    href="https://www.flaticon.com/"
-                    title="Flaticon"
-                    target="_blank"
-                >
-                    www.flaticon.com</a
-                >
+                <a rel="noreferrer" href="https://www.branding-good.com" target="_blank">好日子視覺設計</a>
             </p>
             <p>
                 Team support and materials from
-                <a
-                    rel="noreferrer"
-                    href="https://www.azsinopro.com.tw/"
-                    target="_blank"
-                    >azsinopro</a
+                <a rel="noreferrer" href="https://www.azsinopro.com.tw/" target="_blank">azsinopro</a>
+            </p>
+            <p>
+                Icons made by
+                <a rel="noreferrer" href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank"
+                    >Freepik</a
+                >
+                from
+                <a rel="noreferrer" href="https://www.flaticon.com/" title="Flaticon" target="_blank">
+                    www.flaticon.com</a
                 >
             </p>
         </section>
         <hr />
         <section>
+            <h2>職缺媒合平台<a href="https://job-pair-dev.web.app" target="_blank">Job Pair</a></h2>
+            <iframe
+                src="https://docs.google.com/presentation/d/e/2PACX-1vSVpXaRcurZ3ER0imCM1XtSj6_0Nk8j9EvotPY1dTsXBYKLta-FXkkRGp9DcXb3KfsHSUwTu_9N8w4Y/embed?start=false&loop=false&delayms=3000"
+                frameborder="0"
+                width="100%"
+                height="569"
+                allowfullscreen="true"
+                mozallowfullscreen="true"
+                webkitallowfullscreen="true"
+            ></iframe>
+            <!-- <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <div class="card__background card__background--mbia"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="https://www.mbia.com.tw/" target="_blank"> 倉儲管理公司(2021) </a>
+                            </h5>
+                            <p class="card-text">使用Nuxt製作，Alpha中</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+        <section>
             <h2>外包專案</h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <div
-                            class="card__background card__background--mbia"
-                        ></div>
+                        <div class="card__background card__background--mbia"></div>
                         <div class="card-body">
                             <h5 class="card-title">
-                                <a
-                                    href="https://www.mbia.com.tw/"
-                                    target="_blank"
-                                >
-                                    倉儲管理公司(2021)
-                                </a>
+                                <a href="https://www.mbia.com.tw/" target="_blank"> 倉儲管理公司(2021) </a>
                             </h5>
                             <p class="card-text">使用Nuxt製作，Alpha中</p>
                         </div>
@@ -90,21 +84,14 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <div
-                            class="card__background card__background--josie"
-                        ></div>
+                        <div class="card__background card__background--josie"></div>
                         <div class="card-body">
                             <h5 class="card-title">
-                                <a
-                                    href="https://chuiantw1212.github.io/josies-portfolio/#/home"
-                                    target="_blank"
-                                >
+                                <a href="https://chuiantw1212.github.io/josies-portfolio/#/home" target="_blank">
                                     UIUX設計師個人網頁(2019)
                                 </a>
                             </h5>
-                            <p class="card-text">
-                                協助珠寶設計師轉職網站設計師的網頁
-                            </p>
+                            <p class="card-text">協助珠寶設計師轉職網站設計師的網頁</p>
                         </div>
                     </div>
                 </div>
@@ -118,9 +105,7 @@
                         <div class="card-body">
                             <h4>網頁製作</h4>
                             <ul>
-                                <li>
-                                    Vue.js(Nuxt) + Express.js + Firebase
-                                </li>
+                                <li>Vue.js(Nuxt) + Express.js + Firebase</li>
                                 <li>獨立架設常識經濟學部落格 SEO 100分</li>
                                 <li>Clean Code實踐者，歡迎做Reference Check</li>
                             </ul>
@@ -132,12 +117,8 @@
                         <div class="card-body">
                             <h4>金融理財</h4>
                             <ul>
-                                <li>
-                                    多元投資於股票、ETF、特別股、基金、虛擬貨幣、天使股權、P2P債權
-                                </li>
-                                <li>
-                                    台灣IFA獨立理財規劃顧問產業發產協會發起人之一
-                                </li>
+                                <li>多元投資於股票、ETF、特別股、基金、虛擬貨幣、天使股權、P2P債權</li>
+                                <li>台灣IFA獨立理財規劃顧問產業發產協會發起人之一</li>
                                 <li>不定期舉辦財商桌遊講座</li>
                             </ul>
                         </div>
@@ -147,15 +128,13 @@
                     <div class="card">
                         <div class="card-body">
                             <h4>
-                                <a
-                                    href="https://photos.app.goo.gl/WTnP5qWKmStsjoW27"
-                                    target="_blank"
+                                <a href="https://photos.app.goo.gl/WTnP5qWKmStsjoW27" target="_blank"
                                     >學習、實踐與分享者</a
                                 >
                             </h4>
                             <ul>
                                 <li>Accupass參加上百場活動</li>
-                                <li>新天鵝堡培訓桌遊講師</li>
+                                <!-- <li>新天鵝堡培訓桌遊講師</li> -->
                                 <li>誠遠國際合作理財講師</li>
                             </ul>
                         </div>
@@ -245,7 +224,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-3 mt-3">
+                <!-- <div class="col-6 col-md-3 mt-3">
                     <div class="card">
                         <div class="card-body">
                             <h6>鵝堡初階桌遊師</h6>
@@ -266,7 +245,7 @@
                             />
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-6 col-md-4 mt-3">
                     <div class="card">
                         <div class="card-body">
@@ -343,9 +322,7 @@
                     <li>獨立開發臉部辨識系統Protoype</li>
                     <li>教導非工程背景同事寫網頁</li>
                     <li>
-                        <a
-                            href="https://www.sce.pccu.edu.tw/courses/0IZCsample"
-                        >
+                        <a href="https://www.sce.pccu.edu.tw/courses/0IZCsample">
                             中國文化大學進修部兼任講師 (未開課)
                         </a>
                     </li>
