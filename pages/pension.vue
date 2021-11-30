@@ -6,6 +6,15 @@
         <hr />
         <div class="row justify-content-center">
             <div class="col-12 col-md-8 col-lg-6">
+                <h2>中華民國退休基金協會試算</h2>
+                <p>點擊圖片開始試算</p>
+                <a href="https://rfa.pension.org.tw/RetireComputer-Person/startpage.php" target="_blank">
+                    <img src="@/assets/pension.png"
+                /></a>
+            </div>
+        </div>
+        <!-- <div class="row justify-content-center mt-5">
+            <div class="col-12 col-md-8 col-lg-6">
                 <h2>勞退專戶試算</h2>
                 <InputNumber
                     v-model="monthlyIncome"
@@ -34,24 +43,15 @@
                     disabled
                     @change="updateChart()"
                 ></InputNumber>
-                <InputNumber
-                    v-model="internalRateReturn"
-                    title="預估個人退休金投資報酬率（%/每年）"
-                ></InputNumber>
-                <InputNumber
-                    value="6"
-                    title="雇主提撥6%"
-                    disabled
-                ></InputNumber>
+                <InputNumber v-model="internalRateReturn" title="預估個人退休金投資報酬率（%/每年）"></InputNumber>
+                <InputNumber value="6" title="雇主提撥6%" disabled></InputNumber>
                 <InputNumber
                     v-model="depositRateMannul"
                     title="自行提撥率（最多自提6%）"
                     :maximumValue="6"
                     @change="updateChart()"
                 ></InputNumber>
-                <p class="text-left">
-                    累積退休金：{{ getAccountValue().toLocaleString() }}元
-                </p>
+                <p class="text-left">累積退休金：{{ getAccountValue().toLocaleString() }}元</p>
                 <p class="text-left">累積節稅效益:{{ getTaxDeduction() }}</p>
                 <canvas id="pensionAccount"></canvas>
             </div>
@@ -59,41 +59,22 @@
         <div class="row justify-content-center mt-3">
             <div class="col-12 col-md-8 col-lg-6">
                 <h2>勞退年金試算</h2>
+                <p class="text-left">累積退休金：{{ getAccountValue().toLocaleString() }}元</p>
+                <InputNumber v-model="bankRate" title="當地銀行二年期定期存款利率（%/每年）"></InputNumber>
                 <p class="text-left">
-                    累積退休金：{{ getAccountValue().toLocaleString() }}元
-                </p>
-                <InputNumber
-                    v-model="bankRate"
-                    title="當地銀行二年期定期存款利率（%/每年）"
-                ></InputNumber>
-                <p class="text-left">
-                    自提前每月退休金：{{
-                        getMonthlyIncome(
-                            this.depositDefaultRate
-                        ).toLocaleString()
-                    }}元
+                    自提前每月退休金：{{ getMonthlyIncome(this.depositDefaultRate).toLocaleString() }}元
                 </p>
                 <p class="text-left">
-                    自提後退休金：{{
-                        getMonthlyIncome(
-                            this.depositRateMannul + 6
-                        ).toLocaleString()
-                    }}元
+                    自提後退休金：{{ getMonthlyIncome(this.depositRateMannul + 6).toLocaleString() }}元
                 </p>
-                <p class="text-left">
-                    退職所得免稅額：每年78,1000元（每月65,000）
-                </p>
+                <p class="text-left">退職所得免稅額：每年78,1000元（每月65,000）</p>
             </div>
         </div>
         <div class="row justify-content-center mt-3">
             <div class="col-12 col-md-8 col-lg-6">
                 <h2>勞退一次金試算</h2>
-                <p class="text-left">
-                    累積退休金：{{ getAccountValue().toLocaleString() }}元
-                </p>
-                <p class="text-left">
-                    當年度退職所得申報： {{ getAnnulIncome().toLocaleString() }}
-                </p>
+                <p class="text-left">累積退休金：{{ getAccountValue().toLocaleString() }}元</p>
+                <p class="text-left">當年度退職所得申報： {{ getAnnulIncome().toLocaleString() }}</p>
                 <p class="text-left">
                     當年度所得稅試算：
                     {{ estimateOneTimeTax().toLocaleString() }}
@@ -104,23 +85,17 @@
             <div class="col-12 col-md-8 col-lg-6">
                 <h2>勞退併入遺產</h2>
                 <p class="text-left">免稅額：1,200萬元。</p>
-                <p class="text-left">
-                    課稅級距金額：遺產淨額5,000萬元以下者，課徵10％。
-                </p>
+                <p class="text-left">課稅級距金額：遺產淨額5,000萬元以下者，課徵10％。</p>
             </div>
         </div>
         <div class="row justify-content-center mt-5">
             <div class="col-12 col-md-8">
                 <h2>勞退試算預設值說明</h2>
                 <ul class="text-left">
-                    <li>
-                        綜所稅以單身試算扣除一般扣除額120,000，另外僅扣除薪資特別扣除額
-                    </li>
+                    <li>綜所稅以單身試算扣除一般扣除額120,000，另外僅扣除薪資特別扣除額</li>
                     <li>
                         每月經常薪資：2021年的國人薪資中位數約莫為500,000元，換算每月的經常性薪資約莫是42000左右。
-                        最新資訊可以從<a
-                            href="https://earnings.dgbas.gov.tw/experience_sub_01.aspx"
-                            target="_blank"
+                        最新資訊可以從<a href="https://earnings.dgbas.gov.tw/experience_sub_01.aspx" target="_blank"
                             >行政院主計總處</a
                         >取得。
                     </li>
@@ -138,16 +113,13 @@
                             >經營績效</a
                         >。
                     </li>
-                    <!-- <li>
-                        薪資每年成長幅度：2012年的國人薪資中位數為442,000元，2019年國人薪資中位數為498,000，回推每年的調幅約為1.72%。
-                    </li> -->
                 </ul>
             </div>
         </div>
         <img
             class="container__image"
             src="https://storage.googleapis.com/my-blog-287510.appspot.com/pension/middle%20salary.png"
-        />
+        /> -->
     </div>
 </template>
 <script>
@@ -180,9 +152,9 @@ export default {
         InputNumber: () => import('@/components/input/InputNumber.vue')
     },
     mounted() {
-        this.careerLength = Math.max(0, this.retireYear - this.age)
-        this.initChart()
-        this.updateChart()
+        // this.careerLength = Math.max(0, this.retireYear - this.age)
+        // this.initChart()
+        // this.updateChart()
     },
     methods: {
         getTaxDeduction() {
@@ -236,7 +208,7 @@ export default {
             const lifeRemain = lifeExpectancy[retireYear]
             console.log({
                 lifeRemain
-            });
+            })
             return lifeRemain
         },
         updateCareerLength() {
