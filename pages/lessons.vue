@@ -39,18 +39,26 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <Book
-                        title="投資自己"
-                        subtitle="你花掉的錢都會自己流回來"
-                        productId="11100868187"
-                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/%E8%8A%B1%E6%8E%89%E7%9A%84%E9%8C%A2%E9%83%BD%E6%9C%83%E8%87%AA%E5%B7%B1%E6%B5%81%E5%9B%9E%E4%BE%86.jpeg"
-                    ></Book>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <Book
                         title="均衡人生目標"
                         subtitle="一生幸福的人生企畫書"
                         productId="11100786472"
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/efficiency.jpg"
+                    ></Book>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <Book
+                        title="生命藍圖"
+                        subtitle="做自己的生命設計師"
+                        productId="11100798071"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/designingYourLife.jpeg"
+                    ></Book>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <Book
+                        title="投資自己"
+                        subtitle="你花掉的錢都會自己流回來"
+                        productId="11100868187"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/%E8%8A%B1%E6%8E%89%E7%9A%84%E9%8C%A2%E9%83%BD%E6%9C%83%E8%87%AA%E5%B7%B1%E6%B5%81%E5%9B%9E%E4%BE%86.jpeg"
                     ></Book>
                 </div>
             </div>
@@ -58,14 +66,6 @@
         <section class="mt-5">
             <h2>經營管理</h2>
             <div class="row">
-                <!-- <div class="col-12 col-md-6 col-lg-4">
-                    <Book
-                        title="自我管理"
-                        subtitle="把時間當作朋友"
-                        productId="11100841896"
-                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/treatTimeAsFriend.jpeg"
-                    ></Book>
-                </div> -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <Book
                         title="時間管理、目標管理"
@@ -86,9 +86,7 @@
                     <div class="card m-1 pb-4">
                         <div class="card-body">
                             <h3 class="card-title">節稅</h3>
-                            <p class="card-subtitle text-muted">
-                                國稅局節稅手冊
-                            </p>
+                            <p class="card-subtitle text-muted">國稅局節稅手冊</p>
                             <p>
                                 (
                                 <a
