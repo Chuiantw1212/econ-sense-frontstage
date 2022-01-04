@@ -12,6 +12,13 @@
             webkitallowfullscreen="true"
         ></iframe>
         <hr />
+        <!-- <iframe
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4EipTSbgPDsiOceMNTs7zJFvbn7D2572n9NV_XOTysUo0zMFnjtdLwmjO2YYQ5ukjBFXoqNOEkyPE/pubhtml?gid=817940520&amp;single=true&amp;widget=true&amp;headers=false"
+        ></iframe> -->
+        <iframe
+            width="100%"
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTOfMqbUiVuO_hBE3JC-Yx-Etw7RUfW1Sn7Obhgcyefo6vQnfKC3MLPZbE63mWqOvMP6Sl3h8kmD4v5/pubhtml?gid=742680130&amp;single=true&amp;widget=true&amp;headers=false"
+        ></iframe>
         <!-- <h1>懶人投資</h1>
         <p>金融心理、ETF、全球分散</p>
         <iframe
