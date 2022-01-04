@@ -119,18 +119,23 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <Book
-                        title="保險"
-                        subtitle=" 醫生強烈建議你買的保險"
-                        productId="11100900630"
-                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/insurance.jpg"
-                    ></Book>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <Book
                         title="房地產"
                         subtitle="買一間會增值的房子"
                         productId="11100749070"
                         imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/realestate.jpeg"
+                    ></Book>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5">
+            <h2>風險控制</h2>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <Book
+                        title="保險"
+                        subtitle=" 醫生強烈建議你買的保險"
+                        productId="11100900630"
+                        imgSrc="https://storage.googleapis.com/my-blog-287510.appspot.com/lessons/insurance.jpg"
                     ></Book>
                 </div>
             </div>
