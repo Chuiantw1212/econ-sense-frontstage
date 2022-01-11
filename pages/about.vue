@@ -21,27 +21,6 @@
                 Many thanks to those who read this line, I wish the best will all come to you in the future.
             </p>
         </div>
-        <section class="mt-3">
-            <h2>Thank list</h2>
-            <p>
-                Logo made by Charlie from
-                <a rel="noreferrer" href="https://www.branding-good.com" target="_blank">好日子視覺設計</a>
-            </p>
-            <p>
-                Team support and materials from
-                <a rel="noreferrer" href="https://www.azsinopro.com.tw/" target="_blank">azsinopro</a>
-            </p>
-            <p>
-                Icons made by
-                <a rel="noreferrer" href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank"
-                    >Freepik</a
-                >
-                from
-                <a rel="noreferrer" href="https://www.flaticon.com/" title="Flaticon" target="_blank">
-                    www.flaticon.com</a
-                >
-            </p>
-        </section>
         <hr />
         <section>
             <h2>職缺媒合平台<a href="https://job-pair-dev.web.app" target="_blank">Job Pair</a></h2>
@@ -68,6 +47,7 @@
                 </div>
             </div> -->
         </section>
+        <hr />
         <section>
             <h2>外包專案</h2>
             <div class="row">
@@ -78,7 +58,7 @@
                             <h5 class="card-title">
                                 <a href="https://www.mbia.com.tw/" target="_blank"> 倉儲管理公司(2021) </a>
                             </h5>
-                            <p class="card-text">使用Nuxt製作，Alpha中</p>
+                            <p class="card-text">使用Nuxt製作</p>
                         </div>
                     </div>
                 </div>
@@ -105,9 +85,13 @@
                         <div class="card-body">
                             <h4>網頁製作</h4>
                             <ul>
-                                <li>Vue.js(Nuxt) + Express.js + Firebase</li>
-                                <li>獨立架設常識經濟學部落格 SEO 100分</li>
-                                <li>Clean Code實踐者，歡迎做Reference Check</li>
+                                <li>Vue.js(Nuxt) + Express.js + Firebase + GCP</li>
+                                <li>獨立全端開發Job Pair求職平台(封測中)</li>
+                                <li>
+                                    <a href="https://photos.app.goo.gl/q1xuAmBce8o1EJQZ7" target="_blank">
+                                        Javscript/Node.js社群管理員
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -117,9 +101,9 @@
                         <div class="card-body">
                             <h4>金融理財</h4>
                             <ul>
-                                <li>多元投資於股票、ETF、特別股、基金、虛擬貨幣、天使股權、P2P債權</li>
+                                <li>持有多張金融證照</li>
+                                <li>多元投資於股票、ETF、特別股、綠能、加密貨幣、天使股權</li>
                                 <li>台灣IFA獨立理財規劃顧問產業發產協會發起人之一</li>
-                                <li>不定期舉辦財商桌遊講座</li>
                             </ul>
                         </div>
                     </div>
@@ -128,14 +112,23 @@
                     <div class="card">
                         <div class="card-body">
                             <h4>
-                                <a href="https://photos.app.goo.gl/WTnP5qWKmStsjoW27" target="_blank"
-                                    >學習、實踐與分享者</a
-                                >
+                                <a>教學分享</a>
                             </h4>
                             <ul>
-                                <li>Accupass參加上百場活動</li>
-                                <!-- <li>新天鵝堡培訓桌遊講師</li> -->
+                                <li>
+                                    常識經濟學：
+                                    <a href="https://www.instagram.com/econ.sense/" target="_blank"> Instagram </a>、<a
+                                        href="https://www.facebook.com/econ.sense.tw"
+                                        target="_blank"
+                                        >FB粉專</a
+                                    >
+                                </li>
                                 <li>誠遠國際合作理財講師</li>
+                                <li>
+                                    <a href="https://photos.app.goo.gl/WTnP5qWKmStsjoW27" target="_blank">
+                                        不定期舉辦講座與分享
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -300,9 +293,9 @@
                 <ul>
                     <li>駐點知名人壽開發保單審核系統，團隊規模約15人</li>
                     <li>系統性分享專案經驗</li>
-                    <li>
+                    <!-- <li>
                         <a href="https://www.flyingfar.net/node/170">誠遠國際財商桌遊講師</a>
-                    </li>
+                    </li> -->
                 </ul>
             </MyListItem>
             <MyListItem>
@@ -321,11 +314,11 @@
                     <li>獨立開發區塊鏈會員管理系統前後台</li>
                     <li>獨立開發臉部辨識系統Protoype</li>
                     <li>教導非工程背景同事寫網頁</li>
-                    <li>
+                    <!-- <li>
                         <a href="https://www.sce.pccu.edu.tw/courses/0IZCsample">
                             中國文化大學進修部兼任講師 (未開課)
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </MyListItem>
             <MyListItem>
@@ -352,6 +345,28 @@
                     <li>國立中興大學資工系</li>
                 </ul>
             </MyListItem>
+        </section>
+        <hr />
+        <section class="mt-3">
+            <h2>Thank list</h2>
+            <p>
+                Logo made by Charlie from
+                <a rel="noreferrer" href="https://www.branding-good.com" target="_blank">好日子視覺設計</a>
+            </p>
+            <p>
+                Team support and materials from
+                <a rel="noreferrer" href="https://www.azsinopro.com.tw/" target="_blank">azsinopro</a>
+            </p>
+            <p>
+                Icons made by
+                <a rel="noreferrer" href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank"
+                    >Freepik</a
+                >
+                from
+                <a rel="noreferrer" href="https://www.flaticon.com/" title="Flaticon" target="_blank">
+                    www.flaticon.com</a
+                >
+            </p>
         </section>
     </div>
 </template>
