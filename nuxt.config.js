@@ -26,7 +26,7 @@ export default {
       { property: 'og:image', content: 'https://storage.googleapis.com/my-blog-287510.appspot.com/%E5%B8%B8_200.png' },
     ],
     script: [
-      { 'data-ad-client': 'ca-pub-6322593540825146', async: true, src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' },
+      // { 'data-ad-client': 'ca-pub-6322593540825146', async: true, src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' },
       {
         src: 'https://cdn.jsdelivr.net/npm/sweetalert2@10'
       },
