@@ -217,6 +217,17 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-6 col-md-3 mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6>投信投顧相關法規</h6>
+                            <img
+                                class="image--full-width"
+                                src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/Investment%20Trust%20and%20Consulting%20Regulations.JPG"
+                            />
+                        </div>
+                    </div>
+                </div>
                 <!-- <div class="col-6 col-md-3 mt-3">
                     <div class="card">
                         <div class="card-body">
