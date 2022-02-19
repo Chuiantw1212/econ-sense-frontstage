@@ -23,8 +23,42 @@
         </div>
         <hr />
         <section>
-            <h2>職缺媒合平台<a href="https://job-pair-dev.web.app" target="_blank">Job Pair</a></h2>
-            <iframe
+            <h2>里程碑：職缺媒合平台</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="card mb-4 box-shadow">
+                        <!-- <div class="card__background card__background--mbia">
+
+                        </div> -->
+                        <img src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/jobPair.png" />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="https://job-pair-dev.web.app" target="_blank">Job Pair</a>
+                                <!-- <a href="https://www.mbia.com.tw/" target="_blank"> 倉儲管理公司(2021) </a> -->
+                            </h5>
+                            <p class="card-text">
+                                創辦人：
+                                <a href="https://www.facebook.com/3dlifecheck" target="_blank"> 生涯設計師Sandy </a
+                                >，台灣生涯設計工作坊創辦人
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <div class="card__background card__background--josie"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="https://chuiantw1212.github.io/josies-portfolio/#/home" target="_blank">
+                                    UIUX設計師個人網頁(2019)
+                                </a>
+                            </h5>
+                            <p class="card-text">協助珠寶設計師轉職網站設計師的網頁</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <!-- <iframe
                 src="https://docs.google.com/presentation/d/e/2PACX-1vSVpXaRcurZ3ER0imCM1XtSj6_0Nk8j9EvotPY1dTsXBYKLta-FXkkRGp9DcXb3KfsHSUwTu_9N8w4Y/embed?start=false&loop=false&delayms=3000"
                 frameborder="0"
                 width="100%"
@@ -32,7 +66,7 @@
                 allowfullscreen="true"
                 mozallowfullscreen="true"
                 webkitallowfullscreen="true"
-            ></iframe>
+            ></iframe> -->
             <!-- <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
@@ -48,7 +82,7 @@
             </div> -->
         </section>
         <hr />
-        <section>
+        <!-- <section>
             <h2>外包專案</h2>
             <div class="row">
                 <div class="col-md-4">
@@ -76,7 +110,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section>
             <h2>核心能力</h2>
             <div class="row">
@@ -140,7 +174,7 @@
                             <ul>
                                 <li>留美主攻 Project Management</li>
                                 <li>2020/05 4A成績正式取得PMP證照</li>
-                                <li>創業中......</li>
+                                <li>2021/02 Job Pair協辦人</li>
                             </ul>
                         </div>
                     </div>
@@ -206,7 +240,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-3 mt-3">
+                <!-- <div class="col-6 col-md-3 mt-3">
                     <div class="card">
                         <div class="card-body">
                             <h6>金融市場常識與職業道德</h6>
@@ -216,7 +250,7 @@
                             />
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-6 col-md-3 mt-3">
                     <div class="card">
                         <div class="card-body">
@@ -250,7 +284,7 @@
                         </div>
                     </div>
                 </div> -->
-                <div class="col-6 col-md-4 mt-3">
+                <!-- <div class="col-6 col-md-4 mt-3">
                     <div class="card">
                         <div class="card-body">
                             <h6>給非行銷人員的第一堂行銷課</h6>
@@ -293,43 +327,68 @@
                             />
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
         <section class="mt-5">
             <h2>學經歷</h2>
+            <MyListItem>
+                <h4>Job Pair創業專案 全端職涯里程碑</h4>
+                <h5>February 2021 ~</h5>
+                <ul>
+                    <li>前端：Vue3.0 + Bootstrap5.0</li>
+                    <li>後端：Express.js + Google Firestore (noSQL)</li>
+                    <li>MIS：Google Cloud Platform, Google Domain, Google Workspace</li>
+                    <li>其它：媒合度演算法、綠界金流</li>
+                </ul>
+            </MyListItem>
             <MyListItem>
                 <h4>普鴻科技股份有限公司 前端工程師</h4>
                 <h5>October 2020 ~</h5>
                 <ul>
                     <li>駐點知名人壽開發保單審核系統，團隊規模約15人</li>
                     <li>系統性分享專案經驗</li>
-                    <!-- <li>
+                    <li>
                         <a href="https://www.flyingfar.net/node/170">誠遠國際財商桌遊講師</a>
-                    </li> -->
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.facebook.com/hashtag/%E5%88%86%E4%BA%AB%E8%80%85%E5%9F%B9%E8%A8%93%E7%8F%AD/?__gid__=304681766894402"
+                            target="_blank"
+                            >分享者培訓班講者</a
+                        >
+                    </li>
                 </ul>
             </MyListItem>
             <MyListItem>
-                <h4>博暉股份有限公司 前端工程師</h4>
-                <h5>March 2019 ~ July 2020</h5>
+                <h4>某兩間公司 網頁工程師</h4>
+                <h5>March 2018 - July 2020</h5>
                 <ul>
-                    <li>挽救官方背景投信的好享退專案，團隊規模約5人</li>
-                    <li>架構一個可以模組化開發的後台系統</li>
-                    <li>傳授網頁開發技術知識</li>
-                </ul>
-            </MyListItem>
-            <MyListItem>
-                <h4>恩智區塊鏈科技有限公司 全端工程師</h4>
-                <h5>March 2018 - March 2019</h5>
-                <ul>
-                    <li>獨立開發區塊鏈會員管理系統前後台</li>
-                    <li>獨立開發臉部辨識系統Protoype</li>
-                    <li>教導非工程背景同事寫網頁</li>
-                    <!-- <li>
+                    <li>
+                        近兩年半，小人運亨通，薪資完全沒動
+                        <ul>
+                            <li>
+                                <a href="http://www.ursalary0.com/salaries/salary_view_tw/13933" target="_blank">
+                                    令人失望的人類1</a
+                                >
+                            </li>
+                            <li>
+                                <a href="http://97.107.128.211/salaries/salary_view_tw/13398" target="_blank">
+                                    令人失望的人類2
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
                         <a href="https://www.sce.pccu.edu.tw/courses/0IZCsample">
                             中國文化大學進修部兼任講師 (未開課)
                         </a>
-                    </li> -->
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/learnspeak.tw/posts/1158473404341326" target="_blank">
+                            學說專題演講
+                        </a>
+                    </li>
                 </ul>
             </MyListItem>
             <MyListItem>
