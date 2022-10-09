@@ -33,14 +33,14 @@ export default {
         border-radius: 50%;
         text-align: center;
         display: inline-block;
-        background-color: darkseagreen;
+        background-color: #0062cc;
         margin-left: 0.5px;
     }
     &:after {
         content: "";
         width: 1px;
         height: 100%;
-        background-color: darkseagreen;
+        background-color: #0062cc;
         display: block;
         margin-left: 4.5px;
         transform: translateY(-10px);
