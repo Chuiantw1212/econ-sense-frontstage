@@ -43,7 +43,7 @@ export default {
             set(newValue) {
                 console.log({
                     newValue
-                });
+                })
                 this.$emit("input", newValue)
             },
         },
@@ -52,6 +52,8 @@ export default {
 </script>
 <style lang="scss" scoped>
 .inputRadio {
+    text-align: left;
+
     .inputRadio__body {
         display: flex;
         gap: 8px;
