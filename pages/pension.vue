@@ -56,16 +56,47 @@ export default {
                 bachelor: ['47.9', '55.9', '74.8', '81.4'],
                 master: ['68.8', '90.2', '120.2', '129.2']
             },
+            salaryStepChart: null
         }
     },
     components: {
         InputNumber: () => import('@/components/input/InputNumber.vue')
     },
     mounted() {
-
+        this.initChart()
     },
     methods: {
-
+        initChart() {
+            const data = {
+                labels: ['25~29', '30~39', '40~49', '50~64'],
+                datasets: [
+                    {
+                        label: '統計生涯中位數薪資',
+                        data: [479000, 559000, 748000, 814000],
+                        borderColor: 'rgb(255, 99, 132)',
+                        fill: false,
+                        stepped: true,
+                    }
+                ]
+            }
+            this.salaryStepChart = new Chart('salaryStepChart', {
+                type: 'line',
+                data: data,
+                options: {
+                    responsive: true,
+                    interaction: {
+                        intersect: false,
+                        axis: 'x'
+                    },
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: (ctx) => 'Step ' + ctx.chart.data.datasets[0].stepped + ' Interpolation',
+                        }
+                    }
+                }
+            })
+        }
     }
 }
 </script>
