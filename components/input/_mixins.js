@@ -1,7 +1,6 @@
-import { mapActions } from 'vuex'
 const defaultValueKey = 'value'
 const defaultNameKey = 'text'
-export const optionsMixin = {
+export default {
     props: {
         itemValue: {
             type: String,

@@ -1,30 +1,14 @@
 <template>
     <div class="inputGroup">
         <div class="inputGroup__titleGroup">
-            <span
-                class="titleGroup__text"
-                :class="{ 'titleGroup__text--required': required }"
-                >{{ title }}</span
-            >
+            <span class="titleGroup__text" :class="{ 'titleGroup__text--required': required }">{{ title }}</span>
             <span class="inputGroup__message">{{ message }}</span>
         </div>
         <div class="inputGroup__options">
-            <label
-                class="options__label"
-                v-for="(option, index) in currentOptions"
-                :key="index"
-            >
-                <input
-                    class="options__label__input"
-                    type="radio"
-                    :value="option[itemValue]"
-                    v-model="_value"
-                />
+            <label class="options__label" v-for="(option, index) in currentOptions" :key="index">
+                <input class="options__label__input" type="radio" :value="option[itemValue]" v-model="_value" />
                 <div class="options__label__container">
-                    <div
-                        v-if="value === option[localItemValue]"
-                        class="container__content"
-                    ></div>
+                    <div v-if="value === option[localItemValue]" class="container__content"></div>
                 </div>
                 <span class="label__text">{{ option[localItemText] }}</span>
             </label>
@@ -32,7 +16,7 @@
     </div>
 </template>
 <script>
-import { optionsMixin } from './_mixins.js'
+import optionsMixin from './_mixins.js'
 export default {
     mixins: [optionsMixin,],
     data: function () {
@@ -65,5 +49,4 @@ export default {
     },
 }
 </script>
-<style lang="scss" scoped src="./_input.scss">
-</style>
+<style lang="scss" scoped src="./_input.scss"></style>

@@ -1,45 +1,27 @@
 <template>
     <div>
-        <nav
-            id="myNavigation"
-            class="fixed-top navbar navbar-expand-md navbar-light bg-light"
-            aria-label="breadscrumb"
-        >
+        <nav id="myNavigation" class="fixed-top navbar navbar-expand-md navbar-light bg-light" aria-label="breadscrumb">
             <a class="navbar-brand js-scroll-trigger" :href="`/`">
-                <img
-                    class="navbar__brand"
-                    src="@/assets/logo-letter-black.png"
-                    alt="logo"
-                />
+                <img class="navbar__brand" src="@/assets/logo-letter-black.png" alt="logo" />
             </a>
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item" @click="collapseNavbar($event)">
-                        <router-link
-                            class="nav-link"
-                            :to="'/classic'"
-                            :active-class="'active'"
-                        >
-                            經典課程
+                        <router-link class="nav-link" :to="'/classic'" :active-class="'active'">
+                            金融理財
                         </router-link>
                     </li>
                     <li class="nav-item" @click="collapseNavbar($event)">
-                        <router-link
-                            class="nav-link"
-                            :to="'/lessons'"
-                            :active-class="'active'"
-                        >
+                        <router-link class="nav-link" :to="'/career'" :active-class="'active'">
+                            職場/科技
+                        </router-link>
+                    </li>
+                    <li class="nav-item" @click="collapseNavbar($event)">
+                        <router-link class="nav-link" :to="'/lessons'" :active-class="'active'">
                             好書推薦
                         </router-link>
                     </li>
@@ -61,7 +43,7 @@
                             精選新聞
                         </router-link>
                     </li> -->
-                    <li class="nav-item" @click="collapseNavbar($event)">
+                    <!-- <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link
                             class="nav-link"
                             :to="'/pension'"
@@ -69,13 +51,9 @@
                         >
                             勞退試算
                         </router-link>
-                    </li>
+                    </li> -->
                     <li class="nav-item" @click="collapseNavbar($event)">
-                        <router-link
-                            class="nav-link"
-                            :to="'/about'"
-                            :active-class="'active'"
-                        >
+                        <router-link class="nav-link" :to="'/about'" :active-class="'active'">
                             關於作者
                         </router-link>
                     </li>
@@ -131,27 +109,32 @@ export default {
 <style lang="scss" scoped>
 #myNavigation {
     opacity: 0.9;
+
     .navigation__brItem {
         color: black;
         display: block;
         padding: 0.5rem;
         cursor: default;
     }
+
     .myNavigation__aboutMe {
         overflow: hidden;
         cursor: pointer;
         display: flex;
         justify-content: space-between;
+
         .aboutMe__avatar {
             border-radius: 50%;
             width: 44px;
         }
     }
 }
+
 .navbar {
     .navbar__brand {
         width: 40px;
     }
+
     .navbar-brand {
         font-size: 24px;
     }
@@ -165,6 +148,7 @@ export default {
             display: flex;
             justify-content: space-between;
             padding: 0;
+
             .aboutMe__description {
                 display: none;
             }
