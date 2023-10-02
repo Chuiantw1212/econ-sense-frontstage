@@ -188,7 +188,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 mt-3">
+        <!-- <div class="col-md-6 mt-3">
           <div class="card">
             <div class="card-body">
               <h4>PMP</h4>
@@ -205,14 +205,14 @@
                 src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/northeastern.jpg" />
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- 直版 -->
         <div class="col-6 col-md-3 mt-3">
           <div class="card">
             <div class="card-body">
               <h6>理財規劃人員</h6>
               <img class="image--full-width"
-                src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/financeManagement.jpeg" />
+                src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/081510_1.jpg" />
             </div>
           </div>
         </div>
@@ -221,7 +221,7 @@
             <div class="card-body">
               <h6>金融科技力</h6>
               <img class="image--full-width"
-                src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/fin-tech.JPG" />
+                src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/311350_1.JPG" />
             </div>
           </div>
         </div>
@@ -230,7 +230,7 @@
             <div class="card-body">
               <h6>信託業業務人員</h6>
               <img class="image--full-width"
-                src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/Proficiency%20Test%20for%20Trust%20Operations%20Personnel.JPG" />
+                src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/232309_1.JPG" />
             </div>
           </div>
         </div>
@@ -240,7 +240,7 @@
                             <h6>金融市場常識與職業道德</h6>
                             <img
                                 class="image--full-width"
-                                src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/financeSense.JPG"
+                                src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/161340_1.JPG"
                             />
                         </div>
                     </div>
@@ -250,7 +250,7 @@
             <div class="card-body">
               <h6>投信投顧相關法規</h6>
               <img class="image--full-width"
-                src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/Investment%20Trust%20and%20Consulting%20Regulations.JPG" />
+                src="https://storage.googleapis.com/my-blog-287510.appspot.com/about/201447_1.JPG" />
             </div>
           </div>
         </div>
