@@ -15,11 +15,11 @@
                             金融理財
                         </router-link>
                     </li>
-                    <li class="nav-item" @click="collapseNavbar($event)">
+                    <!-- <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link class="nav-link" :to="'/career'" :active-class="'active'">
                             職場/科技
                         </router-link>
-                    </li>
+                    </li> -->
                     <li class="nav-item" @click="collapseNavbar($event)">
                         <router-link class="nav-link" :to="'/lessons'" :active-class="'active'">
                             好書推薦

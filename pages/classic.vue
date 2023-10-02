@@ -17,6 +17,13 @@
             src="https://docs.google.com/presentation/d/e/2PACX-1vR3dFAEAcS7-utuE-RIRKm-nz5kUWdM4VJc2njEos01vLX4kqCXrXWMqoLTaBfzqXLoUG3ov5cfdrcA/embed?start=false&loop=false&delayms=3000"
             frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true"
             webkitallowfullscreen="true"></iframe>
+        <hr />
+        <h2>投資進階班</h2>
+        <p>被動收入大公開</p>
+        <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vTtOL7UuOgTF5wqOp821KLauHVfGha2IQ8rFNPj1VukMNJ-nI5pAIL3bZ_JS9FhDrLK0VTHhPaQ_fUf/embed?start=false&loop=false&delayms=3000"
+            frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true"
+            webkitallowfullscreen="true"></iframe>
     </div>
 </template>
 <script>
